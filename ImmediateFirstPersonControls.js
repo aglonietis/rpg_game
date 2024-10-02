@@ -29,7 +29,8 @@ export class ImmediateFirstPersonControls extends Controls {
 
         this.activeLook = true;
         // Modification
-        this.immediateLook = true;
+        this.immediateLook = false;
+        this.verticalMovement = true;
 
         this.heightSpeed = false;
         this.heightCoef = 1.0;
@@ -179,6 +180,8 @@ export class ImmediateFirstPersonControls extends Controls {
 
         const actualMoveSpeed = delta * this.movementSpeed;
 
+        const previousY = this.object.position.y;
+
         if ( this._moveForward || ( this.autoForward && ! this._moveBackward ) ) this.object.translateZ( - ( actualMoveSpeed + this._autoSpeedFactor ) );
         if ( this._moveBackward ) this.object.translateZ( actualMoveSpeed );
 
@@ -187,6 +190,10 @@ export class ImmediateFirstPersonControls extends Controls {
 
         if ( this._moveUp ) this.object.translateY( actualMoveSpeed );
         if ( this._moveDown ) this.object.translateY( - actualMoveSpeed );
+
+        if(!this.verticalMovement) {
+            this.object.position.y = previousY;
+        }
 
         let actualLookSpeed = delta * this.lookSpeed;
 

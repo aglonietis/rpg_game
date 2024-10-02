@@ -16,7 +16,7 @@ function addCube(x, y, z, color) {
     const geometry = new THREE.BoxGeometry( 5, 5, 5 );
     const material = new THREE.MeshBasicMaterial( { color } );
     const cube = new THREE.Mesh( geometry, material );
-    cube.position.set(x,y,z)
+    cube.position.set(x+2.5,y+2.5,z+2.5)
     scene.add( cube );
 
     const edges = new THREE.EdgesGeometry(geometry);  // Extract the edges of the cube
@@ -43,8 +43,8 @@ addCube(0,0,-15, 0xdddddd)
 addPlane()
 
 
-camera.position.set(0, 5, 10)
-camera.lookAt(0, 1.8, 0);
+camera.position.set(0, 1.8, 10)
+camera.lookAt(0, 0, 0);
 
 const clock = new THREE.Clock();
 
@@ -52,6 +52,8 @@ const controls = new ImmediateFirstPersonControls( camera, renderer.domElement )
 controls.movementSpeed = 5;
 controls.lookSpeed = 10;
 controls.lookVertical = true;
+controls.verticalMovement = false;
+controls.immediateLook = true;
 
 function animate() {
     controls.update( clock.getDelta() );
