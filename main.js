@@ -12,11 +12,11 @@ document.body.appendChild( renderer.domElement );
 // Load the textures
 const textureLoader = new THREE.TextureLoader();
 
-function addCube() {
+function addCube(x, y, z, color) {
     const geometry = new THREE.BoxGeometry( 5, 5, 5 );
-    const material = new THREE.MeshBasicMaterial( { color: 0x674107 } );
+    const material = new THREE.MeshBasicMaterial( { color } );
     const cube = new THREE.Mesh( geometry, material );
-    cube.position.y = 5;
+    cube.position.set(x,y,z)
     scene.add( cube );
 
     const edges = new THREE.EdgesGeometry(geometry);  // Extract the edges of the cube
@@ -35,18 +35,22 @@ function addPlane() {
     scene.add(ground);
 }
 
-addCube()
+addCube(0,0,0, 0x674107)
+addCube(15,0,0, 0x00ff00)
+addCube(0,0,15, 0xff0000)
+addCube(-15,0,0, 0x0000ff)
+addCube(0,0,-15, 0xdddddd)
 addPlane()
 
 
-camera.position.set(0, 1.8, 10)
+camera.position.set(0, 5, 10)
 camera.lookAt(0, 1.8, 0);
 
 const clock = new THREE.Clock();
 
 const controls = new ImmediateFirstPersonControls( camera, renderer.domElement );
-controls.movementSpeed = 1;
-controls.lookSpeed = 1;
+controls.movementSpeed = 5;
+controls.lookSpeed = 10;
 controls.lookVertical = true;
 
 function animate() {

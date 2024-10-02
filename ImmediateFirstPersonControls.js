@@ -10,6 +10,7 @@ const _lookDirection = new Vector3();
 const _spherical = new Spherical();
 const _target = new Vector3();
 const _targetPosition = new Vector3();
+let previousEvent = null;
 
 export class ImmediateFirstPersonControls extends Controls {
 
@@ -18,6 +19,7 @@ export class ImmediateFirstPersonControls extends Controls {
         super( object, domElement );
 
         // API
+
 
         this.movementSpeed = 1.0;
         this.lookSpeed = 0.005;
@@ -46,9 +48,9 @@ export class ImmediateFirstPersonControls extends Controls {
 
         this._pointerX = 0;
         this._pointerY = 0;
-        // Modification
-        this._previousX = 0;
-        this._previousY = 0;
+        // modification
+        this.changeX = 0;
+        this.changeY = 0;
 
         this._moveForward = false;
         this._moveBackward = false;
@@ -61,6 +63,9 @@ export class ImmediateFirstPersonControls extends Controls {
         this._lat = 0;
         this._lon = 0;
 
+        // modification
+        this._pointerLocked = false;
+
         // event listeners
 
         this._onPointerMove = onPointerMove.bind( this );
@@ -69,6 +74,9 @@ export class ImmediateFirstPersonControls extends Controls {
         this._onContextMenu = onContextMenu.bind( this );
         this._onKeyDown = onKeyDown.bind( this );
         this._onKeyUp = onKeyUp.bind( this );
+        // modification
+        this._onClick = onClick.bind( this );
+
 
         //
 
@@ -81,7 +89,6 @@ export class ImmediateFirstPersonControls extends Controls {
         }
 
         this._setOrientation();
-
     }
 
     connect() {
@@ -90,10 +97,13 @@ export class ImmediateFirstPersonControls extends Controls {
         window.addEventListener( 'keyup', this._onKeyUp );
 
         this.domElement.addEventListener( 'pointermove', this._onPointerMove );
+        this.domElement.addEventListener( 'mousemove', this._onPointerMove );
+        this.domElement.addEventListener( 'move', this._onPointerMove );
         this.domElement.addEventListener( 'pointerdown', this._onPointerDown );
         this.domElement.addEventListener( 'pointerup', this._onPointerUp );
         this.domElement.addEventListener( 'contextmenu', this._onContextMenu );
 
+        this.domElement.addEventListener('click', this._onClick);
     }
 
     disconnect() {
@@ -196,11 +206,12 @@ export class ImmediateFirstPersonControls extends Controls {
 
         // modification
         if(this.immediateLook) {
-            this._lon -= (this._pointerX - this._previousX) * actualLookSpeed;
-            if ( this.lookVertical ) this._lat -= (this._pointerY - this._previousY) * actualLookSpeed;
+            this._lon -= this.changeX * actualLookSpeed;
+            if ( this.lookVertical ) this._lat -= this.changeY * actualLookSpeed;
             this._lat = Math.max( - 85, Math.min( 85, this._lat ) );
-            this._previousX = this._pointerX;
-            this._previousY = this._pointerY;
+
+            this.changeX = 0;
+            this.changeY = 0;
         } else {
             this._lon -= this._pointerX * actualLookSpeed;
             if ( this.lookVertical ) this._lat -= this._pointerY * actualLookSpeed * verticalLookRatio;
@@ -242,6 +253,7 @@ export class ImmediateFirstPersonControls extends Controls {
 }
 
 function onPointerDown( event ) {
+    console.log('pointer down');
 
     if ( this.domElement !== document ) {
 
@@ -265,6 +277,7 @@ function onPointerDown( event ) {
 }
 
 function onPointerUp( event ) {
+    console.log('pointer up');
 
     if ( this.activeLook ) {
 
@@ -282,9 +295,9 @@ function onPointerUp( event ) {
 }
 
 function onPointerMove( event ) {
-
+    this.changeX = event.movementX;
+    this.changeY = event.movementY;
     if ( this.domElement === document ) {
-
         this._pointerX = event.pageX - this._viewHalfX;
         this._pointerY = event.pageY - this._viewHalfY;
 
@@ -294,10 +307,10 @@ function onPointerMove( event ) {
         this._pointerY = event.pageY - this.domElement.offsetTop - this._viewHalfY;
 
     }
-
 }
 
 function onKeyDown( event ) {
+    console.log('key down');
 
     switch ( event.code ) {
 
@@ -321,6 +334,7 @@ function onKeyDown( event ) {
 }
 
 function onKeyUp( event ) {
+    console.log('key up');
 
     switch ( event.code ) {
 
@@ -341,6 +355,18 @@ function onKeyUp( event ) {
 
     }
 
+}
+
+function onClick( event ) {
+    console.log('click');
+
+    if(!this._pointerLocked) {
+        this.domElement.requestPointerLock();
+        this._pointerLocked = true;
+    } else {
+        document.exitPointerLock();
+        this._pointerLocked = false;
+    }
 }
 
 function onContextMenu( event ) {
