@@ -14,3 +14,9 @@ A
 package-lock.json,f/a/fa288d1472d29beccb489a676f68739ad365fc47
 7
 main.js,c/4/c4a4248f7568c9e41265502c39b0daeb8b635431
+o
+?node_modules/three/examples/jsm/controls/FirstPersonControls.js,1/f/1f0ee005863d67a4fac443b2aad795dfa7f6b679
+M
+ActualFirstPersonControlls.js,1/7/17c7b8f3e4bb5de792c377a4220f900ea4939185
+O
+ImmediateFirstPersonControls.js,3/c/3cefd8897874ad6ee33d9c5c62918a78511518b9

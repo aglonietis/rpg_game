@@ -1,6 +1,5 @@
 import * as THREE from 'three';
-import { FirstPersonControls } from 'three/addons/controls/FirstPersonControls.js';
-import {OrbitControls} from "three/addons";
+import { ImmediateFirstPersonControls } from './ImmediateFirstPersonControls';
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
@@ -39,18 +38,18 @@ function addPlane() {
 addCube()
 addPlane()
 
-// Add OrbitControls to allow camera movement
-const controls = new OrbitControls(camera, renderer.domElement);
-controls.enableDamping = true;  // Adds a damping (inertia) effect on rotation
-controls.dampingFactor = 0.25;
-controls.enableZoom = true;     // Enable zooming with the mouse wheel
-controls.enablePan = true;      // Enable panning (move horizontally/vertically)
 
 camera.position.set(0, 1.8, 10)
 camera.lookAt(0, 1.8, 0);
 
+const clock = new THREE.Clock();
+
+const controls = new ImmediateFirstPersonControls( camera, renderer.domElement );
+controls.movementSpeed = 1;
+controls.lookSpeed = 0.4;
+controls.lookVertical = true;
+
 function animate() {
-    // Required if damping is enabled
-    controls.update();
+    controls.update( clock.getDelta() );
     renderer.render( scene, camera );
 }
