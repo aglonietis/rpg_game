@@ -260,8 +260,6 @@ export class ImmediateFirstPersonControls extends Controls {
 }
 
 function onPointerDown( event ) {
-    console.log('pointer down');
-
     if ( this.domElement !== document ) {
 
         this.domElement.focus();
@@ -284,8 +282,6 @@ function onPointerDown( event ) {
 }
 
 function onPointerUp( event ) {
-    console.log('pointer up');
-
     if ( this.activeLook ) {
 
         switch ( event.button ) {
@@ -317,7 +313,6 @@ function onPointerMove( event ) {
 }
 
 function onKeyDown( event ) {
-    console.log('key down');
 
     switch ( event.code ) {
 
@@ -341,7 +336,6 @@ function onKeyDown( event ) {
 }
 
 function onKeyUp( event ) {
-    console.log('key up');
 
     switch ( event.code ) {
 
@@ -365,7 +359,6 @@ function onKeyUp( event ) {
 }
 
 function onClick( event ) {
-    console.log('click');
 
     if(!this._pointerLocked) {
         this.domElement.requestPointerLock();
