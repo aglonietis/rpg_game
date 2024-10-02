@@ -26,6 +26,8 @@ export class ImmediateFirstPersonControls extends Controls {
         this.autoForward = false;
 
         this.activeLook = true;
+        // Modification
+        this.immediateLook = true;
 
         this.heightSpeed = false;
         this.heightCoef = 1.0;
@@ -44,6 +46,9 @@ export class ImmediateFirstPersonControls extends Controls {
 
         this._pointerX = 0;
         this._pointerY = 0;
+        // Modification
+        this._previousX = 0;
+        this._previousY = 0;
 
         this._moveForward = false;
         this._moveBackward = false;
@@ -189,11 +194,22 @@ export class ImmediateFirstPersonControls extends Controls {
 
         }
 
-        this._lon -= this._pointerX * actualLookSpeed;
-        if ( this.lookVertical ) this._lat -= this._pointerY * actualLookSpeed * verticalLookRatio;
+        // modification
+        if(this.immediateLook) {
+            this._lon -= (this._pointerX - this._previousX) * actualLookSpeed;
+            if ( this.lookVertical ) this._lat -= (this._pointerY - this._previousY) * actualLookSpeed;
+            this._lat = Math.max( - 85, Math.min( 85, this._lat ) );
+            this._previousX = this._pointerX;
+            this._previousY = this._pointerY;
+        } else {
+            this._lon -= this._pointerX * actualLookSpeed;
+            if ( this.lookVertical ) this._lat -= this._pointerY * actualLookSpeed * verticalLookRatio;
 
-        this._lat = Math.max( - 85, Math.min( 85, this._lat ) );
+            this._lat = Math.max( - 85, Math.min( 85, this._lat ) );
+        }
 
+
+    //
         let phi = MathUtils.degToRad( 90 - this._lat );
         const theta = MathUtils.degToRad( this._lon );
 

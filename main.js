@@ -46,7 +46,7 @@ const clock = new THREE.Clock();
 
 const controls = new ImmediateFirstPersonControls( camera, renderer.domElement );
 controls.movementSpeed = 1;
-controls.lookSpeed = 0.4;
+controls.lookSpeed = 1;
 controls.lookVertical = true;
 
 function animate() {
