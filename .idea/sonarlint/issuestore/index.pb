@@ -20,3 +20,5 @@ M
 ActualFirstPersonControlls.js,1/7/17c7b8f3e4bb5de792c377a4220f900ea4939185
 O
 ImmediateFirstPersonControls.js,3/c/3cefd8897874ad6ee33d9c5c62918a78511518b9
+X
+(node_modules/three/build/three.module.js,d/0/d01109347b936f474fb881c2739103e4d8d1d6ff
