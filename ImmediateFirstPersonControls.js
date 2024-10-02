@@ -98,10 +98,10 @@ export class ImmediateFirstPersonControls extends Controls {
         window.addEventListener( 'keyup', this._onKeyUp );
 
         this.domElement.addEventListener( 'pointermove', this._onPointerMove );
-        this.domElement.addEventListener( 'mousemove', this._onPointerMove );
+        // this.domElement.addEventListener( 'mousemove', this._onPointerMove );
         this.domElement.addEventListener( 'move', this._onPointerMove );
-        this.domElement.addEventListener( 'pointerdown', this._onPointerDown );
-        this.domElement.addEventListener( 'pointerup', this._onPointerUp );
+        // this.domElement.addEventListener( 'pointerdown', this._onPointerDown );
+        // this.domElement.addEventListener( 'pointerup', this._onPointerUp );
         this.domElement.addEventListener( 'contextmenu', this._onContextMenu );
 
         this.domElement.addEventListener('click', this._onClick);
