@@ -1,36 +1,26 @@
 import * as THREE from "three";
-import {Controls} from "./controls";
+import {MovementControls} from "./character/movement";
 
 export class Character {
     oldPosition = null;
-    constructor(camera, scene, clock, renderer) {
-        this.camera = camera;
-        this.scene = scene;
-        this.clock = clock;
-        this.renderer = renderer;
+    constructor(htmlElement, camera, scene, clock, renderer, controls, height) {
+        this.camera = camera
+        this.scene = scene
+        this.clock = clock
+        this.controls = controls
+        this.height = height
+        this.movementControls = new MovementControls(htmlElement, scene, controls, clock, height)
     }
 
-    init() {
-        this.camera.position.set(0, 1.8, 10)
-        this.camera.lookAt(0, 0, 0);
-
-        this.controls = this.createControls()
-    }
-
-    createControls() {
-        const controls = new Controls( this.camera, this.renderer.domElement );
-        controls.movementSpeed = 5;
-        controls.lookSpeed = 10;
-        controls.lookVertical = true;
-        controls.verticalMovement = false;
-        controls.immediateLook = true;
-
-        return controls;
+    initPosition() {
+        this.camera.position.set(52, 300, 2)
+        this.camera.lookAt(0, 0, 0)
     }
 
     updatePosition() {
-        this.controls.update(this.clock.getDelta())
-        this.checkCollisions()
+        this.movementControls.updatePosition()
+        // this.controls.update(this.clock.getDelta())
+        // this.checkCollisions()
     }
 
     checkCollisions() {

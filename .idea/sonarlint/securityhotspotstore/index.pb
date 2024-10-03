@@ -37,3 +37,9 @@ Y
 )node_modules/@types/node/async_hooks.d.ts,e/5/e56b8a6b1fc9f7c81ec1da72106e2fd1dddaf24f
 o
 ?node_modules/three/examples/jsm/controls/PointerLockControls.js,c/f/cfe1c5d8b9891c313c3eec8d91ea45fd610b4701
+E
+character/movement.js,3/7/37b225622960c905f5dfd343f446335a67305e1a
+w
+G.idea/sonarlint/issuestore/3/7/37b225622960c905f5dfd343f446335a67305e1a,0/1/011857ad56589442dee1a003a637562c94a7bb84
+Å
+Q.idea/sonarlint/securityhotspotstore/3/7/37b225622960c905f5dfd343f446335a67305e1a,0/4/0487b0ca2d60ec32d01cf4dff0c36a954ef62500

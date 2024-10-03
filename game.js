@@ -2,6 +2,7 @@ import * as THREE from 'three';
 import {Character} from "./character";
 import {HomeEnvironment} from "./environments/home";
 import {MainMenu} from "./menu";
+import {PointerLockControls} from "three/addons/controls/PointerLockControls";
 
 export class Game {
     htmlElement = null
@@ -19,14 +20,10 @@ export class Game {
         this.renderer.setSize(width, height)
         this.renderer.setAnimationLoop(this.animate.bind(this))
         this.htmlElement.appendChild(this.renderer.domElement);
-        this.initMainMenu()
+        this.controls = new PointerLockControls( this.camera, this.htmlElement );
+        this.mainMenu = new MainMenu(this.htmlElement, this.camera, this.controls);
         this.initScene()
         this.initCharacter()
-
-    }
-
-    initMainMenu() {
-        this.mainMenu = new MainMenu(this.htmlElement, this.camera);
     }
 
     initScene() {
@@ -37,12 +34,15 @@ export class Game {
     }
 
     initCharacter() {
-        this.character = new Character(this.camera, this.scene, this.clock, this.renderer)
-        this.character.init()
+        this.character = new Character(this.htmlElement, this.camera, this.scene, this.clock, this.renderer, this.controls, 1.8)
+        this.character.initPosition()
     }
 
     animate() {
-        this.character.updatePosition()
+        if (this.controls.isLocked === true) {
+            this.character.updatePosition()
+        }
+
         this.renderer.render(this.scene, this.camera)
     }
 }

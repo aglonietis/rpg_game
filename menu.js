@@ -1,9 +1,9 @@
 import {PointerLockControls} from "three/addons/controls/PointerLockControls.js";
 
 export class MainMenu {
-    constructor(htmlElement, camera) {
+    constructor(htmlElement, camera, controls) {
         this.mainMenu = document.getElementById("main-menu")
-        this.controls = new PointerLockControls( camera, htmlElement );
+        this.controls = controls
         this.connect()
     }
 
