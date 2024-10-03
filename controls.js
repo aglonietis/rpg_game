@@ -10,7 +10,6 @@ const _lookDirection = new Vector3();
 const _spherical = new Spherical();
 const _target = new Vector3();
 const _targetPosition = new Vector3();
-let previousEvent = null;
 
 export class ImmediateFirstPersonControls extends Controls {
 

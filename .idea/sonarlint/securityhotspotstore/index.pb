@@ -1,10 +1,4 @@
 
-8
-index.js,a/7/a77b15c0d64cf6111e025645e562faf8ccabb9d7
-7
-base.js,b/3/b358eac5b713659de092ad7e66b1971d44a4647d
-9
-	index.css,6/7/674effb85dac479ec2f277de2d8e1a362611e177
 :
 
 index.html,f/6/f6013a00b362253c64368d6eebc50ea2131754e2
@@ -16,9 +10,17 @@ A
 main.js,c/4/c4a4248f7568c9e41265502c39b0daeb8b635431
 o
 ?node_modules/three/examples/jsm/controls/FirstPersonControls.js,1/f/1f0ee005863d67a4fac443b2aad795dfa7f6b679
-M
-ActualFirstPersonControlls.js,1/7/17c7b8f3e4bb5de792c377a4220f900ea4939185
 O
 ImmediateFirstPersonControls.js,3/c/3cefd8897874ad6ee33d9c5c62918a78511518b9
 X
 (node_modules/three/build/three.module.js,d/0/d01109347b936f474fb881c2739103e4d8d1d6ff
+8
+main.css,3/3/33e0a7d96f2f283eb6f94bbfd4ce882c6816f77d
+7
+game.js,8/9/89436d7bde20981df070062a73a2e79ea6cf87d8
+;
+controls.js,b/0/b0baa41062a8b428e6868882913ad05fc0ac2de8
+>
+environment.js,e/7/e75f4c0eea122f5bf18682588a5846e1feeb1082
+<
+character.js,a/e/ae1271847761db8fca6028316679641371448626
