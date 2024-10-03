@@ -5,17 +5,23 @@ export class HomeEnvironment {
         this.scene = scene;
     }
 
-    addCube(x, y, z, size, color) {
+    addCube(x, y, z, size, color, angle = undefined) {
         const geometry = new THREE.BoxGeometry( size, size, size);
         const material = new THREE.MeshBasicMaterial( { color } );
         const cube = new THREE.Mesh( geometry, material );
         cube.position.set(x+size/2,y+size/2,z+size/2)
+        if(angle !== undefined) {
+            cube.rotation.y = angle
+        }
         this.scene.add( cube );
 
         const edges = new THREE.EdgesGeometry(geometry);  // Extract the edges of the cube
         const outlineMaterial = new THREE.LineBasicMaterial({ color: 0x000000 });  // Black outline
         const outline = new THREE.LineSegments(edges, outlineMaterial);
         outline.position.copy(cube.position);  // Ensure the outline matches the cube's position
+        if(angle !== undefined) {
+            outline.rotation.copy(cube.rotation)
+        }
 
         this.scene.add(outline);
     }
@@ -40,7 +46,7 @@ export class HomeEnvironment {
             const y = i * heightIncrement;
 
             // Add the position to the list
-            this.addCube(x,y,z, 4,color)
+            this.addCube(x,y,z, 4,color, angle)
         }
     }
 
