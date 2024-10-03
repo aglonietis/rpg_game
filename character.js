@@ -13,13 +13,12 @@ export class Character {
     }
 
     initPosition() {
-        this.camera.position.set(52, 300, 2)
-        this.camera.lookAt(0, 0, 0)
+        this.camera.position.set(52, 257, 2)
+        this.camera.lookAt(0, 257, 0)
     }
 
     updatePosition() {
         this.movementControls.updatePosition()
-        // this.controls.update(this.clock.getDelta())
         // this.checkCollisions()
     }
 
