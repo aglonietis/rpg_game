@@ -26,6 +26,7 @@ export class MovementControls {
     connect() {
         this.htmlElement.addEventListener( 'keydown', this.onKeyDown.bind(this) );
         this.htmlElement.addEventListener( 'keyup', this.onKeyUp.bind(this) );
+        this.htmlElement.addEventListener('touchmove', this.onTouchMove.bind(this));
     }
 
     updatePosition() {
@@ -126,4 +127,8 @@ export class MovementControls {
                 break;
         }
     };
+
+    onTouchMove(event) {
+
+    }
 }
