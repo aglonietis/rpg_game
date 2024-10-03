@@ -29,3 +29,11 @@ X
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+>
+scenes/home.js,1/0/10fb0756c78548697bc3a51293b56305c7072e8d
+D
+environments/home.js,f/2/f2076820f14e409ffcb165ee3f3f292289af68aa
+Y
+)node_modules/@types/node/async_hooks.d.ts,e/5/e56b8a6b1fc9f7c81ec1da72106e2fd1dddaf24f
+o
+?node_modules/three/examples/jsm/controls/PointerLockControls.js,c/f/cfe1c5d8b9891c313c3eec8d91ea45fd610b4701

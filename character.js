@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import {ImmediateFirstPersonControls} from "./controls";
+import {Controls} from "./controls";
 
 export class Character {
     oldPosition = null;
@@ -18,7 +18,7 @@ export class Character {
     }
 
     createControls() {
-        const controls = new ImmediateFirstPersonControls( this.camera, this.renderer.domElement );
+        const controls = new Controls( this.camera, this.renderer.domElement );
         controls.movementSpeed = 5;
         controls.lookSpeed = 10;
         controls.lookVertical = true;

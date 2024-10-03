@@ -1,7 +1,6 @@
-import {Controls} from "three";
 import * as THREE from "three";
 
-export class Environment {
+export class HomeEnvironment {
     constructor(scene) {
         this.scene = scene;
     }
