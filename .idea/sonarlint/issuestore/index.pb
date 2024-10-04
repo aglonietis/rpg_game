@@ -23,3 +23,13 @@ a
 1dream voice builder/src/components/HelloWorld.vue,c/3/c3be053e666b0c1d16d1d3ec1fdb3d057e2fc87a
 h
 8dream voice builder/src/components/layout/PageHeader.vue,2/c/2c838e07c45faec30de100342f9b7776f4ae4780
+W
+'dream voice builder/src/router/index.ts,d/c/dc82a1cb757adfe050595e654e9a88be2f3eb3d9
+V
+&dream voice builder/src/views/Game.vue,5/3/5332b8246e5adfd1b11d3dacb8c76c405aa26662
+:
+
+index.html,f/6/f6013a00b362253c64368d6eebc50ea2131754e2
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
