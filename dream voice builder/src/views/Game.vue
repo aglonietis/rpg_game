@@ -1,10 +1,5 @@
 <script setup lang="ts">
-  const speechRecognition = new (window.SpeechRecognition || window.webkitSpeechRecognition || window.mozSpeechRecognition || window.msSpeechRecognition)();
-  speechRecognition.lang = 'en-US';
-  speechRecognition.continuous = true;  // Keep listening even after a result is recognized
-  speechRecognition.interimResults = false;  // You can set this to true if you want real-time updates
 
-  speechRecognition.start();
 
 </script>
 
