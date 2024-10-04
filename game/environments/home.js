@@ -57,14 +57,7 @@ export class HomeEnvironment {
         const fullCircle = Math.PI * 2; // Full circle in radians
         const angleStep = fullCircle / numCubes; // Angle between each cube
 
-        this.createManyCubesInCircle(500, 0, 0x674107, angleStep, radius, heightIncrement)
-        this.createManyCubesInCircle(500, Math.PI / 4, 0x674107, angleStep, radius, heightIncrement)
-        this.createManyCubesInCircle(500, Math.PI / 4 * 2, 0x674107, angleStep, radius, heightIncrement)
-        this.createManyCubesInCircle(500, Math.PI / 4 * 3, 0x674107, angleStep, radius, heightIncrement)
-        this.createManyCubesInCircle(500, Math.PI / 4 * 4, 0x674107, angleStep, radius, heightIncrement)
-        this.createManyCubesInCircle(500, Math.PI / 4 * 5, 0x674107, angleStep, radius, heightIncrement)
-        this.createManyCubesInCircle(500, Math.PI / 4 * 6, 0x674107, angleStep, radius, heightIncrement)
-        this.createManyCubesInCircle(500, Math.PI / 4 * 7, 0x674107, angleStep, radius, heightIncrement)
+        // this.createManyCubesInCircle(500, 0, 0x674107, angleStep, radius, heightIncrement)
         this.addCilinder(0, 100, 0, 46, 5, 0xffffff)
         this.addHollowCilinder(0, 254, 0, 53, 200, 0xffffff)
 

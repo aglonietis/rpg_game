@@ -70,7 +70,7 @@ export class MovementControls {
             this.controls.object.position.y = this.elevation;
             this.canJump = true;
         }
-        console.log("position:", parseInt(this.controls.object.position.x), parseInt(this.controls.object.position.y), parseInt(this.controls.object.position.z))
+        // console.log("position:", parseInt(this.controls.object.position.x), parseInt(this.controls.object.position.y), parseInt(this.controls.object.position.z))
     }
 
     onKeyDown( event ) {
