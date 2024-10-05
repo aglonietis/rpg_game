@@ -70,7 +70,10 @@ Three.js project for fun
 # Deploy
 ```
 npm run build
+git branch -d origin gh-pages
 git subtree push --prefix=dist origin gh-pages
 ```
+
+For some reason remote is rejecting push after any updates
 
 Page will be deployed to https://aglonietis.github.io/rpg_game/
