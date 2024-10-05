@@ -54,3 +54,15 @@ k
 ,game_not_integrated_into_vue/dist/index.html,b/c/bc30641ce7e0955a501ec2a3e17a9b63bde85b63
 R
 "docs/history/DevelopmentJourney.md,e/8/e8f71a0c7642abe61240578408407a0a168bc63d
+F
+src/views/HomeView.vue,9/9/99762d844ac520a898fe382aaa9ad653d1dba35c
+B
+src/views/Game.vue,3/d/3d962f8ed6f2600ea4e7e7aede93a2b4381a4bca
+@
+src/game/game.js,f/3/f3d009e6f16a3e8860efc4236df7296186ec85e1
+E
+src/game/character.js,3/7/37992c46ded7920705fff1ef7c3074b1e0d93121
+N
+src/game/character/movement.js,3/4/34d47d946c18843431ad951041f054fae4470d61
+M
+src/game/environments/home.js,4/e/4ea5b2d2be1d51bc80a6d47316ccc0e33e18bfee

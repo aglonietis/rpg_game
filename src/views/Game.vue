@@ -1,51 +1,85 @@
-<script setup lang="ts">
-import {onBeforeMount, onBeforeUnmount} from "vue";
-import {Game} from '@/game/game';
-  const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition || window.mozSpeechRecognition || window.msSpeechRecognition)()
-  recognition.lang = 'en-US'
-  recognition.continuous = true
-  recognition.interimResults = false
-
-  onBeforeMount(() => {
-    recognition.start()
-
-    recognition.onresult = (event) => {
-      if(!event.results[event.results.length - 1].isFinal) {
-        console.debug('Transcript has not yet processed')
-        return
-      }
-
-      const transcript = event.results[event.results.length - 1][0].transcript
-      if(!transcript) {
-        console.debug('Transcript is empty!')
-        return
-      }
-
-      console.log("Transcript:", transcript)
-    }
-  })
-
-  onBeforeUnmount(() => {
-    recognition.stop()
-  })
-
-  const game = new Game(document.body, window.innerWidth, window.innerHeight)
-
-</script>
-
 <template>
-  <main id="game">
+  <dialog ref="gameMenu" class="gameMenu" :open="gameMenuVisible">
+    <p>Hello This is game menu</p>
+    <button @click="gameMenuVisible = false; game.focus()">Close</button>
+  </dialog>
+  <main class="game-screen" ref="gameScreen"/>
+  <div class="game-screen-fallback" id="game-screen-fallback">
     <h1 class="backup-text">
       This is the game!
     </h1>
     <p class="backup-text">
       If you see this screen, the game is either loading or you are one of the unlucky ones and should contact support
     </p>
-  </main>
+  </div>
 </template>
 
+<script setup lang="ts">
+import {onBeforeMount, onBeforeUnmount, onMounted, onUnmounted, ref, useTemplateRef} from "vue";
+import {Game} from '@/game/game';
+
+const game = new Game()
+const gameScreen = useTemplateRef('gameScreen')
+const gameMenu = ref('gameMenu')
+const gameMenuVisible = ref(false)
+const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition || window.mozSpeechRecognition || window.msSpeechRecognition)()
+recognition.lang = 'en-US'
+recognition.continuous = true
+recognition.interimResults = false
+
+
+const showMenu = () => {
+  if (document.pointerLockElement) {
+    gameMenuVisible.value = false
+  } else {
+    gameMenuVisible.value = true
+  }
+};
+
+onBeforeMount(() => {
+  recognition.start()
+
+  recognition.onresult = (event) => {
+    if(!event.results[event.results.length - 1].isFinal) {
+      console.debug('Transcript has not yet processed')
+      return
+    }
+
+    const transcript = event.results[event.results.length - 1][0].transcript
+    if(!transcript) {
+      console.debug('Transcript is empty!')
+      return
+    }
+
+    game.processTextInput(transcript)
+  }
+})
+
+onBeforeUnmount(() => {
+  recognition.stop()
+  document.removeEventListener('pointerlockchange', showMenu);
+})
+
+onMounted(() => {
+  // TODO: Find out why Typescript does not like vue.js reference as ref.value and mainly how to solve it.
+  const gameScreenArea = gameScreen.value.getBoundingClientRect()
+
+  game.init(gameScreen.value, gameScreenArea.width, gameScreenArea.height)
+
+  if(game.isReady()) {
+    const gameScreenFallback = document.getElementById('game-screen-fallback')
+    if(gameScreenFallback) {
+      gameScreenFallback.style.display = 'none';
+    }
+  }
+
+  document.addEventListener('pointerlockchange', showMenu);
+})
+
+</script>
+
 <style scoped>
-  #game {
+  .game-screen, .game-screen-fallback {
     display: block;
     width: 100vw;
     height: 100vh;
@@ -56,8 +90,14 @@ import {Game} from '@/game/game';
     justify-content: center;
   }
 
-  #game .backup-text {
+  .game-screen-fallback {
+    position: fixed;
+  }
+
+  .game-screen .backup-text, .game-screen-fallback .backup-text {
     align-content: center;
     text-align: center;
   }
+
+
 </style>

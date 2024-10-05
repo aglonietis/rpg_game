@@ -36,4 +36,19 @@ It would also be a lot easier to handle home page, profile edit, menus etc that 
 
 ![Image with initial website](02_initial_website.png)
 
+## What is the correct way to write vue?
 
+I usually surf the internet for knowledge and how to do things. I check google, reddit, chatgpt. It mostly works.
+
+Vue is the rare case where i am starting to use ONLY the vue.js official documentation, because anything
+that is not documentation is mostly pure gibberish. It either does not work, looks like garbage or does things 
+the wrong way. Trash articles come even from Medium or Stackoverflow questions. I am shocked how bad the vue.js
+community information is. Docs are great tho.  
+
+You might get lucky, but in most cases I am not. Different vue versions might have also caused this. 
+
+Here is funny development moment. At some point i set the transcript to alert any speech transcribed and forgot about it.
+There was silence for a long time, but then I ran into an issue that Escape event is not registered if it is related to
+unlocking pointer and my expression was loud "what", which was reported to me and funny
+
+![Image with funny development moment](03_funny_development_moment.png)
