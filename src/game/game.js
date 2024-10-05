@@ -1,8 +1,17 @@
 import * as THREE from 'three';
 import {PointerLockControls} from "three/addons/controls/PointerLockControls";
+import { FontLoader } from 'three/addons/loaders/FontLoader.js';
+import { TextGeometry } from 'three/addons/geometries/TextGeometry.js';
 import {HomeEnvironment} from "./environments/home.js";
 import {Character} from "./character.js";
 
+const fontLoader = new FontLoader();
+let geometryFont = null
+
+fontLoader.load( '@/assets/fonts/helvetiker_bold.typeface.json', function ( font ) {
+    geometryFont = font
+    console.log("Font loaded")
+} );
 
 export class Game {
     width = null
@@ -55,6 +64,26 @@ export class Game {
     }
 
     processTextInput(text) {
+        if(!this.controls.isLocked) {
+            console.log("Ignoring text input, user is not in the game")
+            return
+        }
+        console.log("Processing Text:", text)
+        const geometry = new TextGeometry(text, {
+            // font: geometryFont,
+            size: 200,
+            height: 50,
+            curveSegments: 12,
+
+            bevelThickness: 2,
+            bevelSize: 5,
+            bevelEnabled: true
+        })
+        const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+        const textObj = new THREE.Mesh( geometry, material );
+        textObj.position.set(25,25,25)
+        this.scene.add(textObj)
+        console.log("Text processed:", text)
     }
 
     focus() {

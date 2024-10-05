@@ -66,3 +66,7 @@ N
 src/game/character/movement.js,3/4/34d47d946c18843431ad951041f054fae4470d61
 M
 src/game/environments/home.js,4/e/4ea5b2d2be1d51bc80a6d47316ccc0e33e18bfee
+w
+Ggame_not_integrated_into_vue/assets/fonts/helvetiker_bold_typeface.json,0/a/0a61ceced2f8a481a956af4dea3cb5d9cabaeb76
+w
+Ggame_not_integrated_into_vue/assets/fonts/helvetiker_bold.typeface.json,7/5/75a71b7bb8083766b7ab84c004f5e5127bd265ba
