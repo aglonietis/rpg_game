@@ -9,7 +9,7 @@ import {Line2, LineGeometry, LineMaterial} from "three/addons";
 const fontLoader = new FontLoader();
 let geometryFont = null
 
-fontLoader.load( '/assets/fonts/helvetiker_bold.typeface.json', function ( font ) {
+fontLoader.load( 'https://unpkg.com/three@0.77.0/examples/fonts/helvetiker_bold.typeface.json', function ( font ) {
     geometryFont = font
     console.log("Font loaded")
 } );

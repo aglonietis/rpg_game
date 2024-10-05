@@ -86,9 +86,9 @@ onBeforeUnmount(() => {
 
 onMounted(() => {
   // TODO: Find out why Typescript does not like vue.js reference as ref.value and mainly how to solve it.
-  const gameScreenArea = gameScreen.value.getBoundingClientRect()
-
-  game.init(gameScreen.value, gameScreenArea.width, gameScreenArea.height)
+  const gameScreenElement = gameScreen.value as HTMLDivElement
+  const gameScreenArea = gameScreenElement.getBoundingClientRect()
+  game.init(gameScreenElement, gameScreenArea.width, gameScreenArea.height)
 
   if(game.isReady()) {
     const gameScreenFallback = document.getElementById('game-screen-fallback')

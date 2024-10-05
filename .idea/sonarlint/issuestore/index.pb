@@ -60,3 +60,13 @@ C
 src/router/index.ts,c/c/cc0767154a1294e6ad7ec9dabc35d89651668352
 F
 src/views/GameView.vue,b/0/b058e2ad5f1f5861d270f1a55f7fefbb2cdc1107
+=
+tsconfig.json,6/1/61ebb9fd6e8cf9082658121d5d81e297791dacd0
+B
+src/game/game.d.ts,7/9/795076435c943c575f1f0b7c9b9f78c55cc576da
+?
+dist/index.html,8/3/83c3885e754cb61b14e68e2ab17c1c37c43a2f3f
+>
+vite.config.ts,7/5/75ea7f3ea6d80d54bb5b2357996972d1632a5038
+D
+tsconfig.vitest.json,0/e/0e5843def6567cd8df42336735bc6204d9fbecae
