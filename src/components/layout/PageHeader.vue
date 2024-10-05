@@ -10,6 +10,9 @@
       <li class="navigation-item">
         <RouterLink to="/game" class="navigation-link">Game</RouterLink>
       </li>
+      <li class="navigation-item">
+        <RouterLink to="/about" class="navigation-link">About</RouterLink>
+      </li>
     </ul>
   </header>
 </template>

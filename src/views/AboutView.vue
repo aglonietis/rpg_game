@@ -6,7 +6,7 @@ import PageHeader from '../components/layout/PageHeader.vue'
   <PageHeader />
   <main>
     <p>
-      This is Home Page
+      This is About Page
     </p>
   </main>
 </template>

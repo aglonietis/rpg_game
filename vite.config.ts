@@ -16,7 +16,6 @@ export default defineConfig({
     }
   },
   build: {
-    assetsDir: './',
   },
   base: 'rpg_game/',
 })
