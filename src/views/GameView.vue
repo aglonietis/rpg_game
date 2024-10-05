@@ -27,7 +27,7 @@
 // Extend the global Window interface
 declare global {
   interface Window {
-    SpeechRecognition: any;
+    Q: any;
     webkitSpeechRecognition: any;
     mozSpeechRecognition: any;
     msSpeechRecognition: any;
@@ -36,6 +36,10 @@ declare global {
 interface SpeechRecognitionEvent extends Event {
   readonly resultIndex: number
   readonly results: SpeechRecognitionResultList
+}
+interface SpeechRecognitionErrorEvent extends Event {
+  readonly error: Error
+  readonly message: string
 }
 
 
@@ -53,11 +57,7 @@ recognition.interimResults = false
 
 
 const showMenu = () => {
-  if (document.pointerLockElement) {
-    gameMenuVisible.value = false
-  } else {
-    gameMenuVisible.value = true
-  }
+  gameMenuVisible.value = !document.pointerLockElement;
 };
 
 onBeforeMount(() => {
@@ -76,6 +76,12 @@ onBeforeMount(() => {
     }
 
     game.processTextInput(transcript)
+  }
+
+  recognition.onerror = (event: SpeechRecognitionErrorEvent) => {
+    console.log('Recognition service error:', event.message)
+    recognition.stop()
+    recognition.start()
   }
 })
 
@@ -98,6 +104,16 @@ onMounted(() => {
   }
 
   document.addEventListener('pointerlockchange', showMenu);
+
+  document.addEventListener("visibilitychange", () => {
+    if (!document.hidden) {
+
+
+      recognition.stop()
+      recognition.start()
+      console.log("Recognition service restarted")
+    }
+  });
 })
 
 </script>
