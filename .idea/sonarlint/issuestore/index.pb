@@ -70,3 +70,7 @@ w
 Ggame_not_integrated_into_vue/assets/fonts/helvetiker_bold_typeface.json,0/a/0a61ceced2f8a481a956af4dea3cb5d9cabaeb76
 w
 Ggame_not_integrated_into_vue/assets/fonts/helvetiker_bold.typeface.json,7/5/75a71b7bb8083766b7ab84c004f5e5127bd265ba
+C
+src/assets/logo.svg,5/c/5c78421908ac2b63fdf8bd6d449473e78c6ba703
+a
+1public/assets/fonts/helvetiker_bold.typeface.json,5/b/5ba95ec82cf2108c936743251a19fb59ec833d54

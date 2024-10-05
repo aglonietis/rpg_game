@@ -52,3 +52,13 @@ There was silence for a long time, but then I ran into an issue that Escape even
 unlocking pointer and my expression was loud "what", which was reported to me and funny
 
 ![Image with funny development moment](03_funny_development_moment.png)
+
+## Visualizing transcribed text
+
+I forwarded transcribed text to game. Then I had problems with drawing it, because fonts are a pain to deal with. 
+After moving assets to a public map, i did it. I successfully created my first text.
+
+It kind of dwarfed everything I had done before and almost reached the sky, but it was beatiful
+
+![Image with first visualized text](04_first_visualized_text.png)
+

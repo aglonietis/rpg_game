@@ -4,14 +4,17 @@ import { FontLoader } from 'three/addons/loaders/FontLoader.js';
 import { TextGeometry } from 'three/addons/geometries/TextGeometry.js';
 import {HomeEnvironment} from "./environments/home.js";
 import {Character} from "./character.js";
+import {Line2, LineGeometry, LineMaterial} from "three/addons";
 
 const fontLoader = new FontLoader();
 let geometryFont = null
 
-fontLoader.load( '@/assets/fonts/helvetiker_bold.typeface.json', function ( font ) {
+fontLoader.load( '/assets/fonts/helvetiker_bold.typeface.json', function ( font ) {
     geometryFont = font
     console.log("Font loaded")
 } );
+
+let textHeightCounter = 0;
 
 export class Game {
     width = null
@@ -70,20 +73,50 @@ export class Game {
         }
         console.log("Processing Text:", text)
         const geometry = new TextGeometry(text, {
-            // font: geometryFont,
-            size: 200,
-            height: 50,
+            font: geometryFont,
+            size: 1,
+            height: 0.1,
             curveSegments: 12,
-
-            bevelThickness: 2,
-            bevelSize: 5,
-            bevelEnabled: true
+            bevelEnabled: false,
+            bevelThickness: 0.01,
+            bevelSize: 0.01,
+            bevelOffset: 0,
+            bevelSegments: 5
         })
-        const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+        const material = new THREE.MeshBasicMaterial( { color: 0x1869aa } );
         const textObj = new THREE.Mesh( geometry, material );
-        textObj.position.set(25,25,25)
+        textObj.position.set(42 + textHeightCounter,2,2)
+        textObj.rotation.z = Math.PI;
+        textObj.rotation.y = Math.PI/2;
+        textObj.rotation.x = Math.PI;
         this.scene.add(textObj)
         console.log("Text processed:", text)
+        textHeightCounter++;
+
+        const strokeGroup = new THREE.Group()
+        strokeGroup.position.copy(textObj.position.clone())
+        strokeGroup.position.x +=0.1001
+        strokeGroup.rotation.copy(textObj.rotation.clone())
+        const lineMaterial = new LineMaterial(({
+            color: 0x000000,
+            lineWidth: 0.1
+        }))
+
+        const shapes = geometryFont.generateShapes(text, 1)
+        shapes.forEach((s) => {
+            let points = s.getPoints()
+            let points3d = []
+            points.forEach((p) => {
+                points3d.push(p.x, p.y, 0)
+            })
+            const lineGeo = new LineGeometry()
+            lineGeo.setPositions(points3d)
+            const strokeMesh = new Line2(lineGeo, lineMaterial)
+            strokeMesh.computeLineDistances()
+            strokeGroup.add(strokeMesh)
+        })
+
+        this.scene.add(strokeGroup)
     }
 
     focus() {
