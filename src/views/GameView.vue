@@ -24,6 +24,21 @@
 </template>
 
 <script setup lang="ts">
+// Extend the global Window interface
+declare global {
+  interface Window {
+    SpeechRecognition: any;
+    webkitSpeechRecognition: any;
+    mozSpeechRecognition: any;
+    msSpeechRecognition: any;
+  }
+}
+interface SpeechRecognitionEvent extends Event {
+  readonly resultIndex: number
+  readonly results: SpeechRecognitionResultList
+}
+
+
 import {onBeforeMount, onBeforeUnmount, onMounted, onUnmounted, ref, useTemplateRef} from "vue";
 import {Game} from '@/game/game';
 
@@ -48,7 +63,7 @@ const showMenu = () => {
 onBeforeMount(() => {
   recognition.start()
 
-  recognition.onresult = (event) => {
+  recognition.onresult = (event: SpeechRecognitionEvent) => {
     if(!event.results[event.results.length - 1].isFinal) {
       console.debug('Transcript has not yet processed')
       return

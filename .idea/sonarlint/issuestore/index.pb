@@ -50,3 +50,13 @@ a
 1public/assets/fonts/helvetiker_bold.typeface.json,5/b/5ba95ec82cf2108c936743251a19fb59ec833d54
 j
 :node_modules/three/examples/jsm/geometries/TextGeometry.js,b/7/b7545885ffb53b05d223ff8a8d27ca65ff3befd1
+[
++src/components/__tests__/HelloWorld.spec.ts,a/0/a070cccbde07d036d6ee5e7764823957cf40086a
+[
++src/components/__tests__/PageHeader.spec.ts,b/5/b559f2c842cc4cb1b6ac3b81edc4290dd4d7e2cf
+T
+$src/components/layout/PageHeader.vue,9/0/9074e6d05fdd64966af96e82e741d56abb4e0261
+C
+src/router/index.ts,c/c/cc0767154a1294e6ad7ec9dabc35d89651668352
+F
+src/views/GameView.vue,b/0/b058e2ad5f1f5861d270f1a55f7fefbb2cdc1107
