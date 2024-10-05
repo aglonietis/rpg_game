@@ -52,3 +52,5 @@ k
 ;game_not_integrated_into_vue/dist/assets/index-CDPlMAZy.css,5/4/54bc784b4d1680c978725a08ebc8dac6b4e152ab
 \
 ,game_not_integrated_into_vue/dist/index.html,b/c/bc30641ce7e0955a501ec2a3e17a9b63bde85b63
+R
+"docs/history/DevelopmentJourney.md,e/8/e8f71a0c7642abe61240578408407a0a168bc63d
