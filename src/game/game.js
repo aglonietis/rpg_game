@@ -40,10 +40,6 @@ export class Game {
         this.character = new Character(this.htmlElement, this.camera, this.scene, this.clock, this.renderer, this.controls, 1.8)
         this.character.initPosition()
         console.debug("game initialized")
-
-        this.htmlElement.addEventListener('click', () => {
-            this.controls.lock()
-        })
     }
 
     animate() {

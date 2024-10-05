@@ -1,7 +1,16 @@
 <template>
-  <dialog ref="gameMenu" class="gameMenu" :open="gameMenuVisible">
-    <p>Hello This is game menu</p>
-    <button @click="gameMenuVisible = false; game.focus()">Close</button>
+  <dialog ref="gameMenu" class="game-menu" :open="gameMenuVisible" @click="game.focus()">
+    <div class="instructions">
+      <p style="font-size:36px">
+        Click to play
+      </p>
+      <p>
+        Move: WASD<br/>
+        Jump: SPACE<br/>
+        Look: MOUSE
+      </p>
+      <RouterLink to="/" class="quit-link" @click="$event.stopPropagation()">Quit</RouterLink>
+    </div>
   </dialog>
   <main class="game-screen" ref="gameScreen"/>
   <div class="game-screen-fallback" id="game-screen-fallback">
@@ -21,7 +30,7 @@ import {Game} from '@/game/game';
 const game = new Game()
 const gameScreen = useTemplateRef('gameScreen')
 const gameMenu = ref('gameMenu')
-const gameMenuVisible = ref(false)
+const gameMenuVisible = ref(true)
 const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition || window.mozSpeechRecognition || window.msSpeechRecognition)()
 recognition.lang = 'en-US'
 recognition.continuous = true
@@ -97,6 +106,35 @@ onMounted(() => {
   .game-screen .backup-text, .game-screen-fallback .backup-text {
     align-content: center;
     text-align: center;
+  }
+
+  .game-menu {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+  }
+
+  .instructions {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .instructions .quit-link {
+    color: red;
+    font-size: 24px;
+    text-decoration: none;
   }
 
 
