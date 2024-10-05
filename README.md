@@ -62,3 +62,15 @@ npm run test:e2e -- --debug
 ```sh
 npm run lint
 ```
+
+# Project
+
+Three.js project for fun
+
+# Deploy
+```
+npm run build
+git subtree push --prefix=dist origin gh-pages
+```
+
+Page will be deployed to https://aglonietis.github.io/rpg_game/
