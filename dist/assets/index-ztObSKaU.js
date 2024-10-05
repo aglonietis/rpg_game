@@ -6628,6 +6628,12 @@ function createWebHistory(base) {
   });
   return routerHistory;
 }
+function createWebHashHistory(base) {
+  base = location.host ? base || location.pathname + location.search : "";
+  if (!base.includes("#"))
+    base += "#";
+  return createWebHistory(base);
+}
 function isRouteLocation(route) {
   return typeof route === "string" || route && typeof route === "object";
 }
@@ -31109,7 +31115,8 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
   }
 });
 const router = createRouter({
-  history: createWebHistory("/rpg_game/"),
+  // history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(),
   routes: [
     {
       path: "/",
