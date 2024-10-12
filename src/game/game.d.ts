@@ -1,7 +1,7 @@
 declare module '@/game/game' {
     export class Game {
         constructor();
-        init(element: HTMLElement, width: number, height: number): void;
+        init(element: HTMLElement): void;
         processTextInput(text: string): void;
         isReady(): boolean;
         focus(): void;

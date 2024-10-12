@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@types/dom-speech-recognition": "^0.0.4",
+    "onnxruntime-web": "^1.19.2",
     "pinia": "^2.1.7",
     "three": "^0.169.0",
     "vue": "^3.4.29",

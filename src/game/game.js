@@ -33,11 +33,12 @@ export class Game {
         console.debug("game created")
     }
 
-    init(htmlElement, width, height) {
+    init(htmlElement) {
+        const canvasArea = htmlElement.getBoundingClientRect()
         console.debug("game initializing")
         // initial actions
-        this.width = width
-        this.height = height
+        this.width = canvasArea.width
+        this.height = canvasArea.height
         this.htmlElement = htmlElement
         this.camera = new THREE.PerspectiveCamera( 75, this.width / this.height, 0.1, 1000 )
         this.renderer.setSize(this.width, this.height)
@@ -52,6 +53,20 @@ export class Game {
         this.character = new Character(this.htmlElement, this.camera, this.scene, this.clock, this.renderer, this.controls, 1.8)
         this.character.initPosition()
         console.debug("game initialized")
+
+        window.addEventListener( 'resize', this.onWindowResize.bind(this), false );
+    }
+
+    onWindowResize(){
+        const canvasArea = this.htmlElement.getBoundingClientRect()
+        this.width = canvasArea.width
+        this.height = canvasArea.height
+
+        this.camera.aspect = this.width/this.height
+        this.camera.updateProjectionMatrix()
+
+        this.renderer.setSize( this.width, this.height );
+
     }
 
     animate() {

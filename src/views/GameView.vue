@@ -24,10 +24,14 @@
 </template>
 
 <script setup lang="ts">
-// Extend the global Window interface
+import * as ort from "onnxruntime-web";
+import {onBeforeMount, onBeforeUnmount, onMounted, onUnmounted, ref, useTemplateRef} from "vue";
+import {Game} from '@/game/game';
+
 declare global {
   interface Window {
     Q: any;
+    SpeechRecognition: any;
     webkitSpeechRecognition: any;
     mozSpeechRecognition: any;
     msSpeechRecognition: any;
@@ -41,10 +45,6 @@ interface SpeechRecognitionErrorEvent extends Event {
   readonly error: Error
   readonly message: string
 }
-
-
-import {onBeforeMount, onBeforeUnmount, onMounted, onUnmounted, ref, useTemplateRef} from "vue";
-import {Game} from '@/game/game';
 
 const game = new Game()
 const gameScreen = useTemplateRef('gameScreen')
@@ -60,7 +60,7 @@ const showMenu = () => {
   gameMenuVisible.value = !document.pointerLockElement;
 };
 
-onBeforeMount(() => {
+onBeforeMount(async () => {
   recognition.start()
 
   recognition.onresult = (event: SpeechRecognitionEvent) => {
@@ -80,9 +80,20 @@ onBeforeMount(() => {
 
   recognition.onerror = (event: SpeechRecognitionErrorEvent) => {
     console.log('Recognition service error:', event.message)
-    recognition.stop()
     recognition.start()
   }
+
+  // console.log("Model loaded")
+
+  // const session = await ort.InferenceSession.create('/rpg_game/assets/models/mnist.onnx');
+
+  // Prepare input data (ensure that the input data matches the model's input requirements)
+  // const input = new ort.Tensor('float32', new Float32Array([1, 2, 3, 4]), [2, 2]);
+
+  // Run the model with the input data
+  // const output = await session.run({ input });
+
+  // console.log("Model output:",output);
 })
 
 onBeforeUnmount(() => {
@@ -93,8 +104,7 @@ onBeforeUnmount(() => {
 onMounted(() => {
   // TODO: Find out why Typescript does not like vue.js reference as ref.value and mainly how to solve it.
   const gameScreenElement = gameScreen.value as HTMLDivElement
-  const gameScreenArea = gameScreenElement.getBoundingClientRect()
-  game.init(gameScreenElement, gameScreenArea.width, gameScreenArea.height)
+  game.init(gameScreenElement)
 
   if(game.isReady()) {
     const gameScreenFallback = document.getElementById('game-screen-fallback')

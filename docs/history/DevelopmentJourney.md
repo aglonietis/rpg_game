@@ -61,4 +61,8 @@ After moving assets to a public map, i did it. I successfully created my first t
 It kind of dwarfed everything I had done before and almost reached the sky, but it was beatiful
 
 ![Image with first visualized text](04_first_visualized_text.png)
+![Image with readable text](05_readable_text.png)
 
+## Thinking of a command set
+
+So I wanted to 
