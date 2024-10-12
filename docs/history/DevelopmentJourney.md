@@ -63,6 +63,17 @@ It kind of dwarfed everything I had done before and almost reached the sky, but 
 ![Image with first visualized text](04_first_visualized_text.png)
 ![Image with readable text](05_readable_text.png)
 
+## Shocking discovery that Web Speech API needs Wifi
+I was testing my app if all is ok without internet and for a weird reason
+the speech recognition was failing.
+
+In reality, the Web Speech API CAN be local implementation or something supported 
+by the operating system, but this all depends on Browsers preferences. 
+
+Looks like Google Chrome has chosen to use their Google Speech API as the implementation.
+
+In conclusion: Web Speech API is just API methods and Browser itself chooses how to implement them.
+
 ## Thinking of a command set
 
 So I wanted to 
