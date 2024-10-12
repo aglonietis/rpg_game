@@ -51,6 +51,7 @@ const gameScreen = useTemplateRef('gameScreen')
 const gameMenu = ref('gameMenu')
 const gameMenuVisible = ref(true)
 const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition || window.mozSpeechRecognition || window.msSpeechRecognition)()
+let recognitionServiceCheckInterval: number = 0
 recognition.lang = 'en-US'
 recognition.continuous = true
 recognition.interimResults = false
@@ -99,6 +100,7 @@ onBeforeMount(async () => {
 onBeforeUnmount(() => {
   recognition.stop()
   document.removeEventListener('pointerlockchange', showMenu);
+  clearInterval(recognitionServiceCheckInterval);
 })
 
 onMounted(() => {
@@ -124,7 +126,19 @@ onMounted(() => {
       console.log("Recognition service restarted")
     }
   });
+
+  recognitionServiceCheckInterval = setInterval(() => {
+    checkRecognitionService();
+  }, 30000)
 })
+
+async function checkRecognitionService() {
+  try {
+    recognition.start()
+  } catch (e) {
+    console.log("Recognition service already started")
+  }
+}
 
 </script>
 
