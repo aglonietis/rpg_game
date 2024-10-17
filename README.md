@@ -77,3 +77,13 @@ git subtree push --prefix=dist origin gh-pages
 For some reason remote is rejecting push after any updates
 
 Page will be deployed to https://aglonietis.github.io/rpg_game/
+
+# Data AI
+
+go to data/text-to-command-transformer
+
+execute command to start the notebook for exploration
+
+```
+jupyter notebook
+```

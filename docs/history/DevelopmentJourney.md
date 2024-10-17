@@ -76,4 +76,15 @@ In conclusion: Web Speech API is just API methods and Browser itself chooses how
 
 ## Thinking of a command set
 
-So I wanted to 
+I created python notebook with example from: https://huggingface.co/docs/transformers/en/training
+
+Ofcourse it did not work and there were quite a few problems, but in the end I succeeded. Some problems:
+1. Python version. There were problems with python version as locally I had the latest version, but
+some of the libraries for learning did not 
+
+I was thinking of a dataset, did not search enough or there is not much, but also wanted to proceed
+with my own dataset. Here is an example of the first dataset. Had to add just more data to be able to 
+print and debug the training code.
+
+![Image with first dataset](06_first_dataset.png)
+
