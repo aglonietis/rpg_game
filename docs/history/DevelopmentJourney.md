@@ -76,4 +76,27 @@ In conclusion: Web Speech API is just API methods and Browser itself chooses how
 
 ## Thinking of a command set
 
-So I wanted to 
+I created python notebook with example from: https://huggingface.co/docs/transformers/en/training
+
+Ofcourse it did not work and there were quite a few problems, but in the end I succeeded. Some problems:
+1. Python version. There were problems with python version as locally I had the latest version, but
+some of the libraries for learning did not 
+
+I was thinking of a dataset, did not search enough or there is not much, but also wanted to proceed
+with my own dataset. Here is an example of the first dataset. Had to add just more data to be able to 
+print and debug the training code.
+
+![Image with first dataset](06_first_dataset.png)
+
+## Testing the first model 
+
+I created a really simple dataset with "create a blue cube" to be set to "create-cube blue" as "create-cube" command with "blue" color
+
+![Image with first model_test](07_first_model_test.png)
+
+I set input as "create a blue cube" and got output as "<pad><pad><pad>...."
+
+It is a total failure. Now have to see what is going on. How is model responding like that.
+Do i need to increase training amount, refactor data or even change the model to something else
+
+
