@@ -1,0 +1,1401 @@
+input,output
+"Create a green sphere at position 45, -70, -72.","createObject(type='sphere', color='green', location={x:45, y:-70, z:-72})"
+"Create a green sphere at position 90, -12, 47.","createObject(type='sphere', color='green', location={x:90, y:-12, z:47})"
+"Create a yellow sphere at position 61, -64, 90.","createObject(type='sphere', color='yellow', location={x:61, y:-64, z:90})"
+"Create a yellow pyramid at position 56, -72, -69.","createObject(type='pyramid', color='yellow', location={x:56, y:-72, z:-69})"
+"Create a green sphere at position -83, 92, -4.","createObject(type='sphere', color='green', location={x:-83, y:92, z:-4})"
+"Create a yellow sphere at position 75, 98, -72.","createObject(type='sphere', color='yellow', location={x:75, y:98, z:-72})"
+"Create a yellow sphere at position -68, -97, -32.","createObject(type='sphere', color='yellow', location={x:-68, y:-97, z:-32})"
+"Create a red cube at position 30, 61, -11.","createObject(type='cube', color='red', location={x:30, y:61, z:-11})"
+"Create a green cube at position -60, 33, -50.","createObject(type='cube', color='green', location={x:-60, y:33, z:-50})"
+"Create a yellow sphere at position 54, 7, 14.","createObject(type='sphere', color='yellow', location={x:54, y:7, z:14})"
+"Create a red cube at position 5, -17, 1.","createObject(type='cube', color='red', location={x:5, y:-17, z:1})"
+"Create a red pyramid at position -70, 3, -9.","createObject(type='pyramid', color='red', location={x:-70, y:3, z:-9})"
+"Create a blue cube at position 32, -76, -1.","createObject(type='cube', color='blue', location={x:32, y:-76, z:-1})"
+"Create a yellow cube at position -93, 50, 8.","createObject(type='cube', color='yellow', location={x:-93, y:50, z:8})"
+"Create a green cube at position -99, -29, 19.","createObject(type='cube', color='green', location={x:-99, y:-29, z:19})"
+"Create a blue sphere at position -89, 34, 5.","createObject(type='sphere', color='blue', location={x:-89, y:34, z:5})"
+"Create a blue sphere at position -13, -99, -23.","createObject(type='sphere', color='blue', location={x:-13, y:-99, z:-23})"
+"Create a yellow pyramid at position 67, -40, -92.","createObject(type='pyramid', color='yellow', location={x:67, y:-40, z:-92})"
+"Create a green pyramid at position -25, -58, 3.","createObject(type='pyramid', color='green', location={x:-25, y:-58, z:3})"
+"Create a red sphere at position 33, -41, -22.","createObject(type='sphere', color='red', location={x:33, y:-41, z:-22})"
+"Create a red sphere at position 62, -41, -90.","createObject(type='sphere', color='red', location={x:62, y:-41, z:-90})"
+"Create a green pyramid at position -58, 74, -22.","createObject(type='pyramid', color='green', location={x:-58, y:74, z:-22})"
+"Create a red sphere at position -88, 48, 69.","createObject(type='sphere', color='red', location={x:-88, y:48, z:69})"
+"Create a red cube at position 51, -85, -30.","createObject(type='cube', color='red', location={x:51, y:-85, z:-30})"
+"Create a yellow pyramid at position -1, 48, 86.","createObject(type='pyramid', color='yellow', location={x:-1, y:48, z:86})"
+"Create a blue cube at position -24, 52, 22.","createObject(type='cube', color='blue', location={x:-24, y:52, z:22})"
+"Create a red sphere at position 8, 29, 36.","createObject(type='sphere', color='red', location={x:8, y:29, z:36})"
+"Create a yellow pyramid at position 4, -17, -58.","createObject(type='pyramid', color='yellow', location={x:4, y:-17, z:-58})"
+"Create a yellow cube at position -56, -59, 14.","createObject(type='cube', color='yellow', location={x:-56, y:-59, z:14})"
+"Create a red cube at position 74, 76, 33.","createObject(type='cube', color='red', location={x:74, y:76, z:33})"
+"Create a green cube at position 26, -32, -65.","createObject(type='cube', color='green', location={x:26, y:-32, z:-65})"
+"Create a blue sphere at position -38, -90, -19.","createObject(type='sphere', color='blue', location={x:-38, y:-90, z:-19})"
+"Create a blue cube at position 97, -93, 88.","createObject(type='cube', color='blue', location={x:97, y:-93, z:88})"
+"Create a yellow cube at position 38, -49, -10.","createObject(type='cube', color='yellow', location={x:38, y:-49, z:-10})"
+"Create a blue pyramid at position -45, -90, 40.","createObject(type='pyramid', color='blue', location={x:-45, y:-90, z:40})"
+"Create a blue pyramid at position 78, -76, 50.","createObject(type='pyramid', color='blue', location={x:78, y:-76, z:50})"
+"Create a red sphere at position -91, -73, 8.","createObject(type='sphere', color='red', location={x:-91, y:-73, z:8})"
+"Create a green pyramid at position 4, -53, 42.","createObject(type='pyramid', color='green', location={x:4, y:-53, z:42})"
+"Create a yellow cube at position -60, 77, -48.","createObject(type='cube', color='yellow', location={x:-60, y:77, z:-48})"
+"Create a yellow sphere at position -68, -64, -56.","createObject(type='sphere', color='yellow', location={x:-68, y:-64, z:-56})"
+"Create a blue pyramid at position -8, 39, 59.","createObject(type='pyramid', color='blue', location={x:-8, y:39, z:59})"
+"Create a blue cube at position 92, 8, 11.","createObject(type='cube', color='blue', location={x:92, y:8, z:11})"
+"Create a red pyramid at position 0, -25, 99.","createObject(type='pyramid', color='red', location={x:0, y:-25, z:99})"
+"Create a yellow cube at position 47, -95, 95.","createObject(type='cube', color='yellow', location={x:47, y:-95, z:95})"
+"Create a yellow sphere at position -6, 9, 4.","createObject(type='sphere', color='yellow', location={x:-6, y:9, z:4})"
+"Create a green pyramid at position -46, -50, -65.","createObject(type='pyramid', color='green', location={x:-46, y:-50, z:-65})"
+"Create a red cube at position -31, -73, 86.","createObject(type='cube', color='red', location={x:-31, y:-73, z:86})"
+"Create a red pyramid at position 17, 23, 27.","createObject(type='pyramid', color='red', location={x:17, y:23, z:27})"
+"Create a blue cube at position 79, 98, -20.","createObject(type='cube', color='blue', location={x:79, y:98, z:-20})"
+"Create a green pyramid at position 93, -7, -93.","createObject(type='pyramid', color='green', location={x:93, y:-7, z:-93})"
+"Create a yellow sphere at position -9, 21, -2.","createObject(type='sphere', color='yellow', location={x:-9, y:21, z:-2})"
+"Create a blue sphere at position 21, 47, -88.","createObject(type='sphere', color='blue', location={x:21, y:47, z:-88})"
+"Create a green cube at position -81, -17, 91.","createObject(type='cube', color='green', location={x:-81, y:-17, z:91})"
+"Create a green sphere at position 77, -35, -6.","createObject(type='sphere', color='green', location={x:77, y:-35, z:-6})"
+"Create a green cube at position -67, 15, -40.","createObject(type='cube', color='green', location={x:-67, y:15, z:-40})"
+"Create a green sphere at position 13, -60, -14.","createObject(type='sphere', color='green', location={x:13, y:-60, z:-14})"
+"Create a green pyramid at position -96, 1, -26.","createObject(type='pyramid', color='green', location={x:-96, y:1, z:-26})"
+"Create a yellow sphere at position 75, 48, -77.","createObject(type='sphere', color='yellow', location={x:75, y:48, z:-77})"
+"Create a red pyramid at position -19, -40, 7.","createObject(type='pyramid', color='red', location={x:-19, y:-40, z:7})"
+"Create a yellow cube at position 63, -98, -65.","createObject(type='cube', color='yellow', location={x:63, y:-98, z:-65})"
+"Create a red pyramid at position 11, -5, 25.","createObject(type='pyramid', color='red', location={x:11, y:-5, z:25})"
+"Create a yellow cube at position 51, -64, -76.","createObject(type='cube', color='yellow', location={x:51, y:-64, z:-76})"
+"Create a red pyramid at position -35, 90, 11.","createObject(type='pyramid', color='red', location={x:-35, y:90, z:11})"
+"Create a green sphere at position 35, 63, -32.","createObject(type='sphere', color='green', location={x:35, y:63, z:-32})"
+"Create a red sphere at position -98, -48, -63.","createObject(type='sphere', color='red', location={x:-98, y:-48, z:-63})"
+"Create a red pyramid at position -73, -9, 50.","createObject(type='pyramid', color='red', location={x:-73, y:-9, z:50})"
+"Create a yellow cube at position -13, -42, -71.","createObject(type='cube', color='yellow', location={x:-13, y:-42, z:-71})"
+"Create a red cube at position -92, -38, 56.","createObject(type='cube', color='red', location={x:-92, y:-38, z:56})"
+"Create a yellow sphere at position -20, -28, 78.","createObject(type='sphere', color='yellow', location={x:-20, y:-28, z:78})"
+"Create a blue cube at position 3, -76, 91.","createObject(type='cube', color='blue', location={x:3, y:-76, z:91})"
+"Create a blue pyramid at position -16, -23, -87.","createObject(type='pyramid', color='blue', location={x:-16, y:-23, z:-87})"
+"Create a yellow pyramid at position -88, 22, -96.","createObject(type='pyramid', color='yellow', location={x:-88, y:22, z:-96})"
+"Create a yellow sphere at position 5, -89, -33.","createObject(type='sphere', color='yellow', location={x:5, y:-89, z:-33})"
+"Create a green sphere at position 76, -11, -76.","createObject(type='sphere', color='green', location={x:76, y:-11, z:-76})"
+"Create a green sphere at position -93, 48, -24.","createObject(type='sphere', color='green', location={x:-93, y:48, z:-24})"
+"Create a red sphere at position 17, 96, -79.","createObject(type='sphere', color='red', location={x:17, y:96, z:-79})"
+"Create a green cube at position -99, 56, -34.","createObject(type='cube', color='green', location={x:-99, y:56, z:-34})"
+"Create a yellow sphere at position -27, -6, 76.","createObject(type='sphere', color='yellow', location={x:-27, y:-6, z:76})"
+"Create a blue pyramid at position 94, -87, 11.","createObject(type='pyramid', color='blue', location={x:94, y:-87, z:11})"
+"Create a blue cube at position -2, -43, 74.","createObject(type='cube', color='blue', location={x:-2, y:-43, z:74})"
+"Create a red pyramid at position -54, 15, 45.","createObject(type='pyramid', color='red', location={x:-54, y:15, z:45})"
+"Create a red pyramid at position 61, -95, 82.","createObject(type='pyramid', color='red', location={x:61, y:-95, z:82})"
+"Create a green pyramid at position 29, 31, -33.","createObject(type='pyramid', color='green', location={x:29, y:31, z:-33})"
+"Create a red pyramid at position 90, 1, -1.","createObject(type='pyramid', color='red', location={x:90, y:1, z:-1})"
+"Create a yellow cube at position 18, 87, 43.","createObject(type='cube', color='yellow', location={x:18, y:87, z:43})"
+"Create a green cube at position -96, -87, 72.","createObject(type='cube', color='green', location={x:-96, y:-87, z:72})"
+"Create a yellow pyramid at position 3, -100, 30.","createObject(type='pyramid', color='yellow', location={x:3, y:-100, z:30})"
+"Create a blue pyramid at position 42, 7, -4.","createObject(type='pyramid', color='blue', location={x:42, y:7, z:-4})"
+"Create a yellow cube at position 38, 84, 75.","createObject(type='cube', color='yellow', location={x:38, y:84, z:75})"
+"Create a green pyramid at position -19, -18, -79.","createObject(type='pyramid', color='green', location={x:-19, y:-18, z:-79})"
+"Create a yellow sphere at position -30, 9, 42.","createObject(type='sphere', color='yellow', location={x:-30, y:9, z:42})"
+"Create a blue sphere at position 81, 37, -49.","createObject(type='sphere', color='blue', location={x:81, y:37, z:-49})"
+"Create a red sphere at position 85, -41, -94.","createObject(type='sphere', color='red', location={x:85, y:-41, z:-94})"
+"Create a green sphere at position 40, 81, -23.","createObject(type='sphere', color='green', location={x:40, y:81, z:-23})"
+"Create a red sphere at position -37, -84, -13.","createObject(type='sphere', color='red', location={x:-37, y:-84, z:-13})"
+"Create a yellow sphere at position -15, 20, -73.","createObject(type='sphere', color='yellow', location={x:-15, y:20, z:-73})"
+"Create a green cube at position -80, -53, 57.","createObject(type='cube', color='green', location={x:-80, y:-53, z:57})"
+"Create a blue cube at position -57, 69, 46.","createObject(type='cube', color='blue', location={x:-57, y:69, z:46})"
+"Create a green pyramid at position -96, 58, 67.","createObject(type='pyramid', color='green', location={x:-96, y:58, z:67})"
+"Create a red cube at position 55, -14, -82.","createObject(type='cube', color='red', location={x:55, y:-14, z:-82})"
+"Move the pyramid to position -46, -71, 45.","moveObject(target='pyramid', location={x:-46, y:-71, z:45})"
+"Move the sphere to position 38, 56, -67.","moveObject(target='sphere', location={x:38, y:56, z:-67})"
+"Move the pyramid to position -10, 63, 54.","moveObject(target='pyramid', location={x:-10, y:63, z:54})"
+"Move the cube to position -94, 48, -66.","moveObject(target='cube', location={x:-94, y:48, z:-66})"
+"Move the pyramid to position 81, -62, -39.","moveObject(target='pyramid', location={x:81, y:-62, z:-39})"
+"Move the pyramid to position 81, 36, 47.","moveObject(target='pyramid', location={x:81, y:36, z:47})"
+"Move the pyramid to position -86, -97, -96.","moveObject(target='pyramid', location={x:-86, y:-97, z:-96})"
+"Move the pyramid to position 23, -3, -16.","moveObject(target='pyramid', location={x:23, y:-3, z:-16})"
+"Move the cube to position 94, -18, 41.","moveObject(target='cube', location={x:94, y:-18, z:41})"
+"Move the cube to position 95, 27, -32.","moveObject(target='cube', location={x:95, y:27, z:-32})"
+"Move the cube to position -95, 82, 91.","moveObject(target='cube', location={x:-95, y:82, z:91})"
+"Move the pyramid to position 73, 47, 65.","moveObject(target='pyramid', location={x:73, y:47, z:65})"
+"Move the sphere to position -40, 85, -65.","moveObject(target='sphere', location={x:-40, y:85, z:-65})"
+"Move the sphere to position 21, -50, 19.","moveObject(target='sphere', location={x:21, y:-50, z:19})"
+"Move the pyramid to position -17, -25, -21.","moveObject(target='pyramid', location={x:-17, y:-25, z:-21})"
+"Move the cube to position -20, -82, -26.","moveObject(target='cube', location={x:-20, y:-82, z:-26})"
+"Move the sphere to position 100, -89, 37.","moveObject(target='sphere', location={x:100, y:-89, z:37})"
+"Move the pyramid to position -28, 96, -92.","moveObject(target='pyramid', location={x:-28, y:96, z:-92})"
+"Move the sphere to position -81, -93, 79.","moveObject(target='sphere', location={x:-81, y:-93, z:79})"
+"Move the sphere to position -80, -91, -79.","moveObject(target='sphere', location={x:-80, y:-91, z:-79})"
+"Move the pyramid to position -73, 83, -79.","moveObject(target='pyramid', location={x:-73, y:83, z:-79})"
+"Move the pyramid to position 66, -11, -40.","moveObject(target='pyramid', location={x:66, y:-11, z:-40})"
+"Move the pyramid to position -88, -72, -94.","moveObject(target='pyramid', location={x:-88, y:-72, z:-94})"
+"Move the pyramid to position -9, 54, -30.","moveObject(target='pyramid', location={x:-9, y:54, z:-30})"
+"Move the pyramid to position 5, 72, 61.","moveObject(target='pyramid', location={x:5, y:72, z:61})"
+"Move the cube to position -76, 11, 47.","moveObject(target='cube', location={x:-76, y:11, z:47})"
+"Move the pyramid to position -43, -85, 32.","moveObject(target='pyramid', location={x:-43, y:-85, z:32})"
+"Move the sphere to position 75, -30, 9.","moveObject(target='sphere', location={x:75, y:-30, z:9})"
+"Move the sphere to position 12, 39, 73.","moveObject(target='sphere', location={x:12, y:39, z:73})"
+"Move the cube to position 90, 95, 42.","moveObject(target='cube', location={x:90, y:95, z:42})"
+"Move the cube to position -2, 75, 37.","moveObject(target='cube', location={x:-2, y:75, z:37})"
+"Move the cube to position 92, 21, 42.","moveObject(target='cube', location={x:92, y:21, z:42})"
+"Move the cube to position 90, -88, -50.","moveObject(target='cube', location={x:90, y:-88, z:-50})"
+"Move the cube to position 77, -22, -27.","moveObject(target='cube', location={x:77, y:-22, z:-27})"
+"Move the sphere to position -86, -12, 75.","moveObject(target='sphere', location={x:-86, y:-12, z:75})"
+"Move the cube to position -68, 78, -78.","moveObject(target='cube', location={x:-68, y:78, z:-78})"
+"Move the cube to position 63, 89, 25.","moveObject(target='cube', location={x:63, y:89, z:25})"
+"Move the cube to position 44, -91, -36.","moveObject(target='cube', location={x:44, y:-91, z:-36})"
+"Move the pyramid to position 75, 19, -1.","moveObject(target='pyramid', location={x:75, y:19, z:-1})"
+"Move the cube to position 1, -37, -71.","moveObject(target='cube', location={x:1, y:-37, z:-71})"
+"Move the sphere to position 57, 38, -40.","moveObject(target='sphere', location={x:57, y:38, z:-40})"
+"Move the pyramid to position -34, 72, -56.","moveObject(target='pyramid', location={x:-34, y:72, z:-56})"
+"Move the sphere to position -59, 50, -61.","moveObject(target='sphere', location={x:-59, y:50, z:-61})"
+"Move the sphere to position -98, -70, 11.","moveObject(target='sphere', location={x:-98, y:-70, z:11})"
+"Move the sphere to position -20, 67, 81.","moveObject(target='sphere', location={x:-20, y:67, z:81})"
+"Move the sphere to position -13, 70, -94.","moveObject(target='sphere', location={x:-13, y:70, z:-94})"
+"Move the pyramid to position 31, -46, -51.","moveObject(target='pyramid', location={x:31, y:-46, z:-51})"
+"Move the sphere to position -66, -67, -79.","moveObject(target='sphere', location={x:-66, y:-67, z:-79})"
+"Move the pyramid to position -65, -22, -56.","moveObject(target='pyramid', location={x:-65, y:-22, z:-56})"
+"Move the pyramid to position -87, 86, 97.","moveObject(target='pyramid', location={x:-87, y:86, z:97})"
+"Move the cube to position 83, 66, 21.","moveObject(target='cube', location={x:83, y:66, z:21})"
+"Move the pyramid to position -85, -15, 95.","moveObject(target='pyramid', location={x:-85, y:-15, z:95})"
+"Move the sphere to position -79, -51, 9.","moveObject(target='sphere', location={x:-79, y:-51, z:9})"
+"Move the pyramid to position -92, -34, -65.","moveObject(target='pyramid', location={x:-92, y:-34, z:-65})"
+"Move the cube to position 90, -35, -57.","moveObject(target='cube', location={x:90, y:-35, z:-57})"
+"Move the cube to position 76, -100, -75.","moveObject(target='cube', location={x:76, y:-100, z:-75})"
+"Move the pyramid to position -52, -79, -71.","moveObject(target='pyramid', location={x:-52, y:-79, z:-71})"
+"Move the cube to position 7, 48, 89.","moveObject(target='cube', location={x:7, y:48, z:89})"
+"Move the cube to position -61, 89, -61.","moveObject(target='cube', location={x:-61, y:89, z:-61})"
+"Move the sphere to position 38, -28, 12.","moveObject(target='sphere', location={x:38, y:-28, z:12})"
+"Move the cube to position 60, -31, 53.","moveObject(target='cube', location={x:60, y:-31, z:53})"
+"Move the sphere to position -7, -11, 51.","moveObject(target='sphere', location={x:-7, y:-11, z:51})"
+"Move the cube to position -61, 15, -2.","moveObject(target='cube', location={x:-61, y:15, z:-2})"
+"Move the sphere to position -49, 54, -77.","moveObject(target='sphere', location={x:-49, y:54, z:-77})"
+"Move the pyramid to position 4, -8, -50.","moveObject(target='pyramid', location={x:4, y:-8, z:-50})"
+"Move the pyramid to position -47, 37, 87.","moveObject(target='pyramid', location={x:-47, y:37, z:87})"
+"Move the sphere to position 72, -17, -27.","moveObject(target='sphere', location={x:72, y:-17, z:-27})"
+"Move the sphere to position -94, -59, 82.","moveObject(target='sphere', location={x:-94, y:-59, z:82})"
+"Move the cube to position 37, 43, 66.","moveObject(target='cube', location={x:37, y:43, z:66})"
+"Move the sphere to position 25, -65, -47.","moveObject(target='sphere', location={x:25, y:-65, z:-47})"
+"Move the sphere to position 18, -30, 1.","moveObject(target='sphere', location={x:18, y:-30, z:1})"
+"Move the pyramid to position -62, -44, -100.","moveObject(target='pyramid', location={x:-62, y:-44, z:-100})"
+"Move the sphere to position 37, 38, 3.","moveObject(target='sphere', location={x:37, y:38, z:3})"
+"Move the pyramid to position -87, 45, 67.","moveObject(target='pyramid', location={x:-87, y:45, z:67})"
+"Move the cube to position -36, -37, 62.","moveObject(target='cube', location={x:-36, y:-37, z:62})"
+"Move the cube to position -54, 46, -24.","moveObject(target='cube', location={x:-54, y:46, z:-24})"
+"Move the sphere to position 75, 27, 29.","moveObject(target='sphere', location={x:75, y:27, z:29})"
+"Move the pyramid to position 67, 76, -30.","moveObject(target='pyramid', location={x:67, y:76, z:-30})"
+"Move the pyramid to position 5, 29, -98.","moveObject(target='pyramid', location={x:5, y:29, z:-98})"
+"Move the pyramid to position 73, 12, -15.","moveObject(target='pyramid', location={x:73, y:12, z:-15})"
+"Move the cube to position 80, 64, 15.","moveObject(target='cube', location={x:80, y:64, z:15})"
+"Move the sphere to position 40, 14, -2.","moveObject(target='sphere', location={x:40, y:14, z:-2})"
+"Move the pyramid to position -92, -11, 42.","moveObject(target='pyramid', location={x:-92, y:-11, z:42})"
+"Move the pyramid to position 81, 30, 71.","moveObject(target='pyramid', location={x:81, y:30, z:71})"
+"Move the pyramid to position -71, 53, -42.","moveObject(target='pyramid', location={x:-71, y:53, z:-42})"
+"Move the sphere to position 25, 91, 81.","moveObject(target='sphere', location={x:25, y:91, z:81})"
+"Move the sphere to position -7, -93, -97.","moveObject(target='sphere', location={x:-7, y:-93, z:-97})"
+"Move the pyramid to position -44, 18, 91.","moveObject(target='pyramid', location={x:-44, y:18, z:91})"
+"Move the pyramid to position 45, -72, 2.","moveObject(target='pyramid', location={x:45, y:-72, z:2})"
+"Move the cube to position -71, -28, -95.","moveObject(target='cube', location={x:-71, y:-28, z:-95})"
+"Move the sphere to position -56, -77, 60.","moveObject(target='sphere', location={x:-56, y:-77, z:60})"
+"Move the cube to position 11, 34, 97.","moveObject(target='cube', location={x:11, y:34, z:97})"
+"Move the sphere to position 24, 42, 37.","moveObject(target='sphere', location={x:24, y:42, z:37})"
+"Move the cube to position 28, 60, 22.","moveObject(target='cube', location={x:28, y:60, z:22})"
+"Move the pyramid to position 3, -55, 44.","moveObject(target='pyramid', location={x:3, y:-55, z:44})"
+"Move the cube to position -68, -42, -74.","moveObject(target='cube', location={x:-68, y:-42, z:-74})"
+"Move the cube to position 43, -64, -72.","moveObject(target='cube', location={x:43, y:-64, z:-72})"
+"Move the cube to position -81, 7, -91.","moveObject(target='cube', location={x:-81, y:7, z:-91})"
+"Move the cube to position 88, -40, -27.","moveObject(target='cube', location={x:88, y:-40, z:-27})"
+"Move the pyramid to position 58, 92, 93.","moveObject(target='pyramid', location={x:58, y:92, z:93})"
+"Rotate the pyramid by 54 degrees on the X-axis, 30 degrees on the Y-axis, and -52 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:54, y:30, z:-52})"
+"Rotate the cube by 56 degrees on the X-axis, -46 degrees on the Y-axis, and -16 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:56, y:-46, z:-16})"
+"Rotate the pyramid by 93 degrees on the X-axis, -26 degrees on the Y-axis, and -10 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:93, y:-26, z:-10})"
+"Rotate the cube by 15 degrees on the X-axis, 30 degrees on the Y-axis, and 97 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:15, y:30, z:97})"
+"Rotate the cube by 23 degrees on the X-axis, 60 degrees on the Y-axis, and -80 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:23, y:60, z:-80})"
+"Rotate the sphere by -26 degrees on the X-axis, -95 degrees on the Y-axis, and 85 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:-26, y:-95, z:85})"
+"Rotate the sphere by 81 degrees on the X-axis, 78 degrees on the Y-axis, and -69 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:81, y:78, z:-69})"
+"Rotate the pyramid by -2 degrees on the X-axis, 15 degrees on the Y-axis, and -81 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:-2, y:15, z:-81})"
+"Rotate the cube by 44 degrees on the X-axis, 32 degrees on the Y-axis, and -6 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:44, y:32, z:-6})"
+"Rotate the sphere by 9 degrees on the X-axis, 46 degrees on the Y-axis, and 87 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:9, y:46, z:87})"
+"Rotate the sphere by -80 degrees on the X-axis, -98 degrees on the Y-axis, and 76 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:-80, y:-98, z:76})"
+"Rotate the cube by 35 degrees on the X-axis, -67 degrees on the Y-axis, and 77 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:35, y:-67, z:77})"
+"Rotate the cube by 31 degrees on the X-axis, 94 degrees on the Y-axis, and 76 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:31, y:94, z:76})"
+"Rotate the sphere by 97 degrees on the X-axis, 61 degrees on the Y-axis, and 81 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:97, y:61, z:81})"
+"Rotate the pyramid by -24 degrees on the X-axis, -22 degrees on the Y-axis, and 88 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:-24, y:-22, z:88})"
+"Rotate the sphere by 82 degrees on the X-axis, 64 degrees on the Y-axis, and 44 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:82, y:64, z:44})"
+"Rotate the sphere by -25 degrees on the X-axis, -48 degrees on the Y-axis, and 43 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:-25, y:-48, z:43})"
+"Rotate the sphere by 96 degrees on the X-axis, 0 degrees on the Y-axis, and -23 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:96, y:0, z:-23})"
+"Rotate the sphere by -98 degrees on the X-axis, -90 degrees on the Y-axis, and 88 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:-98, y:-90, z:88})"
+"Rotate the cube by 11 degrees on the X-axis, 62 degrees on the Y-axis, and 51 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:11, y:62, z:51})"
+"Rotate the pyramid by 98 degrees on the X-axis, -39 degrees on the Y-axis, and -93 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:98, y:-39, z:-93})"
+"Rotate the cube by 70 degrees on the X-axis, 11 degrees on the Y-axis, and 83 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:70, y:11, z:83})"
+"Rotate the cube by 100 degrees on the X-axis, 92 degrees on the Y-axis, and 18 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:100, y:92, z:18})"
+"Rotate the pyramid by -71 degrees on the X-axis, -60 degrees on the Y-axis, and 43 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:-71, y:-60, z:43})"
+"Rotate the cube by -9 degrees on the X-axis, 37 degrees on the Y-axis, and -26 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:-9, y:37, z:-26})"
+"Rotate the sphere by 9 degrees on the X-axis, -83 degrees on the Y-axis, and 68 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:9, y:-83, z:68})"
+"Rotate the cube by -97 degrees on the X-axis, 0 degrees on the Y-axis, and 5 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:-97, y:0, z:5})"
+"Rotate the pyramid by 35 degrees on the X-axis, 98 degrees on the Y-axis, and 60 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:35, y:98, z:60})"
+"Rotate the sphere by 35 degrees on the X-axis, -65 degrees on the Y-axis, and -92 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:35, y:-65, z:-92})"
+"Rotate the pyramid by 35 degrees on the X-axis, 45 degrees on the Y-axis, and -37 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:35, y:45, z:-37})"
+"Rotate the cube by 37 degrees on the X-axis, 3 degrees on the Y-axis, and -77 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:37, y:3, z:-77})"
+"Rotate the sphere by -81 degrees on the X-axis, 87 degrees on the Y-axis, and 36 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:-81, y:87, z:36})"
+"Rotate the cube by 4 degrees on the X-axis, -94 degrees on the Y-axis, and -20 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:4, y:-94, z:-20})"
+"Rotate the cube by 59 degrees on the X-axis, -6 degrees on the Y-axis, and 72 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:59, y:-6, z:72})"
+"Rotate the cube by 60 degrees on the X-axis, 73 degrees on the Y-axis, and 16 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:60, y:73, z:16})"
+"Rotate the cube by 12 degrees on the X-axis, -78 degrees on the Y-axis, and -50 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:12, y:-78, z:-50})"
+"Rotate the sphere by -50 degrees on the X-axis, -75 degrees on the Y-axis, and -92 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:-50, y:-75, z:-92})"
+"Rotate the sphere by 53 degrees on the X-axis, 83 degrees on the Y-axis, and -4 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:53, y:83, z:-4})"
+"Rotate the pyramid by 54 degrees on the X-axis, 95 degrees on the Y-axis, and -52 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:54, y:95, z:-52})"
+"Rotate the pyramid by -36 degrees on the X-axis, 40 degrees on the Y-axis, and -44 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:-36, y:40, z:-44})"
+"Rotate the sphere by -35 degrees on the X-axis, -86 degrees on the Y-axis, and -77 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:-35, y:-86, z:-77})"
+"Rotate the sphere by 47 degrees on the X-axis, -41 degrees on the Y-axis, and 36 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:47, y:-41, z:36})"
+"Rotate the pyramid by -76 degrees on the X-axis, 40 degrees on the Y-axis, and -92 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:-76, y:40, z:-92})"
+"Rotate the pyramid by 84 degrees on the X-axis, -38 degrees on the Y-axis, and 1 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:84, y:-38, z:1})"
+"Rotate the cube by 93 degrees on the X-axis, 14 degrees on the Y-axis, and 7 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:93, y:14, z:7})"
+"Rotate the sphere by 31 degrees on the X-axis, -34 degrees on the Y-axis, and 66 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:31, y:-34, z:66})"
+"Rotate the sphere by -29 degrees on the X-axis, 59 degrees on the Y-axis, and -13 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:-29, y:59, z:-13})"
+"Rotate the sphere by 62 degrees on the X-axis, 91 degrees on the Y-axis, and -29 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:62, y:91, z:-29})"
+"Rotate the sphere by 98 degrees on the X-axis, 73 degrees on the Y-axis, and 2 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:98, y:73, z:2})"
+"Rotate the pyramid by -25 degrees on the X-axis, 68 degrees on the Y-axis, and -72 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:-25, y:68, z:-72})"
+"Rotate the sphere by -21 degrees on the X-axis, 84 degrees on the Y-axis, and 28 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:-21, y:84, z:28})"
+"Rotate the pyramid by -6 degrees on the X-axis, 33 degrees on the Y-axis, and -19 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:-6, y:33, z:-19})"
+"Rotate the sphere by 33 degrees on the X-axis, 65 degrees on the Y-axis, and -22 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:33, y:65, z:-22})"
+"Rotate the pyramid by 6 degrees on the X-axis, -6 degrees on the Y-axis, and 10 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:6, y:-6, z:10})"
+"Rotate the sphere by 78 degrees on the X-axis, -31 degrees on the Y-axis, and 89 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:78, y:-31, z:89})"
+"Rotate the sphere by 94 degrees on the X-axis, -14 degrees on the Y-axis, and 46 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:94, y:-14, z:46})"
+"Rotate the sphere by -64 degrees on the X-axis, 21 degrees on the Y-axis, and -30 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:-64, y:21, z:-30})"
+"Rotate the sphere by -2 degrees on the X-axis, 13 degrees on the Y-axis, and -80 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:-2, y:13, z:-80})"
+"Rotate the pyramid by 94 degrees on the X-axis, -45 degrees on the Y-axis, and -28 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:94, y:-45, z:-28})"
+"Rotate the pyramid by -100 degrees on the X-axis, 14 degrees on the Y-axis, and 72 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:-100, y:14, z:72})"
+"Rotate the sphere by -74 degrees on the X-axis, -98 degrees on the Y-axis, and 90 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:-74, y:-98, z:90})"
+"Rotate the pyramid by 53 degrees on the X-axis, -97 degrees on the Y-axis, and 98 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:53, y:-97, z:98})"
+"Rotate the sphere by 37 degrees on the X-axis, -97 degrees on the Y-axis, and -13 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:37, y:-97, z:-13})"
+"Rotate the cube by 52 degrees on the X-axis, 39 degrees on the Y-axis, and -7 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:52, y:39, z:-7})"
+"Rotate the pyramid by 59 degrees on the X-axis, -57 degrees on the Y-axis, and 14 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:59, y:-57, z:14})"
+"Rotate the sphere by -96 degrees on the X-axis, 67 degrees on the Y-axis, and 86 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:-96, y:67, z:86})"
+"Rotate the sphere by -16 degrees on the X-axis, 69 degrees on the Y-axis, and -52 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:-16, y:69, z:-52})"
+"Rotate the pyramid by 100 degrees on the X-axis, -70 degrees on the Y-axis, and -40 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:100, y:-70, z:-40})"
+"Rotate the cube by 93 degrees on the X-axis, -2 degrees on the Y-axis, and 37 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:93, y:-2, z:37})"
+"Rotate the pyramid by 93 degrees on the X-axis, 45 degrees on the Y-axis, and -57 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:93, y:45, z:-57})"
+"Rotate the cube by 84 degrees on the X-axis, -34 degrees on the Y-axis, and 30 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:84, y:-34, z:30})"
+"Rotate the pyramid by 76 degrees on the X-axis, -87 degrees on the Y-axis, and -49 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:76, y:-87, z:-49})"
+"Rotate the pyramid by -65 degrees on the X-axis, -26 degrees on the Y-axis, and 76 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:-65, y:-26, z:76})"
+"Rotate the pyramid by -7 degrees on the X-axis, -28 degrees on the Y-axis, and -14 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:-7, y:-28, z:-14})"
+"Rotate the cube by 69 degrees on the X-axis, 55 degrees on the Y-axis, and 36 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:69, y:55, z:36})"
+"Rotate the pyramid by 8 degrees on the X-axis, -15 degrees on the Y-axis, and 48 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:8, y:-15, z:48})"
+"Rotate the sphere by -65 degrees on the X-axis, -52 degrees on the Y-axis, and -14 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:-65, y:-52, z:-14})"
+"Rotate the pyramid by 0 degrees on the X-axis, -82 degrees on the Y-axis, and 45 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:0, y:-82, z:45})"
+"Rotate the cube by -52 degrees on the X-axis, -81 degrees on the Y-axis, and -97 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:-52, y:-81, z:-97})"
+"Rotate the cube by -8 degrees on the X-axis, -75 degrees on the Y-axis, and 33 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:-8, y:-75, z:33})"
+"Rotate the cube by -89 degrees on the X-axis, -55 degrees on the Y-axis, and -11 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:-89, y:-55, z:-11})"
+"Rotate the sphere by 6 degrees on the X-axis, 34 degrees on the Y-axis, and 4 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:6, y:34, z:4})"
+"Rotate the cube by 40 degrees on the X-axis, -83 degrees on the Y-axis, and -68 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:40, y:-83, z:-68})"
+"Rotate the pyramid by -72 degrees on the X-axis, -25 degrees on the Y-axis, and -22 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:-72, y:-25, z:-22})"
+"Rotate the cube by -30 degrees on the X-axis, 45 degrees on the Y-axis, and 6 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:-30, y:45, z:6})"
+"Rotate the sphere by 12 degrees on the X-axis, -10 degrees on the Y-axis, and 25 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:12, y:-10, z:25})"
+"Rotate the sphere by -29 degrees on the X-axis, -10 degrees on the Y-axis, and -55 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:-29, y:-10, z:-55})"
+"Rotate the cube by -62 degrees on the X-axis, -50 degrees on the Y-axis, and -94 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:-62, y:-50, z:-94})"
+"Rotate the cube by 87 degrees on the X-axis, 95 degrees on the Y-axis, and 72 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:87, y:95, z:72})"
+"Rotate the pyramid by 39 degrees on the X-axis, -91 degrees on the Y-axis, and 8 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:39, y:-91, z:8})"
+"Rotate the sphere by -74 degrees on the X-axis, -60 degrees on the Y-axis, and -35 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:-74, y:-60, z:-35})"
+"Rotate the sphere by -85 degrees on the X-axis, -69 degrees on the Y-axis, and 37 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:-85, y:-69, z:37})"
+"Rotate the cube by 33 degrees on the X-axis, -18 degrees on the Y-axis, and -3 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:33, y:-18, z:-3})"
+"Rotate the cube by 48 degrees on the X-axis, 41 degrees on the Y-axis, and -22 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:48, y:41, z:-22})"
+"Rotate the pyramid by 1 degrees on the X-axis, -16 degrees on the Y-axis, and 72 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:1, y:-16, z:72})"
+"Rotate the cube by 26 degrees on the X-axis, 82 degrees on the Y-axis, and 12 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:26, y:82, z:12})"
+"Rotate the sphere by -100 degrees on the X-axis, 86 degrees on the Y-axis, and -98 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:-100, y:86, z:-98})"
+"Rotate the cube by -38 degrees on the X-axis, 1 degrees on the Y-axis, and 88 degrees on the Z-axis.","rotateObject(target='cube', rotation={x:-38, y:1, z:88})"
+"Rotate the pyramid by 23 degrees on the X-axis, 60 degrees on the Y-axis, and -6 degrees on the Z-axis.","rotateObject(target='pyramid', rotation={x:23, y:60, z:-6})"
+"Rotate the sphere by -60 degrees on the X-axis, 100 degrees on the Y-axis, and 66 degrees on the Z-axis.","rotateObject(target='sphere', rotation={x:-60, y:100, z:66})"
+Scale the sphere by a factor of 1.9931685490139397.,"scaleObject(target='sphere', scale=1.9931685490139397)"
+Scale the sphere by a factor of 0.7462772342466993.,"scaleObject(target='sphere', scale=0.7462772342466993)"
+Scale the sphere by a factor of 1.0401355108099726.,"scaleObject(target='sphere', scale=1.0401355108099726)"
+Scale the cube by a factor of 1.9026641301276062.,"scaleObject(target='cube', scale=1.9026641301276062)"
+Scale the cube by a factor of 1.9734758852893663.,"scaleObject(target='cube', scale=1.9734758852893663)"
+Scale the cube by a factor of 1.6426134483032175.,"scaleObject(target='cube', scale=1.6426134483032175)"
+Scale the sphere by a factor of 0.7858577948955023.,"scaleObject(target='sphere', scale=0.7858577948955023)"
+Scale the sphere by a factor of 1.0056332282873481.,"scaleObject(target='sphere', scale=1.0056332282873481)"
+Scale the cube by a factor of 1.4853682212463104.,"scaleObject(target='cube', scale=1.4853682212463104)"
+Scale the cube by a factor of 1.1323975295715736.,"scaleObject(target='cube', scale=1.1323975295715736)"
+Scale the cube by a factor of 1.3084665897887353.,"scaleObject(target='cube', scale=1.3084665897887353)"
+Scale the pyramid by a factor of 0.9261757347747781.,"scaleObject(target='pyramid', scale=0.9261757347747781)"
+Scale the sphere by a factor of 0.7729112138366347.,"scaleObject(target='sphere', scale=0.7729112138366347)"
+Scale the cube by a factor of 1.4088913081963157.,"scaleObject(target='cube', scale=1.4088913081963157)"
+Scale the sphere by a factor of 0.7178741544434413.,"scaleObject(target='sphere', scale=0.7178741544434413)"
+Scale the pyramid by a factor of 1.727614403997852.,"scaleObject(target='pyramid', scale=1.727614403997852)"
+Scale the sphere by a factor of 1.4825870249559674.,"scaleObject(target='sphere', scale=1.4825870249559674)"
+Scale the sphere by a factor of 0.5326111041039412.,"scaleObject(target='sphere', scale=0.5326111041039412)"
+Scale the sphere by a factor of 1.9911487032550657.,"scaleObject(target='sphere', scale=1.9911487032550657)"
+Scale the pyramid by a factor of 1.1577248575062407.,"scaleObject(target='pyramid', scale=1.1577248575062407)"
+Scale the sphere by a factor of 1.5981357738407338.,"scaleObject(target='sphere', scale=1.5981357738407338)"
+Scale the sphere by a factor of 1.329949479082937.,"scaleObject(target='sphere', scale=1.329949479082937)"
+Scale the sphere by a factor of 1.2399788130050946.,"scaleObject(target='sphere', scale=1.2399788130050946)"
+Scale the pyramid by a factor of 0.5769339658952801.,"scaleObject(target='pyramid', scale=0.5769339658952801)"
+Scale the sphere by a factor of 1.2041035259718031.,"scaleObject(target='sphere', scale=1.2041035259718031)"
+Scale the pyramid by a factor of 0.9915246406906988.,"scaleObject(target='pyramid', scale=0.9915246406906988)"
+Scale the pyramid by a factor of 1.68022884000381.,"scaleObject(target='pyramid', scale=1.68022884000381)"
+Scale the pyramid by a factor of 1.2301868380038188.,"scaleObject(target='pyramid', scale=1.2301868380038188)"
+Scale the sphere by a factor of 1.3633715771818613.,"scaleObject(target='sphere', scale=1.3633715771818613)"
+Scale the cube by a factor of 0.5242941207917248.,"scaleObject(target='cube', scale=0.5242941207917248)"
+Scale the cube by a factor of 0.7961856491000947.,"scaleObject(target='cube', scale=0.7961856491000947)"
+Scale the pyramid by a factor of 1.1114689942708205.,"scaleObject(target='pyramid', scale=1.1114689942708205)"
+Scale the sphere by a factor of 1.5823318267758673.,"scaleObject(target='sphere', scale=1.5823318267758673)"
+Scale the cube by a factor of 1.8262506564861738.,"scaleObject(target='cube', scale=1.8262506564861738)"
+Scale the cube by a factor of 1.1184937765818688.,"scaleObject(target='cube', scale=1.1184937765818688)"
+Scale the pyramid by a factor of 1.8531432575272393.,"scaleObject(target='pyramid', scale=1.8531432575272393)"
+Scale the cube by a factor of 1.043739659094558.,"scaleObject(target='cube', scale=1.043739659094558)"
+Scale the pyramid by a factor of 1.0737927934285008.,"scaleObject(target='pyramid', scale=1.0737927934285008)"
+Scale the pyramid by a factor of 1.5471742486403703.,"scaleObject(target='pyramid', scale=1.5471742486403703)"
+Scale the sphere by a factor of 0.5583924920976627.,"scaleObject(target='sphere', scale=0.5583924920976627)"
+Scale the pyramid by a factor of 0.8641659476806682.,"scaleObject(target='pyramid', scale=0.8641659476806682)"
+Scale the sphere by a factor of 1.8851042977447645.,"scaleObject(target='sphere', scale=1.8851042977447645)"
+Scale the pyramid by a factor of 1.2976920215225065.,"scaleObject(target='pyramid', scale=1.2976920215225065)"
+Scale the sphere by a factor of 1.9376719763264403.,"scaleObject(target='sphere', scale=1.9376719763264403)"
+Scale the sphere by a factor of 0.7638090781501914.,"scaleObject(target='sphere', scale=0.7638090781501914)"
+Scale the sphere by a factor of 1.9988783929411804.,"scaleObject(target='sphere', scale=1.9988783929411804)"
+Scale the pyramid by a factor of 1.1689622020574468.,"scaleObject(target='pyramid', scale=1.1689622020574468)"
+Scale the sphere by a factor of 0.6899659654058621.,"scaleObject(target='sphere', scale=0.6899659654058621)"
+Scale the pyramid by a factor of 1.331393032323528.,"scaleObject(target='pyramid', scale=1.331393032323528)"
+Scale the pyramid by a factor of 1.634927489789646.,"scaleObject(target='pyramid', scale=1.634927489789646)"
+Scale the cube by a factor of 1.0816255202048548.,"scaleObject(target='cube', scale=1.0816255202048548)"
+Scale the pyramid by a factor of 1.4667686710332246.,"scaleObject(target='pyramid', scale=1.4667686710332246)"
+Scale the cube by a factor of 1.9001818846260008.,"scaleObject(target='cube', scale=1.9001818846260008)"
+Scale the pyramid by a factor of 1.8305675001926045.,"scaleObject(target='pyramid', scale=1.8305675001926045)"
+Scale the pyramid by a factor of 0.6745920423992322.,"scaleObject(target='pyramid', scale=0.6745920423992322)"
+Scale the sphere by a factor of 0.6233871441900898.,"scaleObject(target='sphere', scale=0.6233871441900898)"
+Scale the sphere by a factor of 0.989541094039253.,"scaleObject(target='sphere', scale=0.989541094039253)"
+Scale the sphere by a factor of 1.1681932578052399.,"scaleObject(target='sphere', scale=1.1681932578052399)"
+Scale the sphere by a factor of 1.2922899042548817.,"scaleObject(target='sphere', scale=1.2922899042548817)"
+Scale the cube by a factor of 1.9768695961421332.,"scaleObject(target='cube', scale=1.9768695961421332)"
+Scale the sphere by a factor of 1.7575704567100618.,"scaleObject(target='sphere', scale=1.7575704567100618)"
+Scale the cube by a factor of 1.5296190055983838.,"scaleObject(target='cube', scale=1.5296190055983838)"
+Scale the pyramid by a factor of 1.2055103849383242.,"scaleObject(target='pyramid', scale=1.2055103849383242)"
+Scale the cube by a factor of 1.2176583835214392.,"scaleObject(target='cube', scale=1.2176583835214392)"
+Scale the pyramid by a factor of 1.83663626411594.,"scaleObject(target='pyramid', scale=1.83663626411594)"
+Scale the cube by a factor of 1.7337826929859395.,"scaleObject(target='cube', scale=1.7337826929859395)"
+Scale the pyramid by a factor of 1.4253069046180389.,"scaleObject(target='pyramid', scale=1.4253069046180389)"
+Scale the sphere by a factor of 1.3538478132473095.,"scaleObject(target='sphere', scale=1.3538478132473095)"
+Scale the cube by a factor of 1.9955872863216169.,"scaleObject(target='cube', scale=1.9955872863216169)"
+Scale the sphere by a factor of 1.404766365614373.,"scaleObject(target='sphere', scale=1.404766365614373)"
+Scale the sphere by a factor of 1.1478841786260312.,"scaleObject(target='sphere', scale=1.1478841786260312)"
+Scale the pyramid by a factor of 1.2581215623674884.,"scaleObject(target='pyramid', scale=1.2581215623674884)"
+Scale the pyramid by a factor of 1.8161685540817383.,"scaleObject(target='pyramid', scale=1.8161685540817383)"
+Scale the pyramid by a factor of 1.9577739412930826.,"scaleObject(target='pyramid', scale=1.9577739412930826)"
+Scale the cube by a factor of 1.6559440065760356.,"scaleObject(target='cube', scale=1.6559440065760356)"
+Scale the sphere by a factor of 0.5625383985635484.,"scaleObject(target='sphere', scale=0.5625383985635484)"
+Scale the pyramid by a factor of 1.9158853142021202.,"scaleObject(target='pyramid', scale=1.9158853142021202)"
+Scale the pyramid by a factor of 0.5883902774410483.,"scaleObject(target='pyramid', scale=0.5883902774410483)"
+Scale the sphere by a factor of 1.7075577834259876.,"scaleObject(target='sphere', scale=1.7075577834259876)"
+Scale the cube by a factor of 1.1351327192339857.,"scaleObject(target='cube', scale=1.1351327192339857)"
+Scale the sphere by a factor of 0.6682875706199454.,"scaleObject(target='sphere', scale=0.6682875706199454)"
+Scale the sphere by a factor of 0.8367006060866382.,"scaleObject(target='sphere', scale=0.8367006060866382)"
+Scale the pyramid by a factor of 1.1971068370465698.,"scaleObject(target='pyramid', scale=1.1971068370465698)"
+Scale the pyramid by a factor of 1.5020344275063717.,"scaleObject(target='pyramid', scale=1.5020344275063717)"
+Scale the cube by a factor of 1.8652127081412193.,"scaleObject(target='cube', scale=1.8652127081412193)"
+Scale the cube by a factor of 1.0989295005517823.,"scaleObject(target='cube', scale=1.0989295005517823)"
+Scale the pyramid by a factor of 1.6582090185136855.,"scaleObject(target='pyramid', scale=1.6582090185136855)"
+Scale the pyramid by a factor of 1.1932751201079737.,"scaleObject(target='pyramid', scale=1.1932751201079737)"
+Scale the sphere by a factor of 1.8756577696869363.,"scaleObject(target='sphere', scale=1.8756577696869363)"
+Scale the pyramid by a factor of 1.3687392102303613.,"scaleObject(target='pyramid', scale=1.3687392102303613)"
+Scale the pyramid by a factor of 1.2624099638787778.,"scaleObject(target='pyramid', scale=1.2624099638787778)"
+Scale the sphere by a factor of 0.7938757736592292.,"scaleObject(target='sphere', scale=0.7938757736592292)"
+Scale the pyramid by a factor of 1.3112704331518523.,"scaleObject(target='pyramid', scale=1.3112704331518523)"
+Scale the cube by a factor of 1.602217060318798.,"scaleObject(target='cube', scale=1.602217060318798)"
+Scale the sphere by a factor of 1.6477858868083193.,"scaleObject(target='sphere', scale=1.6477858868083193)"
+Scale the cube by a factor of 1.230356092479684.,"scaleObject(target='cube', scale=1.230356092479684)"
+Scale the pyramid by a factor of 1.5083554890371675.,"scaleObject(target='pyramid', scale=1.5083554890371675)"
+Scale the cube by a factor of 0.9889131991512318.,"scaleObject(target='cube', scale=0.9889131991512318)"
+Scale the sphere by a factor of 1.334293025992459.,"scaleObject(target='sphere', scale=1.334293025992459)"
+Scale the sphere by a factor of 0.7049383385755754.,"scaleObject(target='sphere', scale=0.7049383385755754)"
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the cube.,deleteObject(target='cube')
+Delete the cube.,deleteObject(target='cube')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the cube.,deleteObject(target='cube')
+Delete the cube.,deleteObject(target='cube')
+Delete the cube.,deleteObject(target='cube')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the cube.,deleteObject(target='cube')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the cube.,deleteObject(target='cube')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the cube.,deleteObject(target='cube')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the cube.,deleteObject(target='cube')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the cube.,deleteObject(target='cube')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the cube.,deleteObject(target='cube')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the cube.,deleteObject(target='cube')
+Delete the cube.,deleteObject(target='cube')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the cube.,deleteObject(target='cube')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the cube.,deleteObject(target='cube')
+Delete the cube.,deleteObject(target='cube')
+Delete the cube.,deleteObject(target='cube')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the cube.,deleteObject(target='cube')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the cube.,deleteObject(target='cube')
+Delete the cube.,deleteObject(target='cube')
+Delete the cube.,deleteObject(target='cube')
+Delete the cube.,deleteObject(target='cube')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the cube.,deleteObject(target='cube')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the cube.,deleteObject(target='cube')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the cube.,deleteObject(target='cube')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the cube.,deleteObject(target='cube')
+Delete the cube.,deleteObject(target='cube')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the cube.,deleteObject(target='cube')
+Delete the cube.,deleteObject(target='cube')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the cube.,deleteObject(target='cube')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the cube.,deleteObject(target='cube')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the sphere.,deleteObject(target='sphere')
+Delete the cube.,deleteObject(target='cube')
+Delete the pyramid.,deleteObject(target='pyramid')
+Delete the cube.,deleteObject(target='cube')
+Change the color of the cube to blue.,"changeColor(target='cube', color='blue')"
+Change the color of the pyramid to blue.,"changeColor(target='pyramid', color='blue')"
+Change the color of the cube to blue.,"changeColor(target='cube', color='blue')"
+Change the color of the sphere to yellow.,"changeColor(target='sphere', color='yellow')"
+Change the color of the pyramid to yellow.,"changeColor(target='pyramid', color='yellow')"
+Change the color of the pyramid to red.,"changeColor(target='pyramid', color='red')"
+Change the color of the cube to green.,"changeColor(target='cube', color='green')"
+Change the color of the sphere to yellow.,"changeColor(target='sphere', color='yellow')"
+Change the color of the pyramid to red.,"changeColor(target='pyramid', color='red')"
+Change the color of the cube to green.,"changeColor(target='cube', color='green')"
+Change the color of the sphere to yellow.,"changeColor(target='sphere', color='yellow')"
+Change the color of the sphere to green.,"changeColor(target='sphere', color='green')"
+Change the color of the pyramid to blue.,"changeColor(target='pyramid', color='blue')"
+Change the color of the cube to yellow.,"changeColor(target='cube', color='yellow')"
+Change the color of the cube to green.,"changeColor(target='cube', color='green')"
+Change the color of the sphere to green.,"changeColor(target='sphere', color='green')"
+Change the color of the sphere to green.,"changeColor(target='sphere', color='green')"
+Change the color of the sphere to green.,"changeColor(target='sphere', color='green')"
+Change the color of the cube to red.,"changeColor(target='cube', color='red')"
+Change the color of the pyramid to blue.,"changeColor(target='pyramid', color='blue')"
+Change the color of the cube to yellow.,"changeColor(target='cube', color='yellow')"
+Change the color of the sphere to red.,"changeColor(target='sphere', color='red')"
+Change the color of the cube to green.,"changeColor(target='cube', color='green')"
+Change the color of the pyramid to green.,"changeColor(target='pyramid', color='green')"
+Change the color of the sphere to green.,"changeColor(target='sphere', color='green')"
+Change the color of the sphere to yellow.,"changeColor(target='sphere', color='yellow')"
+Change the color of the pyramid to green.,"changeColor(target='pyramid', color='green')"
+Change the color of the pyramid to red.,"changeColor(target='pyramid', color='red')"
+Change the color of the pyramid to green.,"changeColor(target='pyramid', color='green')"
+Change the color of the pyramid to blue.,"changeColor(target='pyramid', color='blue')"
+Change the color of the cube to green.,"changeColor(target='cube', color='green')"
+Change the color of the sphere to green.,"changeColor(target='sphere', color='green')"
+Change the color of the pyramid to red.,"changeColor(target='pyramid', color='red')"
+Change the color of the sphere to blue.,"changeColor(target='sphere', color='blue')"
+Change the color of the cube to green.,"changeColor(target='cube', color='green')"
+Change the color of the sphere to green.,"changeColor(target='sphere', color='green')"
+Change the color of the sphere to blue.,"changeColor(target='sphere', color='blue')"
+Change the color of the cube to green.,"changeColor(target='cube', color='green')"
+Change the color of the cube to green.,"changeColor(target='cube', color='green')"
+Change the color of the cube to yellow.,"changeColor(target='cube', color='yellow')"
+Change the color of the pyramid to blue.,"changeColor(target='pyramid', color='blue')"
+Change the color of the pyramid to red.,"changeColor(target='pyramid', color='red')"
+Change the color of the cube to green.,"changeColor(target='cube', color='green')"
+Change the color of the sphere to blue.,"changeColor(target='sphere', color='blue')"
+Change the color of the pyramid to blue.,"changeColor(target='pyramid', color='blue')"
+Change the color of the sphere to blue.,"changeColor(target='sphere', color='blue')"
+Change the color of the sphere to yellow.,"changeColor(target='sphere', color='yellow')"
+Change the color of the pyramid to yellow.,"changeColor(target='pyramid', color='yellow')"
+Change the color of the pyramid to red.,"changeColor(target='pyramid', color='red')"
+Change the color of the sphere to red.,"changeColor(target='sphere', color='red')"
+Change the color of the cube to red.,"changeColor(target='cube', color='red')"
+Change the color of the cube to blue.,"changeColor(target='cube', color='blue')"
+Change the color of the cube to blue.,"changeColor(target='cube', color='blue')"
+Change the color of the pyramid to green.,"changeColor(target='pyramid', color='green')"
+Change the color of the cube to red.,"changeColor(target='cube', color='red')"
+Change the color of the cube to blue.,"changeColor(target='cube', color='blue')"
+Change the color of the sphere to blue.,"changeColor(target='sphere', color='blue')"
+Change the color of the sphere to red.,"changeColor(target='sphere', color='red')"
+Change the color of the pyramid to yellow.,"changeColor(target='pyramid', color='yellow')"
+Change the color of the sphere to blue.,"changeColor(target='sphere', color='blue')"
+Change the color of the pyramid to blue.,"changeColor(target='pyramid', color='blue')"
+Change the color of the cube to yellow.,"changeColor(target='cube', color='yellow')"
+Change the color of the pyramid to blue.,"changeColor(target='pyramid', color='blue')"
+Change the color of the cube to green.,"changeColor(target='cube', color='green')"
+Change the color of the sphere to red.,"changeColor(target='sphere', color='red')"
+Change the color of the pyramid to red.,"changeColor(target='pyramid', color='red')"
+Change the color of the pyramid to red.,"changeColor(target='pyramid', color='red')"
+Change the color of the cube to blue.,"changeColor(target='cube', color='blue')"
+Change the color of the sphere to red.,"changeColor(target='sphere', color='red')"
+Change the color of the sphere to blue.,"changeColor(target='sphere', color='blue')"
+Change the color of the sphere to red.,"changeColor(target='sphere', color='red')"
+Change the color of the pyramid to green.,"changeColor(target='pyramid', color='green')"
+Change the color of the pyramid to green.,"changeColor(target='pyramid', color='green')"
+Change the color of the sphere to green.,"changeColor(target='sphere', color='green')"
+Change the color of the sphere to blue.,"changeColor(target='sphere', color='blue')"
+Change the color of the pyramid to blue.,"changeColor(target='pyramid', color='blue')"
+Change the color of the sphere to blue.,"changeColor(target='sphere', color='blue')"
+Change the color of the pyramid to yellow.,"changeColor(target='pyramid', color='yellow')"
+Change the color of the sphere to green.,"changeColor(target='sphere', color='green')"
+Change the color of the pyramid to blue.,"changeColor(target='pyramid', color='blue')"
+Change the color of the pyramid to yellow.,"changeColor(target='pyramid', color='yellow')"
+Change the color of the sphere to blue.,"changeColor(target='sphere', color='blue')"
+Change the color of the cube to blue.,"changeColor(target='cube', color='blue')"
+Change the color of the cube to yellow.,"changeColor(target='cube', color='yellow')"
+Change the color of the cube to red.,"changeColor(target='cube', color='red')"
+Change the color of the pyramid to green.,"changeColor(target='pyramid', color='green')"
+Change the color of the pyramid to red.,"changeColor(target='pyramid', color='red')"
+Change the color of the pyramid to green.,"changeColor(target='pyramid', color='green')"
+Change the color of the cube to red.,"changeColor(target='cube', color='red')"
+Change the color of the sphere to blue.,"changeColor(target='sphere', color='blue')"
+Change the color of the cube to green.,"changeColor(target='cube', color='green')"
+Change the color of the cube to red.,"changeColor(target='cube', color='red')"
+Change the color of the pyramid to green.,"changeColor(target='pyramid', color='green')"
+Change the color of the sphere to blue.,"changeColor(target='sphere', color='blue')"
+Change the color of the sphere to red.,"changeColor(target='sphere', color='red')"
+Change the color of the pyramid to red.,"changeColor(target='pyramid', color='red')"
+Change the color of the sphere to red.,"changeColor(target='sphere', color='red')"
+Change the color of the cube to yellow.,"changeColor(target='cube', color='yellow')"
+Change the color of the cube to red.,"changeColor(target='cube', color='red')"
+Change the color of the sphere to red.,"changeColor(target='sphere', color='red')"
+Set the texture of the cube to glass.,"setTexture(target='cube', texture='glass')"
+Set the texture of the cube to metal.,"setTexture(target='cube', texture='metal')"
+Set the texture of the sphere to wood.,"setTexture(target='sphere', texture='wood')"
+Set the texture of the pyramid to wood.,"setTexture(target='pyramid', texture='wood')"
+Set the texture of the cube to wood.,"setTexture(target='cube', texture='wood')"
+Set the texture of the sphere to wood.,"setTexture(target='sphere', texture='wood')"
+Set the texture of the cube to metal.,"setTexture(target='cube', texture='metal')"
+Set the texture of the cube to glass.,"setTexture(target='cube', texture='glass')"
+Set the texture of the sphere to glass.,"setTexture(target='sphere', texture='glass')"
+Set the texture of the sphere to metal.,"setTexture(target='sphere', texture='metal')"
+Set the texture of the sphere to wood.,"setTexture(target='sphere', texture='wood')"
+Set the texture of the pyramid to metal.,"setTexture(target='pyramid', texture='metal')"
+Set the texture of the pyramid to glass.,"setTexture(target='pyramid', texture='glass')"
+Set the texture of the sphere to metal.,"setTexture(target='sphere', texture='metal')"
+Set the texture of the cube to glass.,"setTexture(target='cube', texture='glass')"
+Set the texture of the pyramid to wood.,"setTexture(target='pyramid', texture='wood')"
+Set the texture of the pyramid to glass.,"setTexture(target='pyramid', texture='glass')"
+Set the texture of the cube to wood.,"setTexture(target='cube', texture='wood')"
+Set the texture of the cube to glass.,"setTexture(target='cube', texture='glass')"
+Set the texture of the cube to wood.,"setTexture(target='cube', texture='wood')"
+Set the texture of the sphere to metal.,"setTexture(target='sphere', texture='metal')"
+Set the texture of the pyramid to metal.,"setTexture(target='pyramid', texture='metal')"
+Set the texture of the cube to metal.,"setTexture(target='cube', texture='metal')"
+Set the texture of the cube to wood.,"setTexture(target='cube', texture='wood')"
+Set the texture of the cube to wood.,"setTexture(target='cube', texture='wood')"
+Set the texture of the sphere to wood.,"setTexture(target='sphere', texture='wood')"
+Set the texture of the cube to wood.,"setTexture(target='cube', texture='wood')"
+Set the texture of the cube to wood.,"setTexture(target='cube', texture='wood')"
+Set the texture of the sphere to wood.,"setTexture(target='sphere', texture='wood')"
+Set the texture of the cube to glass.,"setTexture(target='cube', texture='glass')"
+Set the texture of the pyramid to wood.,"setTexture(target='pyramid', texture='wood')"
+Set the texture of the sphere to wood.,"setTexture(target='sphere', texture='wood')"
+Set the texture of the cube to wood.,"setTexture(target='cube', texture='wood')"
+Set the texture of the sphere to glass.,"setTexture(target='sphere', texture='glass')"
+Set the texture of the pyramid to wood.,"setTexture(target='pyramid', texture='wood')"
+Set the texture of the pyramid to glass.,"setTexture(target='pyramid', texture='glass')"
+Set the texture of the pyramid to wood.,"setTexture(target='pyramid', texture='wood')"
+Set the texture of the pyramid to wood.,"setTexture(target='pyramid', texture='wood')"
+Set the texture of the sphere to metal.,"setTexture(target='sphere', texture='metal')"
+Set the texture of the pyramid to wood.,"setTexture(target='pyramid', texture='wood')"
+Set the texture of the cube to wood.,"setTexture(target='cube', texture='wood')"
+Set the texture of the sphere to wood.,"setTexture(target='sphere', texture='wood')"
+Set the texture of the cube to glass.,"setTexture(target='cube', texture='glass')"
+Set the texture of the cube to wood.,"setTexture(target='cube', texture='wood')"
+Set the texture of the pyramid to wood.,"setTexture(target='pyramid', texture='wood')"
+Set the texture of the sphere to metal.,"setTexture(target='sphere', texture='metal')"
+Set the texture of the cube to wood.,"setTexture(target='cube', texture='wood')"
+Set the texture of the cube to wood.,"setTexture(target='cube', texture='wood')"
+Set the texture of the sphere to metal.,"setTexture(target='sphere', texture='metal')"
+Set the texture of the sphere to glass.,"setTexture(target='sphere', texture='glass')"
+Set the texture of the pyramid to metal.,"setTexture(target='pyramid', texture='metal')"
+Set the texture of the cube to metal.,"setTexture(target='cube', texture='metal')"
+Set the texture of the pyramid to glass.,"setTexture(target='pyramid', texture='glass')"
+Set the texture of the sphere to wood.,"setTexture(target='sphere', texture='wood')"
+Set the texture of the pyramid to metal.,"setTexture(target='pyramid', texture='metal')"
+Set the texture of the cube to wood.,"setTexture(target='cube', texture='wood')"
+Set the texture of the sphere to glass.,"setTexture(target='sphere', texture='glass')"
+Set the texture of the sphere to glass.,"setTexture(target='sphere', texture='glass')"
+Set the texture of the sphere to wood.,"setTexture(target='sphere', texture='wood')"
+Set the texture of the sphere to metal.,"setTexture(target='sphere', texture='metal')"
+Set the texture of the sphere to metal.,"setTexture(target='sphere', texture='metal')"
+Set the texture of the sphere to glass.,"setTexture(target='sphere', texture='glass')"
+Set the texture of the sphere to wood.,"setTexture(target='sphere', texture='wood')"
+Set the texture of the pyramid to glass.,"setTexture(target='pyramid', texture='glass')"
+Set the texture of the sphere to wood.,"setTexture(target='sphere', texture='wood')"
+Set the texture of the pyramid to wood.,"setTexture(target='pyramid', texture='wood')"
+Set the texture of the sphere to metal.,"setTexture(target='sphere', texture='metal')"
+Set the texture of the pyramid to wood.,"setTexture(target='pyramid', texture='wood')"
+Set the texture of the cube to wood.,"setTexture(target='cube', texture='wood')"
+Set the texture of the sphere to wood.,"setTexture(target='sphere', texture='wood')"
+Set the texture of the pyramid to glass.,"setTexture(target='pyramid', texture='glass')"
+Set the texture of the pyramid to wood.,"setTexture(target='pyramid', texture='wood')"
+Set the texture of the pyramid to metal.,"setTexture(target='pyramid', texture='metal')"
+Set the texture of the sphere to metal.,"setTexture(target='sphere', texture='metal')"
+Set the texture of the pyramid to wood.,"setTexture(target='pyramid', texture='wood')"
+Set the texture of the sphere to glass.,"setTexture(target='sphere', texture='glass')"
+Set the texture of the sphere to glass.,"setTexture(target='sphere', texture='glass')"
+Set the texture of the sphere to wood.,"setTexture(target='sphere', texture='wood')"
+Set the texture of the pyramid to wood.,"setTexture(target='pyramid', texture='wood')"
+Set the texture of the cube to metal.,"setTexture(target='cube', texture='metal')"
+Set the texture of the cube to metal.,"setTexture(target='cube', texture='metal')"
+Set the texture of the pyramid to metal.,"setTexture(target='pyramid', texture='metal')"
+Set the texture of the sphere to wood.,"setTexture(target='sphere', texture='wood')"
+Set the texture of the cube to glass.,"setTexture(target='cube', texture='glass')"
+Set the texture of the pyramid to metal.,"setTexture(target='pyramid', texture='metal')"
+Set the texture of the cube to wood.,"setTexture(target='cube', texture='wood')"
+Set the texture of the cube to metal.,"setTexture(target='cube', texture='metal')"
+Set the texture of the sphere to metal.,"setTexture(target='sphere', texture='metal')"
+Set the texture of the cube to metal.,"setTexture(target='cube', texture='metal')"
+Set the texture of the cube to glass.,"setTexture(target='cube', texture='glass')"
+Set the texture of the pyramid to metal.,"setTexture(target='pyramid', texture='metal')"
+Set the texture of the cube to metal.,"setTexture(target='cube', texture='metal')"
+Set the texture of the pyramid to wood.,"setTexture(target='pyramid', texture='wood')"
+Set the texture of the pyramid to wood.,"setTexture(target='pyramid', texture='wood')"
+Set the texture of the sphere to metal.,"setTexture(target='sphere', texture='metal')"
+Set the texture of the pyramid to glass.,"setTexture(target='pyramid', texture='glass')"
+Set the texture of the sphere to metal.,"setTexture(target='sphere', texture='metal')"
+Set the texture of the cube to glass.,"setTexture(target='cube', texture='glass')"
+Set the texture of the sphere to glass.,"setTexture(target='sphere', texture='glass')"
+Set the texture of the pyramid to wood.,"setTexture(target='pyramid', texture='wood')"
+Set the transparency of the pyramid to 0.04.,"setTransparency(target='pyramid', transparency=0.04)"
+Set the transparency of the pyramid to 0.57.,"setTransparency(target='pyramid', transparency=0.57)"
+Set the transparency of the pyramid to 0.1.,"setTransparency(target='pyramid', transparency=0.1)"
+Set the transparency of the cube to 0.45.,"setTransparency(target='cube', transparency=0.45)"
+Set the transparency of the cube to 0.66.,"setTransparency(target='cube', transparency=0.66)"
+Set the transparency of the sphere to 0.82.,"setTransparency(target='sphere', transparency=0.82)"
+Set the transparency of the cube to 0.98.,"setTransparency(target='cube', transparency=0.98)"
+Set the transparency of the sphere to 0.35.,"setTransparency(target='sphere', transparency=0.35)"
+Set the transparency of the pyramid to 0.63.,"setTransparency(target='pyramid', transparency=0.63)"
+Set the transparency of the pyramid to 0.97.,"setTransparency(target='pyramid', transparency=0.97)"
+Set the transparency of the sphere to 0.93.,"setTransparency(target='sphere', transparency=0.93)"
+Set the transparency of the pyramid to 0.51.,"setTransparency(target='pyramid', transparency=0.51)"
+Set the transparency of the cube to 0.9.,"setTransparency(target='cube', transparency=0.9)"
+Set the transparency of the cube to 0.16.,"setTransparency(target='cube', transparency=0.16)"
+Set the transparency of the pyramid to 0.43.,"setTransparency(target='pyramid', transparency=0.43)"
+Set the transparency of the sphere to 0.39.,"setTransparency(target='sphere', transparency=0.39)"
+Set the transparency of the sphere to 0.52.,"setTransparency(target='sphere', transparency=0.52)"
+Set the transparency of the pyramid to 0.64.,"setTransparency(target='pyramid', transparency=0.64)"
+Set the transparency of the cube to 0.47.,"setTransparency(target='cube', transparency=0.47)"
+Set the transparency of the pyramid to 0.16.,"setTransparency(target='pyramid', transparency=0.16)"
+Set the transparency of the sphere to 0.84.,"setTransparency(target='sphere', transparency=0.84)"
+Set the transparency of the sphere to 0.75.,"setTransparency(target='sphere', transparency=0.75)"
+Set the transparency of the pyramid to 0.58.,"setTransparency(target='pyramid', transparency=0.58)"
+Set the transparency of the cube to 0.35.,"setTransparency(target='cube', transparency=0.35)"
+Set the transparency of the cube to 0.7.,"setTransparency(target='cube', transparency=0.7)"
+Set the transparency of the sphere to 0.54.,"setTransparency(target='sphere', transparency=0.54)"
+Set the transparency of the cube to 0.78.,"setTransparency(target='cube', transparency=0.78)"
+Set the transparency of the sphere to 0.48.,"setTransparency(target='sphere', transparency=0.48)"
+Set the transparency of the pyramid to 0.42.,"setTransparency(target='pyramid', transparency=0.42)"
+Set the transparency of the cube to 0.81.,"setTransparency(target='cube', transparency=0.81)"
+Set the transparency of the sphere to 0.22.,"setTransparency(target='sphere', transparency=0.22)"
+Set the transparency of the sphere to 0.59.,"setTransparency(target='sphere', transparency=0.59)"
+Set the transparency of the pyramid to 0.35.,"setTransparency(target='pyramid', transparency=0.35)"
+Set the transparency of the pyramid to 1.0.,"setTransparency(target='pyramid', transparency=1.0)"
+Set the transparency of the sphere to 0.03.,"setTransparency(target='sphere', transparency=0.03)"
+Set the transparency of the sphere to 0.54.,"setTransparency(target='sphere', transparency=0.54)"
+Set the transparency of the sphere to 0.62.,"setTransparency(target='sphere', transparency=0.62)"
+Set the transparency of the pyramid to 0.53.,"setTransparency(target='pyramid', transparency=0.53)"
+Set the transparency of the cube to 0.9.,"setTransparency(target='cube', transparency=0.9)"
+Set the transparency of the sphere to 0.01.,"setTransparency(target='sphere', transparency=0.01)"
+Set the transparency of the sphere to 0.26.,"setTransparency(target='sphere', transparency=0.26)"
+Set the transparency of the sphere to 0.7.,"setTransparency(target='sphere', transparency=0.7)"
+Set the transparency of the sphere to 0.18.,"setTransparency(target='sphere', transparency=0.18)"
+Set the transparency of the cube to 0.13.,"setTransparency(target='cube', transparency=0.13)"
+Set the transparency of the sphere to 0.83.,"setTransparency(target='sphere', transparency=0.83)"
+Set the transparency of the sphere to 0.04.,"setTransparency(target='sphere', transparency=0.04)"
+Set the transparency of the sphere to 0.53.,"setTransparency(target='sphere', transparency=0.53)"
+Set the transparency of the cube to 0.96.,"setTransparency(target='cube', transparency=0.96)"
+Set the transparency of the sphere to 0.31.,"setTransparency(target='sphere', transparency=0.31)"
+Set the transparency of the pyramid to 0.28.,"setTransparency(target='pyramid', transparency=0.28)"
+Set the transparency of the sphere to 0.82.,"setTransparency(target='sphere', transparency=0.82)"
+Set the transparency of the sphere to 0.31.,"setTransparency(target='sphere', transparency=0.31)"
+Set the transparency of the pyramid to 0.8.,"setTransparency(target='pyramid', transparency=0.8)"
+Set the transparency of the pyramid to 0.67.,"setTransparency(target='pyramid', transparency=0.67)"
+Set the transparency of the cube to 0.06.,"setTransparency(target='cube', transparency=0.06)"
+Set the transparency of the sphere to 0.01.,"setTransparency(target='sphere', transparency=0.01)"
+Set the transparency of the sphere to 0.88.,"setTransparency(target='sphere', transparency=0.88)"
+Set the transparency of the cube to 0.32.,"setTransparency(target='cube', transparency=0.32)"
+Set the transparency of the cube to 0.35.,"setTransparency(target='cube', transparency=0.35)"
+Set the transparency of the sphere to 0.48.,"setTransparency(target='sphere', transparency=0.48)"
+Set the transparency of the cube to 1.0.,"setTransparency(target='cube', transparency=1.0)"
+Set the transparency of the pyramid to 0.88.,"setTransparency(target='pyramid', transparency=0.88)"
+Set the transparency of the cube to 0.72.,"setTransparency(target='cube', transparency=0.72)"
+Set the transparency of the pyramid to 0.71.,"setTransparency(target='pyramid', transparency=0.71)"
+Set the transparency of the sphere to 0.22.,"setTransparency(target='sphere', transparency=0.22)"
+Set the transparency of the cube to 0.45.,"setTransparency(target='cube', transparency=0.45)"
+Set the transparency of the cube to 0.76.,"setTransparency(target='cube', transparency=0.76)"
+Set the transparency of the sphere to 0.57.,"setTransparency(target='sphere', transparency=0.57)"
+Set the transparency of the pyramid to 0.13.,"setTransparency(target='pyramid', transparency=0.13)"
+Set the transparency of the pyramid to 0.73.,"setTransparency(target='pyramid', transparency=0.73)"
+Set the transparency of the cube to 0.85.,"setTransparency(target='cube', transparency=0.85)"
+Set the transparency of the cube to 0.11.,"setTransparency(target='cube', transparency=0.11)"
+Set the transparency of the pyramid to 0.69.,"setTransparency(target='pyramid', transparency=0.69)"
+Set the transparency of the cube to 0.46.,"setTransparency(target='cube', transparency=0.46)"
+Set the transparency of the pyramid to 0.51.,"setTransparency(target='pyramid', transparency=0.51)"
+Set the transparency of the sphere to 0.86.,"setTransparency(target='sphere', transparency=0.86)"
+Set the transparency of the sphere to 0.61.,"setTransparency(target='sphere', transparency=0.61)"
+Set the transparency of the sphere to 0.2.,"setTransparency(target='sphere', transparency=0.2)"
+Set the transparency of the sphere to 0.12.,"setTransparency(target='sphere', transparency=0.12)"
+Set the transparency of the sphere to 0.55.,"setTransparency(target='sphere', transparency=0.55)"
+Set the transparency of the pyramid to 0.57.,"setTransparency(target='pyramid', transparency=0.57)"
+Set the transparency of the cube to 0.06.,"setTransparency(target='cube', transparency=0.06)"
+Set the transparency of the pyramid to 0.55.,"setTransparency(target='pyramid', transparency=0.55)"
+Set the transparency of the pyramid to 0.22.,"setTransparency(target='pyramid', transparency=0.22)"
+Set the transparency of the pyramid to 0.15.,"setTransparency(target='pyramid', transparency=0.15)"
+Set the transparency of the sphere to 0.21.,"setTransparency(target='sphere', transparency=0.21)"
+Set the transparency of the sphere to 0.19.,"setTransparency(target='sphere', transparency=0.19)"
+Set the transparency of the sphere to 0.62.,"setTransparency(target='sphere', transparency=0.62)"
+Set the transparency of the pyramid to 0.94.,"setTransparency(target='pyramid', transparency=0.94)"
+Set the transparency of the cube to 0.48.,"setTransparency(target='cube', transparency=0.48)"
+Set the transparency of the pyramid to 0.07.,"setTransparency(target='pyramid', transparency=0.07)"
+Set the transparency of the cube to 0.92.,"setTransparency(target='cube', transparency=0.92)"
+Set the transparency of the pyramid to 0.47.,"setTransparency(target='pyramid', transparency=0.47)"
+Set the transparency of the pyramid to 0.9.,"setTransparency(target='pyramid', transparency=0.9)"
+Set the transparency of the pyramid to 0.61.,"setTransparency(target='pyramid', transparency=0.61)"
+Set the transparency of the cube to 0.85.,"setTransparency(target='cube', transparency=0.85)"
+Set the transparency of the cube to 0.41.,"setTransparency(target='cube', transparency=0.41)"
+Set the transparency of the cube to 0.65.,"setTransparency(target='cube', transparency=0.65)"
+Set the transparency of the cube to 0.02.,"setTransparency(target='cube', transparency=0.02)"
+Set the transparency of the pyramid to 0.19.,"setTransparency(target='pyramid', transparency=0.19)"
+Set the ambient lighting with intensity 3.,"changeLighting(type='ambient', intensity=3)"
+Set the ambient lighting with intensity 7.,"changeLighting(type='ambient', intensity=7)"
+Set the ambient lighting with intensity 3.,"changeLighting(type='ambient', intensity=3)"
+Set the ambient lighting with intensity 8.,"changeLighting(type='ambient', intensity=8)"
+Set the spot lighting with intensity 4.,"changeLighting(type='spot', intensity=4)"
+Set the spot lighting with intensity 1.,"changeLighting(type='spot', intensity=1)"
+Set the directional lighting with intensity 9.,"changeLighting(type='directional', intensity=9)"
+Set the directional lighting with intensity 9.,"changeLighting(type='directional', intensity=9)"
+Set the ambient lighting with intensity 6.,"changeLighting(type='ambient', intensity=6)"
+Set the ambient lighting with intensity 5.,"changeLighting(type='ambient', intensity=5)"
+Set the directional lighting with intensity 6.,"changeLighting(type='directional', intensity=6)"
+Set the directional lighting with intensity 1.,"changeLighting(type='directional', intensity=1)"
+Set the ambient lighting with intensity 3.,"changeLighting(type='ambient', intensity=3)"
+Set the directional lighting with intensity 5.,"changeLighting(type='directional', intensity=5)"
+Set the ambient lighting with intensity 5.,"changeLighting(type='ambient', intensity=5)"
+Set the directional lighting with intensity 1.,"changeLighting(type='directional', intensity=1)"
+Set the directional lighting with intensity 4.,"changeLighting(type='directional', intensity=4)"
+Set the directional lighting with intensity 6.,"changeLighting(type='directional', intensity=6)"
+Set the ambient lighting with intensity 8.,"changeLighting(type='ambient', intensity=8)"
+Set the directional lighting with intensity 6.,"changeLighting(type='directional', intensity=6)"
+Set the spot lighting with intensity 3.,"changeLighting(type='spot', intensity=3)"
+Set the directional lighting with intensity 10.,"changeLighting(type='directional', intensity=10)"
+Set the ambient lighting with intensity 1.,"changeLighting(type='ambient', intensity=1)"
+Set the spot lighting with intensity 10.,"changeLighting(type='spot', intensity=10)"
+Set the spot lighting with intensity 3.,"changeLighting(type='spot', intensity=3)"
+Set the directional lighting with intensity 3.,"changeLighting(type='directional', intensity=3)"
+Set the directional lighting with intensity 10.,"changeLighting(type='directional', intensity=10)"
+Set the ambient lighting with intensity 7.,"changeLighting(type='ambient', intensity=7)"
+Set the ambient lighting with intensity 3.,"changeLighting(type='ambient', intensity=3)"
+Set the directional lighting with intensity 6.,"changeLighting(type='directional', intensity=6)"
+Set the ambient lighting with intensity 2.,"changeLighting(type='ambient', intensity=2)"
+Set the ambient lighting with intensity 4.,"changeLighting(type='ambient', intensity=4)"
+Set the ambient lighting with intensity 2.,"changeLighting(type='ambient', intensity=2)"
+Set the spot lighting with intensity 4.,"changeLighting(type='spot', intensity=4)"
+Set the ambient lighting with intensity 5.,"changeLighting(type='ambient', intensity=5)"
+Set the directional lighting with intensity 6.,"changeLighting(type='directional', intensity=6)"
+Set the directional lighting with intensity 3.,"changeLighting(type='directional', intensity=3)"
+Set the ambient lighting with intensity 7.,"changeLighting(type='ambient', intensity=7)"
+Set the ambient lighting with intensity 2.,"changeLighting(type='ambient', intensity=2)"
+Set the directional lighting with intensity 2.,"changeLighting(type='directional', intensity=2)"
+Set the ambient lighting with intensity 9.,"changeLighting(type='ambient', intensity=9)"
+Set the ambient lighting with intensity 7.,"changeLighting(type='ambient', intensity=7)"
+Set the ambient lighting with intensity 5.,"changeLighting(type='ambient', intensity=5)"
+Set the directional lighting with intensity 10.,"changeLighting(type='directional', intensity=10)"
+Set the spot lighting with intensity 3.,"changeLighting(type='spot', intensity=3)"
+Set the spot lighting with intensity 5.,"changeLighting(type='spot', intensity=5)"
+Set the directional lighting with intensity 7.,"changeLighting(type='directional', intensity=7)"
+Set the directional lighting with intensity 9.,"changeLighting(type='directional', intensity=9)"
+Set the spot lighting with intensity 2.,"changeLighting(type='spot', intensity=2)"
+Set the spot lighting with intensity 2.,"changeLighting(type='spot', intensity=2)"
+Set the ambient lighting with intensity 2.,"changeLighting(type='ambient', intensity=2)"
+Set the ambient lighting with intensity 4.,"changeLighting(type='ambient', intensity=4)"
+Set the spot lighting with intensity 9.,"changeLighting(type='spot', intensity=9)"
+Set the directional lighting with intensity 5.,"changeLighting(type='directional', intensity=5)"
+Set the ambient lighting with intensity 7.,"changeLighting(type='ambient', intensity=7)"
+Set the directional lighting with intensity 3.,"changeLighting(type='directional', intensity=3)"
+Set the ambient lighting with intensity 9.,"changeLighting(type='ambient', intensity=9)"
+Set the directional lighting with intensity 3.,"changeLighting(type='directional', intensity=3)"
+Set the ambient lighting with intensity 4.,"changeLighting(type='ambient', intensity=4)"
+Set the ambient lighting with intensity 4.,"changeLighting(type='ambient', intensity=4)"
+Set the directional lighting with intensity 7.,"changeLighting(type='directional', intensity=7)"
+Set the ambient lighting with intensity 10.,"changeLighting(type='ambient', intensity=10)"
+Set the ambient lighting with intensity 7.,"changeLighting(type='ambient', intensity=7)"
+Set the ambient lighting with intensity 8.,"changeLighting(type='ambient', intensity=8)"
+Set the directional lighting with intensity 1.,"changeLighting(type='directional', intensity=1)"
+Set the ambient lighting with intensity 6.,"changeLighting(type='ambient', intensity=6)"
+Set the directional lighting with intensity 7.,"changeLighting(type='directional', intensity=7)"
+Set the spot lighting with intensity 3.,"changeLighting(type='spot', intensity=3)"
+Set the directional lighting with intensity 9.,"changeLighting(type='directional', intensity=9)"
+Set the spot lighting with intensity 7.,"changeLighting(type='spot', intensity=7)"
+Set the directional lighting with intensity 2.,"changeLighting(type='directional', intensity=2)"
+Set the spot lighting with intensity 9.,"changeLighting(type='spot', intensity=9)"
+Set the spot lighting with intensity 4.,"changeLighting(type='spot', intensity=4)"
+Set the directional lighting with intensity 6.,"changeLighting(type='directional', intensity=6)"
+Set the spot lighting with intensity 10.,"changeLighting(type='spot', intensity=10)"
+Set the ambient lighting with intensity 9.,"changeLighting(type='ambient', intensity=9)"
+Set the ambient lighting with intensity 7.,"changeLighting(type='ambient', intensity=7)"
+Set the spot lighting with intensity 10.,"changeLighting(type='spot', intensity=10)"
+Set the ambient lighting with intensity 8.,"changeLighting(type='ambient', intensity=8)"
+Set the directional lighting with intensity 8.,"changeLighting(type='directional', intensity=8)"
+Set the directional lighting with intensity 4.,"changeLighting(type='directional', intensity=4)"
+Set the directional lighting with intensity 9.,"changeLighting(type='directional', intensity=9)"
+Set the directional lighting with intensity 4.,"changeLighting(type='directional', intensity=4)"
+Set the spot lighting with intensity 8.,"changeLighting(type='spot', intensity=8)"
+Set the spot lighting with intensity 4.,"changeLighting(type='spot', intensity=4)"
+Set the spot lighting with intensity 4.,"changeLighting(type='spot', intensity=4)"
+Set the directional lighting with intensity 2.,"changeLighting(type='directional', intensity=2)"
+Set the spot lighting with intensity 1.,"changeLighting(type='spot', intensity=1)"
+Set the directional lighting with intensity 9.,"changeLighting(type='directional', intensity=9)"
+Set the directional lighting with intensity 4.,"changeLighting(type='directional', intensity=4)"
+Set the ambient lighting with intensity 3.,"changeLighting(type='ambient', intensity=3)"
+Set the ambient lighting with intensity 10.,"changeLighting(type='ambient', intensity=10)"
+Set the ambient lighting with intensity 8.,"changeLighting(type='ambient', intensity=8)"
+Set the directional lighting with intensity 1.,"changeLighting(type='directional', intensity=1)"
+Set the ambient lighting with intensity 7.,"changeLighting(type='ambient', intensity=7)"
+Set the ambient lighting with intensity 9.,"changeLighting(type='ambient', intensity=9)"
+Set the directional lighting with intensity 3.,"changeLighting(type='directional', intensity=3)"
+Set the ambient lighting with intensity 7.,"changeLighting(type='ambient', intensity=7)"
+Set the spot lighting with intensity 9.,"changeLighting(type='spot', intensity=9)"
+Set the spot lighting with intensity 2.,"changeLighting(type='spot', intensity=2)"
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image mountain.png.,setBackground(image='mountain.png')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Set the background to the image sky.jpg.,setBackground(image='sky.jpg')
+Group the pyramid and cube as Group2.,"groupObjects(targets=['pyramid', 'cube'], groupName='Group2')"
+Group the pyramid and cube as Group1.,"groupObjects(targets=['pyramid', 'cube'], groupName='Group1')"
+Group the sphere and sphere as Group2.,"groupObjects(targets=['sphere', 'sphere'], groupName='Group2')"
+Group the sphere and sphere as Group3.,"groupObjects(targets=['sphere', 'sphere'], groupName='Group3')"
+Group the sphere and sphere as Group2.,"groupObjects(targets=['sphere', 'sphere'], groupName='Group2')"
+Group the pyramid and pyramid as Group3.,"groupObjects(targets=['pyramid', 'pyramid'], groupName='Group3')"
+Group the pyramid and cube as Group2.,"groupObjects(targets=['pyramid', 'cube'], groupName='Group2')"
+Group the sphere and sphere as Group3.,"groupObjects(targets=['sphere', 'sphere'], groupName='Group3')"
+Group the sphere and sphere as Group3.,"groupObjects(targets=['sphere', 'sphere'], groupName='Group3')"
+Group the sphere and pyramid as Group2.,"groupObjects(targets=['sphere', 'pyramid'], groupName='Group2')"
+Group the sphere and pyramid as Group2.,"groupObjects(targets=['sphere', 'pyramid'], groupName='Group2')"
+Group the sphere and cube as Group1.,"groupObjects(targets=['sphere', 'cube'], groupName='Group1')"
+Group the pyramid and cube as Group3.,"groupObjects(targets=['pyramid', 'cube'], groupName='Group3')"
+Group the cube and sphere as Group3.,"groupObjects(targets=['cube', 'sphere'], groupName='Group3')"
+Group the cube and cube as Group1.,"groupObjects(targets=['cube', 'cube'], groupName='Group1')"
+Group the cube and sphere as Group2.,"groupObjects(targets=['cube', 'sphere'], groupName='Group2')"
+Group the cube and pyramid as Group3.,"groupObjects(targets=['cube', 'pyramid'], groupName='Group3')"
+Group the cube and sphere as Group3.,"groupObjects(targets=['cube', 'sphere'], groupName='Group3')"
+Group the cube and pyramid as Group3.,"groupObjects(targets=['cube', 'pyramid'], groupName='Group3')"
+Group the sphere and sphere as Group2.,"groupObjects(targets=['sphere', 'sphere'], groupName='Group2')"
+Group the cube and sphere as Group3.,"groupObjects(targets=['cube', 'sphere'], groupName='Group3')"
+Group the pyramid and sphere as Group2.,"groupObjects(targets=['pyramid', 'sphere'], groupName='Group2')"
+Group the cube and pyramid as Group1.,"groupObjects(targets=['cube', 'pyramid'], groupName='Group1')"
+Group the cube and sphere as Group3.,"groupObjects(targets=['cube', 'sphere'], groupName='Group3')"
+Group the pyramid and pyramid as Group3.,"groupObjects(targets=['pyramid', 'pyramid'], groupName='Group3')"
+Group the sphere and pyramid as Group3.,"groupObjects(targets=['sphere', 'pyramid'], groupName='Group3')"
+Group the pyramid and cube as Group2.,"groupObjects(targets=['pyramid', 'cube'], groupName='Group2')"
+Group the cube and cube as Group2.,"groupObjects(targets=['cube', 'cube'], groupName='Group2')"
+Group the sphere and cube as Group2.,"groupObjects(targets=['sphere', 'cube'], groupName='Group2')"
+Group the sphere and sphere as Group1.,"groupObjects(targets=['sphere', 'sphere'], groupName='Group1')"
+Group the pyramid and cube as Group2.,"groupObjects(targets=['pyramid', 'cube'], groupName='Group2')"
+Group the pyramid and pyramid as Group1.,"groupObjects(targets=['pyramid', 'pyramid'], groupName='Group1')"
+Group the pyramid and pyramid as Group2.,"groupObjects(targets=['pyramid', 'pyramid'], groupName='Group2')"
+Group the pyramid and sphere as Group3.,"groupObjects(targets=['pyramid', 'sphere'], groupName='Group3')"
+Group the cube and pyramid as Group1.,"groupObjects(targets=['cube', 'pyramid'], groupName='Group1')"
+Group the sphere and pyramid as Group3.,"groupObjects(targets=['sphere', 'pyramid'], groupName='Group3')"
+Group the sphere and cube as Group1.,"groupObjects(targets=['sphere', 'cube'], groupName='Group1')"
+Group the sphere and pyramid as Group3.,"groupObjects(targets=['sphere', 'pyramid'], groupName='Group3')"
+Group the sphere and cube as Group3.,"groupObjects(targets=['sphere', 'cube'], groupName='Group3')"
+Group the sphere and cube as Group1.,"groupObjects(targets=['sphere', 'cube'], groupName='Group1')"
+Group the pyramid and pyramid as Group3.,"groupObjects(targets=['pyramid', 'pyramid'], groupName='Group3')"
+Group the cube and sphere as Group3.,"groupObjects(targets=['cube', 'sphere'], groupName='Group3')"
+Group the cube and sphere as Group1.,"groupObjects(targets=['cube', 'sphere'], groupName='Group1')"
+Group the sphere and cube as Group3.,"groupObjects(targets=['sphere', 'cube'], groupName='Group3')"
+Group the pyramid and sphere as Group1.,"groupObjects(targets=['pyramid', 'sphere'], groupName='Group1')"
+Group the cube and pyramid as Group2.,"groupObjects(targets=['cube', 'pyramid'], groupName='Group2')"
+Group the pyramid and pyramid as Group2.,"groupObjects(targets=['pyramid', 'pyramid'], groupName='Group2')"
+Group the sphere and pyramid as Group2.,"groupObjects(targets=['sphere', 'pyramid'], groupName='Group2')"
+Group the pyramid and pyramid as Group2.,"groupObjects(targets=['pyramid', 'pyramid'], groupName='Group2')"
+Group the pyramid and cube as Group1.,"groupObjects(targets=['pyramid', 'cube'], groupName='Group1')"
+Group the pyramid and pyramid as Group3.,"groupObjects(targets=['pyramid', 'pyramid'], groupName='Group3')"
+Group the sphere and pyramid as Group2.,"groupObjects(targets=['sphere', 'pyramid'], groupName='Group2')"
+Group the sphere and pyramid as Group3.,"groupObjects(targets=['sphere', 'pyramid'], groupName='Group3')"
+Group the cube and pyramid as Group3.,"groupObjects(targets=['cube', 'pyramid'], groupName='Group3')"
+Group the sphere and pyramid as Group3.,"groupObjects(targets=['sphere', 'pyramid'], groupName='Group3')"
+Group the pyramid and pyramid as Group3.,"groupObjects(targets=['pyramid', 'pyramid'], groupName='Group3')"
+Group the sphere and sphere as Group3.,"groupObjects(targets=['sphere', 'sphere'], groupName='Group3')"
+Group the cube and cube as Group1.,"groupObjects(targets=['cube', 'cube'], groupName='Group1')"
+Group the sphere and cube as Group3.,"groupObjects(targets=['sphere', 'cube'], groupName='Group3')"
+Group the pyramid and sphere as Group3.,"groupObjects(targets=['pyramid', 'sphere'], groupName='Group3')"
+Group the cube and cube as Group2.,"groupObjects(targets=['cube', 'cube'], groupName='Group2')"
+Group the sphere and pyramid as Group2.,"groupObjects(targets=['sphere', 'pyramid'], groupName='Group2')"
+Group the cube and cube as Group1.,"groupObjects(targets=['cube', 'cube'], groupName='Group1')"
+Group the cube and sphere as Group3.,"groupObjects(targets=['cube', 'sphere'], groupName='Group3')"
+Group the cube and sphere as Group3.,"groupObjects(targets=['cube', 'sphere'], groupName='Group3')"
+Group the cube and cube as Group3.,"groupObjects(targets=['cube', 'cube'], groupName='Group3')"
+Group the pyramid and cube as Group1.,"groupObjects(targets=['pyramid', 'cube'], groupName='Group1')"
+Group the pyramid and pyramid as Group3.,"groupObjects(targets=['pyramid', 'pyramid'], groupName='Group3')"
+Group the sphere and sphere as Group2.,"groupObjects(targets=['sphere', 'sphere'], groupName='Group2')"
+Group the cube and sphere as Group1.,"groupObjects(targets=['cube', 'sphere'], groupName='Group1')"
+Group the pyramid and sphere as Group3.,"groupObjects(targets=['pyramid', 'sphere'], groupName='Group3')"
+Group the cube and sphere as Group3.,"groupObjects(targets=['cube', 'sphere'], groupName='Group3')"
+Group the pyramid and sphere as Group1.,"groupObjects(targets=['pyramid', 'sphere'], groupName='Group1')"
+Group the sphere and sphere as Group3.,"groupObjects(targets=['sphere', 'sphere'], groupName='Group3')"
+Group the pyramid and pyramid as Group2.,"groupObjects(targets=['pyramid', 'pyramid'], groupName='Group2')"
+Group the pyramid and pyramid as Group1.,"groupObjects(targets=['pyramid', 'pyramid'], groupName='Group1')"
+Group the sphere and sphere as Group2.,"groupObjects(targets=['sphere', 'sphere'], groupName='Group2')"
+Group the pyramid and sphere as Group1.,"groupObjects(targets=['pyramid', 'sphere'], groupName='Group1')"
+Group the cube and sphere as Group3.,"groupObjects(targets=['cube', 'sphere'], groupName='Group3')"
+Group the cube and cube as Group2.,"groupObjects(targets=['cube', 'cube'], groupName='Group2')"
+Group the cube and pyramid as Group3.,"groupObjects(targets=['cube', 'pyramid'], groupName='Group3')"
+Group the sphere and pyramid as Group3.,"groupObjects(targets=['sphere', 'pyramid'], groupName='Group3')"
+Group the cube and cube as Group2.,"groupObjects(targets=['cube', 'cube'], groupName='Group2')"
+Group the pyramid and pyramid as Group2.,"groupObjects(targets=['pyramid', 'pyramid'], groupName='Group2')"
+Group the cube and cube as Group2.,"groupObjects(targets=['cube', 'cube'], groupName='Group2')"
+Group the sphere and cube as Group1.,"groupObjects(targets=['sphere', 'cube'], groupName='Group1')"
+Group the sphere and cube as Group3.,"groupObjects(targets=['sphere', 'cube'], groupName='Group3')"
+Group the cube and pyramid as Group3.,"groupObjects(targets=['cube', 'pyramid'], groupName='Group3')"
+Group the pyramid and sphere as Group3.,"groupObjects(targets=['pyramid', 'sphere'], groupName='Group3')"
+Group the pyramid and cube as Group1.,"groupObjects(targets=['pyramid', 'cube'], groupName='Group1')"
+Group the sphere and cube as Group1.,"groupObjects(targets=['sphere', 'cube'], groupName='Group1')"
+Group the cube and pyramid as Group1.,"groupObjects(targets=['cube', 'pyramid'], groupName='Group1')"
+Group the cube and pyramid as Group2.,"groupObjects(targets=['cube', 'pyramid'], groupName='Group2')"
+Group the cube and pyramid as Group1.,"groupObjects(targets=['cube', 'pyramid'], groupName='Group1')"
+Group the pyramid and pyramid as Group3.,"groupObjects(targets=['pyramid', 'pyramid'], groupName='Group3')"
+Group the cube and pyramid as Group1.,"groupObjects(targets=['cube', 'pyramid'], groupName='Group1')"
+Group the cube and pyramid as Group2.,"groupObjects(targets=['cube', 'pyramid'], groupName='Group2')"
+Group the cube and cube as Group3.,"groupObjects(targets=['cube', 'cube'], groupName='Group3')"
+Group the pyramid and pyramid as Group1.,"groupObjects(targets=['pyramid', 'pyramid'], groupName='Group1')"
+Group the pyramid and sphere as Group1.,"groupObjects(targets=['pyramid', 'sphere'], groupName='Group1')"
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group3.,ungroupObjects(groupName='Group3')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group1.,ungroupObjects(groupName='Group1')
+Ungroup the objects in Group2.,ungroupObjects(groupName='Group2')
+"Duplicate the pyramid and place it at -8, 14, 69.","duplicateObject(target='pyramid', location={x:-8, y:14, z:69})"
+"Duplicate the sphere and place it at 71, 6, 87.","duplicateObject(target='sphere', location={x:71, y:6, z:87})"
+"Duplicate the cube and place it at -98, -37, -71.","duplicateObject(target='cube', location={x:-98, y:-37, z:-71})"
+"Duplicate the pyramid and place it at -1, -41, -15.","duplicateObject(target='pyramid', location={x:-1, y:-41, z:-15})"
+"Duplicate the pyramid and place it at -96, 18, -52.","duplicateObject(target='pyramid', location={x:-96, y:18, z:-52})"
+"Duplicate the cube and place it at -4, -98, -90.","duplicateObject(target='cube', location={x:-4, y:-98, z:-90})"
+"Duplicate the cube and place it at -86, -85, -5.","duplicateObject(target='cube', location={x:-86, y:-85, z:-5})"
+"Duplicate the cube and place it at 34, 77, -44.","duplicateObject(target='cube', location={x:34, y:77, z:-44})"
+"Duplicate the cube and place it at 43, 65, -81.","duplicateObject(target='cube', location={x:43, y:65, z:-81})"
+"Duplicate the cube and place it at 12, -90, 74.","duplicateObject(target='cube', location={x:12, y:-90, z:74})"
+"Duplicate the sphere and place it at -12, 18, -81.","duplicateObject(target='sphere', location={x:-12, y:18, z:-81})"
+"Duplicate the pyramid and place it at -17, 96, -45.","duplicateObject(target='pyramid', location={x:-17, y:96, z:-45})"
+"Duplicate the pyramid and place it at -69, 73, 66.","duplicateObject(target='pyramid', location={x:-69, y:73, z:66})"
+"Duplicate the sphere and place it at 65, -2, 11.","duplicateObject(target='sphere', location={x:65, y:-2, z:11})"
+"Duplicate the sphere and place it at 77, -100, 56.","duplicateObject(target='sphere', location={x:77, y:-100, z:56})"
+"Duplicate the pyramid and place it at 90, -72, -46.","duplicateObject(target='pyramid', location={x:90, y:-72, z:-46})"
+"Duplicate the sphere and place it at 32, 13, -69.","duplicateObject(target='sphere', location={x:32, y:13, z:-69})"
+"Duplicate the sphere and place it at -85, -65, 61.","duplicateObject(target='sphere', location={x:-85, y:-65, z:61})"
+"Duplicate the sphere and place it at 59, 51, -96.","duplicateObject(target='sphere', location={x:59, y:51, z:-96})"
+"Duplicate the sphere and place it at -81, -34, 39.","duplicateObject(target='sphere', location={x:-81, y:-34, z:39})"
+"Duplicate the pyramid and place it at 13, 75, -46.","duplicateObject(target='pyramid', location={x:13, y:75, z:-46})"
+"Duplicate the sphere and place it at -22, -39, 51.","duplicateObject(target='sphere', location={x:-22, y:-39, z:51})"
+"Duplicate the sphere and place it at -86, 17, 24.","duplicateObject(target='sphere', location={x:-86, y:17, z:24})"
+"Duplicate the pyramid and place it at 72, 30, 68.","duplicateObject(target='pyramid', location={x:72, y:30, z:68})"
+"Duplicate the sphere and place it at 20, -79, 49.","duplicateObject(target='sphere', location={x:20, y:-79, z:49})"
+"Duplicate the pyramid and place it at -45, -46, -20.","duplicateObject(target='pyramid', location={x:-45, y:-46, z:-20})"
+"Duplicate the cube and place it at 39, 47, -94.","duplicateObject(target='cube', location={x:39, y:47, z:-94})"
+"Duplicate the pyramid and place it at -52, 17, -82.","duplicateObject(target='pyramid', location={x:-52, y:17, z:-82})"
+"Duplicate the pyramid and place it at -23, 80, 28.","duplicateObject(target='pyramid', location={x:-23, y:80, z:28})"
+"Duplicate the pyramid and place it at 26, 32, 79.","duplicateObject(target='pyramid', location={x:26, y:32, z:79})"
+"Duplicate the sphere and place it at -40, 35, 84.","duplicateObject(target='sphere', location={x:-40, y:35, z:84})"
+"Duplicate the cube and place it at 58, 71, -55.","duplicateObject(target='cube', location={x:58, y:71, z:-55})"
+"Duplicate the pyramid and place it at -21, 89, 66.","duplicateObject(target='pyramid', location={x:-21, y:89, z:66})"
+"Duplicate the pyramid and place it at -96, 90, 23.","duplicateObject(target='pyramid', location={x:-96, y:90, z:23})"
+"Duplicate the cube and place it at -52, -53, 80.","duplicateObject(target='cube', location={x:-52, y:-53, z:80})"
+"Duplicate the cube and place it at 3, 73, 25.","duplicateObject(target='cube', location={x:3, y:73, z:25})"
+"Duplicate the sphere and place it at -76, -8, 66.","duplicateObject(target='sphere', location={x:-76, y:-8, z:66})"
+"Duplicate the pyramid and place it at -1, 94, -23.","duplicateObject(target='pyramid', location={x:-1, y:94, z:-23})"
+"Duplicate the cube and place it at 7, -14, 7.","duplicateObject(target='cube', location={x:7, y:-14, z:7})"
+"Duplicate the pyramid and place it at -28, -69, -46.","duplicateObject(target='pyramid', location={x:-28, y:-69, z:-46})"
+"Duplicate the pyramid and place it at 2, 94, 65.","duplicateObject(target='pyramid', location={x:2, y:94, z:65})"
+"Duplicate the pyramid and place it at -13, -51, -66.","duplicateObject(target='pyramid', location={x:-13, y:-51, z:-66})"
+"Duplicate the cube and place it at 10, -26, 7.","duplicateObject(target='cube', location={x:10, y:-26, z:7})"
+"Duplicate the pyramid and place it at -66, 46, 30.","duplicateObject(target='pyramid', location={x:-66, y:46, z:30})"
+"Duplicate the pyramid and place it at -51, 3, -62.","duplicateObject(target='pyramid', location={x:-51, y:3, z:-62})"
+"Duplicate the sphere and place it at -47, 27, 15.","duplicateObject(target='sphere', location={x:-47, y:27, z:15})"
+"Duplicate the sphere and place it at 28, -77, -37.","duplicateObject(target='sphere', location={x:28, y:-77, z:-37})"
+"Duplicate the sphere and place it at -34, -65, 64.","duplicateObject(target='sphere', location={x:-34, y:-65, z:64})"
+"Duplicate the pyramid and place it at 0, 32, -79.","duplicateObject(target='pyramid', location={x:0, y:32, z:-79})"
+"Duplicate the sphere and place it at -4, 33, -14.","duplicateObject(target='sphere', location={x:-4, y:33, z:-14})"
+"Duplicate the sphere and place it at -95, -69, 54.","duplicateObject(target='sphere', location={x:-95, y:-69, z:54})"
+"Duplicate the sphere and place it at -2, 23, 70.","duplicateObject(target='sphere', location={x:-2, y:23, z:70})"
+"Duplicate the sphere and place it at 88, -90, 46.","duplicateObject(target='sphere', location={x:88, y:-90, z:46})"
+"Duplicate the sphere and place it at -40, 44, -73.","duplicateObject(target='sphere', location={x:-40, y:44, z:-73})"
+"Duplicate the cube and place it at 23, 68, -67.","duplicateObject(target='cube', location={x:23, y:68, z:-67})"
+"Duplicate the sphere and place it at -46, 24, 8.","duplicateObject(target='sphere', location={x:-46, y:24, z:8})"
+"Duplicate the sphere and place it at -72, 5, -38.","duplicateObject(target='sphere', location={x:-72, y:5, z:-38})"
+"Duplicate the cube and place it at 12, 16, -73.","duplicateObject(target='cube', location={x:12, y:16, z:-73})"
+"Duplicate the pyramid and place it at -30, -79, -38.","duplicateObject(target='pyramid', location={x:-30, y:-79, z:-38})"
+"Duplicate the cube and place it at -34, 21, 28.","duplicateObject(target='cube', location={x:-34, y:21, z:28})"
+"Duplicate the pyramid and place it at 99, 55, -90.","duplicateObject(target='pyramid', location={x:99, y:55, z:-90})"
+"Duplicate the pyramid and place it at 39, -15, 77.","duplicateObject(target='pyramid', location={x:39, y:-15, z:77})"
+"Duplicate the sphere and place it at 37, 87, -90.","duplicateObject(target='sphere', location={x:37, y:87, z:-90})"
+"Duplicate the sphere and place it at 53, -69, 3.","duplicateObject(target='sphere', location={x:53, y:-69, z:3})"
+"Duplicate the sphere and place it at -12, -13, 31.","duplicateObject(target='sphere', location={x:-12, y:-13, z:31})"
+"Duplicate the pyramid and place it at 24, -42, 45.","duplicateObject(target='pyramid', location={x:24, y:-42, z:45})"
+"Duplicate the pyramid and place it at -34, 88, -5.","duplicateObject(target='pyramid', location={x:-34, y:88, z:-5})"
+"Duplicate the sphere and place it at 1, 51, 44.","duplicateObject(target='sphere', location={x:1, y:51, z:44})"
+"Duplicate the cube and place it at 91, 70, -6.","duplicateObject(target='cube', location={x:91, y:70, z:-6})"
+"Duplicate the pyramid and place it at -26, -30, 7.","duplicateObject(target='pyramid', location={x:-26, y:-30, z:7})"
+"Duplicate the cube and place it at 19, 92, 43.","duplicateObject(target='cube', location={x:19, y:92, z:43})"
+"Duplicate the sphere and place it at 50, -86, 4.","duplicateObject(target='sphere', location={x:50, y:-86, z:4})"
+"Duplicate the cube and place it at 78, -68, 4.","duplicateObject(target='cube', location={x:78, y:-68, z:4})"
+"Duplicate the cube and place it at 40, 3, 8.","duplicateObject(target='cube', location={x:40, y:3, z:8})"
+"Duplicate the pyramid and place it at -7, -90, -72.","duplicateObject(target='pyramid', location={x:-7, y:-90, z:-72})"
+"Duplicate the cube and place it at 51, 68, -76.","duplicateObject(target='cube', location={x:51, y:68, z:-76})"
+"Duplicate the cube and place it at 98, -43, 88.","duplicateObject(target='cube', location={x:98, y:-43, z:88})"
+"Duplicate the pyramid and place it at -31, 64, 22.","duplicateObject(target='pyramid', location={x:-31, y:64, z:22})"
+"Duplicate the cube and place it at -93, -57, 52.","duplicateObject(target='cube', location={x:-93, y:-57, z:52})"
+"Duplicate the sphere and place it at -36, -39, 58.","duplicateObject(target='sphere', location={x:-36, y:-39, z:58})"
+"Duplicate the pyramid and place it at -76, -25, 54.","duplicateObject(target='pyramid', location={x:-76, y:-25, z:54})"
+"Duplicate the pyramid and place it at -37, 40, 69.","duplicateObject(target='pyramid', location={x:-37, y:40, z:69})"
+"Duplicate the cube and place it at -58, -41, 94.","duplicateObject(target='cube', location={x:-58, y:-41, z:94})"
+"Duplicate the pyramid and place it at 27, 86, -27.","duplicateObject(target='pyramid', location={x:27, y:86, z:-27})"
+"Duplicate the sphere and place it at 6, -91, -45.","duplicateObject(target='sphere', location={x:6, y:-91, z:-45})"
+"Duplicate the sphere and place it at -21, 24, -3.","duplicateObject(target='sphere', location={x:-21, y:24, z:-3})"
+"Duplicate the sphere and place it at -48, -53, -75.","duplicateObject(target='sphere', location={x:-48, y:-53, z:-75})"
+"Duplicate the sphere and place it at -20, -28, -31.","duplicateObject(target='sphere', location={x:-20, y:-28, z:-31})"
+"Duplicate the pyramid and place it at 95, -68, -51.","duplicateObject(target='pyramid', location={x:95, y:-68, z:-51})"
+"Duplicate the pyramid and place it at 38, 85, 84.","duplicateObject(target='pyramid', location={x:38, y:85, z:84})"
+"Duplicate the sphere and place it at -15, 40, 71.","duplicateObject(target='sphere', location={x:-15, y:40, z:71})"
+"Duplicate the pyramid and place it at -7, -62, -28.","duplicateObject(target='pyramid', location={x:-7, y:-62, z:-28})"
+"Duplicate the cube and place it at 50, 65, -58.","duplicateObject(target='cube', location={x:50, y:65, z:-58})"
+"Duplicate the sphere and place it at -24, 1, -55.","duplicateObject(target='sphere', location={x:-24, y:1, z:-55})"
+"Duplicate the cube and place it at 99, -83, 54.","duplicateObject(target='cube', location={x:99, y:-83, z:54})"
+"Duplicate the pyramid and place it at 53, 47, 14.","duplicateObject(target='pyramid', location={x:53, y:47, z:14})"
+"Duplicate the sphere and place it at 39, 38, -41.","duplicateObject(target='sphere', location={x:39, y:38, z:-41})"
+"Duplicate the sphere and place it at -96, -57, 100.","duplicateObject(target='sphere', location={x:-96, y:-57, z:100})"
+"Duplicate the pyramid and place it at 9, -36, 29.","duplicateObject(target='pyramid', location={x:9, y:-36, z:29})"
+"Duplicate the cube and place it at 60, -67, -58.","duplicateObject(target='cube', location={x:60, y:-67, z:-58})"
+Set the friction of the pyramid to 43.55429396475433.,"setObjectProperty(target='pyramid', property='friction', value=43.55429396475433)"
+Set the friction of the pyramid to 77.07111433560131.,"setObjectProperty(target='pyramid', property='friction', value=77.07111433560131)"
+Set the mass of the sphere to 87.5776907775072.,"setObjectProperty(target='sphere', property='mass', value=87.5776907775072)"
+Set the mass of the cube to 77.9508216118675.,"setObjectProperty(target='cube', property='mass', value=77.9508216118675)"
+Set the friction of the pyramid to 29.120836329772352.,"setObjectProperty(target='pyramid', property='friction', value=29.120836329772352)"
+Set the friction of the sphere to 35.3414757955877.,"setObjectProperty(target='sphere', property='friction', value=35.3414757955877)"
+Set the mass of the sphere to 48.34260368868014.,"setObjectProperty(target='sphere', property='mass', value=48.34260368868014)"
+Set the velocity of the pyramid to 4.708880524469504.,"setObjectProperty(target='pyramid', property='velocity', value=4.708880524469504)"
+Set the mass of the cube to 69.56519022346765.,"setObjectProperty(target='cube', property='mass', value=69.56519022346765)"
+Set the friction of the pyramid to 23.487413986387825.,"setObjectProperty(target='pyramid', property='friction', value=23.487413986387825)"
+Set the velocity of the sphere to 91.53746601578518.,"setObjectProperty(target='sphere', property='velocity', value=91.53746601578518)"
+Set the velocity of the cube to 6.008197222882556.,"setObjectProperty(target='cube', property='velocity', value=6.008197222882556)"
+Set the mass of the cube to 95.1569545422169.,"setObjectProperty(target='cube', property='mass', value=95.1569545422169)"
+Set the mass of the cube to 62.568957200886416.,"setObjectProperty(target='cube', property='mass', value=62.568957200886416)"
+Set the mass of the sphere to 9.718545766564526.,"setObjectProperty(target='sphere', property='mass', value=9.718545766564526)"
+Set the velocity of the sphere to 33.64649966016941.,"setObjectProperty(target='sphere', property='velocity', value=33.64649966016941)"
+Set the mass of the sphere to 4.571523775131624.,"setObjectProperty(target='sphere', property='mass', value=4.571523775131624)"
+Set the friction of the pyramid to 62.961932762818286.,"setObjectProperty(target='pyramid', property='friction', value=62.961932762818286)"
+Set the friction of the pyramid to 8.014094083010244.,"setObjectProperty(target='pyramid', property='friction', value=8.014094083010244)"
+Set the velocity of the sphere to 71.95332106359683.,"setObjectProperty(target='sphere', property='velocity', value=71.95332106359683)"
+Set the velocity of the pyramid to 56.41786149612155.,"setObjectProperty(target='pyramid', property='velocity', value=56.41786149612155)"
+Set the mass of the cube to 89.10993864258542.,"setObjectProperty(target='cube', property='mass', value=89.10993864258542)"
+Set the mass of the pyramid to 27.286906527433977.,"setObjectProperty(target='pyramid', property='mass', value=27.286906527433977)"
+Set the mass of the cube to 20.28711036495787.,"setObjectProperty(target='cube', property='mass', value=20.28711036495787)"
+Set the friction of the cube to 70.2057979163671.,"setObjectProperty(target='cube', property='friction', value=70.2057979163671)"
+Set the mass of the cube to 52.021984855069235.,"setObjectProperty(target='cube', property='mass', value=52.021984855069235)"
+Set the mass of the cube to 73.28719103172983.,"setObjectProperty(target='cube', property='mass', value=73.28719103172983)"
+Set the friction of the cube to 47.28507961665296.,"setObjectProperty(target='cube', property='friction', value=47.28507961665296)"
+Set the mass of the pyramid to 31.49714456762397.,"setObjectProperty(target='pyramid', property='mass', value=31.49714456762397)"
+Set the friction of the sphere to 36.217670951374494.,"setObjectProperty(target='sphere', property='friction', value=36.217670951374494)"
+Set the velocity of the sphere to 17.439461031171913.,"setObjectProperty(target='sphere', property='velocity', value=17.439461031171913)"
+Set the velocity of the sphere to 57.285556435520576.,"setObjectProperty(target='sphere', property='velocity', value=57.285556435520576)"
+Set the friction of the pyramid to 46.70066402534344.,"setObjectProperty(target='pyramid', property='friction', value=46.70066402534344)"
+Set the friction of the cube to 15.076573399118287.,"setObjectProperty(target='cube', property='friction', value=15.076573399118287)"
+Set the velocity of the pyramid to 42.71071689781756.,"setObjectProperty(target='pyramid', property='velocity', value=42.71071689781756)"
+Set the mass of the pyramid to 50.7611051102005.,"setObjectProperty(target='pyramid', property='mass', value=50.7611051102005)"
+Set the friction of the pyramid to 45.33952136215944.,"setObjectProperty(target='pyramid', property='friction', value=45.33952136215944)"
+Set the friction of the sphere to 4.508563619485905.,"setObjectProperty(target='sphere', property='friction', value=4.508563619485905)"
+Set the mass of the sphere to 94.5000574690077.,"setObjectProperty(target='sphere', property='mass', value=94.5000574690077)"
+Set the velocity of the sphere to 42.64252444576544.,"setObjectProperty(target='sphere', property='velocity', value=42.64252444576544)"
+Set the velocity of the sphere to 70.01688642453128.,"setObjectProperty(target='sphere', property='velocity', value=70.01688642453128)"
+Set the mass of the pyramid to 36.98092939469323.,"setObjectProperty(target='pyramid', property='mass', value=36.98092939469323)"
+Set the mass of the cube to 63.852571015179464.,"setObjectProperty(target='cube', property='mass', value=63.852571015179464)"
+Set the friction of the pyramid to 71.12456848804541.,"setObjectProperty(target='pyramid', property='friction', value=71.12456848804541)"
+Set the friction of the sphere to 16.32215402302596.,"setObjectProperty(target='sphere', property='friction', value=16.32215402302596)"
+Set the friction of the sphere to 97.61654095753134.,"setObjectProperty(target='sphere', property='friction', value=97.61654095753134)"
+Set the velocity of the sphere to 1.906010404543381.,"setObjectProperty(target='sphere', property='velocity', value=1.906010404543381)"
+Set the friction of the cube to 46.29173278309884.,"setObjectProperty(target='cube', property='friction', value=46.29173278309884)"
+Set the velocity of the sphere to 77.3270339305986.,"setObjectProperty(target='sphere', property='velocity', value=77.3270339305986)"
+Set the mass of the sphere to 15.724442466109956.,"setObjectProperty(target='sphere', property='mass', value=15.724442466109956)"
+Set the velocity of the cube to 7.042640002191945.,"setObjectProperty(target='cube', property='velocity', value=7.042640002191945)"
+Set the velocity of the cube to 18.101913412103393.,"setObjectProperty(target='cube', property='velocity', value=18.101913412103393)"
+Set the friction of the pyramid to 56.64331391206696.,"setObjectProperty(target='pyramid', property='friction', value=56.64331391206696)"
+Set the velocity of the pyramid to 10.42796713008613.,"setObjectProperty(target='pyramid', property='velocity', value=10.42796713008613)"
+Set the velocity of the pyramid to 36.482492424670085.,"setObjectProperty(target='pyramid', property='velocity', value=36.482492424670085)"
+Set the velocity of the cube to 40.498811342537024.,"setObjectProperty(target='cube', property='velocity', value=40.498811342537024)"
+Set the mass of the sphere to 84.74363760450409.,"setObjectProperty(target='sphere', property='mass', value=84.74363760450409)"
+Set the mass of the pyramid to 24.4501374815783.,"setObjectProperty(target='pyramid', property='mass', value=24.4501374815783)"
+Set the mass of the sphere to 49.862210913059656.,"setObjectProperty(target='sphere', property='mass', value=49.862210913059656)"
+Set the mass of the cube to 98.35838664273105.,"setObjectProperty(target='cube', property='mass', value=98.35838664273105)"
+Set the friction of the cube to 27.335902582637935.,"setObjectProperty(target='cube', property='friction', value=27.335902582637935)"
+Set the velocity of the cube to 37.69558463268476.,"setObjectProperty(target='cube', property='velocity', value=37.69558463268476)"
+Set the velocity of the sphere to 35.33327548841513.,"setObjectProperty(target='sphere', property='velocity', value=35.33327548841513)"
+Set the velocity of the sphere to 69.38684344935271.,"setObjectProperty(target='sphere', property='velocity', value=69.38684344935271)"
+Set the friction of the sphere to 12.336474744959283.,"setObjectProperty(target='sphere', property='friction', value=12.336474744959283)"
+Set the velocity of the cube to 86.48967732412424.,"setObjectProperty(target='cube', property='velocity', value=86.48967732412424)"
+Set the friction of the cube to 8.901642551337268.,"setObjectProperty(target='cube', property='friction', value=8.901642551337268)"
+Set the friction of the sphere to 10.591197722698535.,"setObjectProperty(target='sphere', property='friction', value=10.591197722698535)"
+Set the friction of the sphere to 59.39900276256077.,"setObjectProperty(target='sphere', property='friction', value=59.39900276256077)"
+Set the velocity of the pyramid to 68.19934611650723.,"setObjectProperty(target='pyramid', property='velocity', value=68.19934611650723)"
+Set the friction of the pyramid to 98.6737249073173.,"setObjectProperty(target='pyramid', property='friction', value=98.6737249073173)"
+Set the velocity of the cube to 99.25006290504685.,"setObjectProperty(target='cube', property='velocity', value=99.25006290504685)"
+Set the friction of the pyramid to 50.002669765914426.,"setObjectProperty(target='pyramid', property='friction', value=50.002669765914426)"
+Set the velocity of the pyramid to 32.24432092162634.,"setObjectProperty(target='pyramid', property='velocity', value=32.24432092162634)"
+Set the velocity of the pyramid to 95.66631804518398.,"setObjectProperty(target='pyramid', property='velocity', value=95.66631804518398)"
+Set the friction of the pyramid to 83.50229315173338.,"setObjectProperty(target='pyramid', property='friction', value=83.50229315173338)"
+Set the friction of the pyramid to 7.560643843153843.,"setObjectProperty(target='pyramid', property='friction', value=7.560643843153843)"
+Set the mass of the cube to 86.24848461503117.,"setObjectProperty(target='cube', property='mass', value=86.24848461503117)"
+Set the velocity of the pyramid to 3.470862472479553.,"setObjectProperty(target='pyramid', property='velocity', value=3.470862472479553)"
+Set the friction of the cube to 86.57675328398437.,"setObjectProperty(target='cube', property='friction', value=86.57675328398437)"
+Set the mass of the cube to 20.767599585331055.,"setObjectProperty(target='cube', property='mass', value=20.767599585331055)"
+Set the velocity of the sphere to 6.237506436181064.,"setObjectProperty(target='sphere', property='velocity', value=6.237506436181064)"
+Set the mass of the sphere to 43.237899351853876.,"setObjectProperty(target='sphere', property='mass', value=43.237899351853876)"
+Set the friction of the pyramid to 85.21277584453594.,"setObjectProperty(target='pyramid', property='friction', value=85.21277584453594)"
+Set the mass of the cube to 40.20934858680278.,"setObjectProperty(target='cube', property='mass', value=40.20934858680278)"
+Set the friction of the cube to 46.152627214338516.,"setObjectProperty(target='cube', property='friction', value=46.152627214338516)"
+Set the velocity of the sphere to 59.728071399733324.,"setObjectProperty(target='sphere', property='velocity', value=59.728071399733324)"
+Set the friction of the pyramid to 97.45598341497252.,"setObjectProperty(target='pyramid', property='friction', value=97.45598341497252)"
+Set the friction of the pyramid to 72.02867462962458.,"setObjectProperty(target='pyramid', property='friction', value=72.02867462962458)"
+Set the velocity of the cube to 39.83934715051596.,"setObjectProperty(target='cube', property='velocity', value=39.83934715051596)"
+Set the mass of the pyramid to 4.024918720513179.,"setObjectProperty(target='pyramid', property='mass', value=4.024918720513179)"
+Set the friction of the pyramid to 96.91594461129318.,"setObjectProperty(target='pyramid', property='friction', value=96.91594461129318)"
+Set the velocity of the sphere to 75.65280765645282.,"setObjectProperty(target='sphere', property='velocity', value=75.65280765645282)"
+Set the mass of the cube to 91.776812430098.,"setObjectProperty(target='cube', property='mass', value=91.776812430098)"
+Set the friction of the cube to 72.9742092039378.,"setObjectProperty(target='cube', property='friction', value=72.9742092039378)"
+Set the friction of the cube to 56.033696541014365.,"setObjectProperty(target='cube', property='friction', value=56.033696541014365)"
+Set the velocity of the sphere to 71.94837527358322.,"setObjectProperty(target='sphere', property='velocity', value=71.94837527358322)"
+Set the velocity of the pyramid to 82.02568522870168.,"setObjectProperty(target='pyramid', property='velocity', value=82.02568522870168)"
+Set the velocity of the cube to 31.64362668865689.,"setObjectProperty(target='cube', property='velocity', value=31.64362668865689)"
+Set the mass of the sphere to 78.89737194423728.,"setObjectProperty(target='sphere', property='mass', value=78.89737194423728)"

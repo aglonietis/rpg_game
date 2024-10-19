@@ -1,0 +1,1401 @@
+input,output
+"Create a blue pyramid at X=-39, Y=7, Z=-6.",createObject
+"Create a yellow cube at X=87, Y=69, Z=-19.",createObject
+"Create a red sphere at X=66, Y=-40, Z=-31.",createObject
+"Create a red pyramid at X=64, Y=91, Z=-62.",createObject
+"Create a yellow cube at X=97, Y=22, Z=27.",createObject
+"Create a blue cube at X=56, Y=-7, Z=47.",createObject
+"Create a blue cube at X=76, Y=-47, Z=-99.",createObject
+"Create a yellow cube at X=-18, Y=-9, Z=-8.",createObject
+"Create a yellow cube at X=96, Y=18, Z=1.",createObject
+"Create a red pyramid at X=18, Y=60, Z=-5.",createObject
+"Create a green cube at X=100, Y=-76, Z=-6.",createObject
+"Create a green pyramid at X=3, Y=33, Z=63.",createObject
+"Create a green sphere at X=-92, Y=-29, Z=-71.",createObject
+"Create a green cube at X=-77, Y=-70, Z=5.",createObject
+"Create a blue sphere at X=22, Y=73, Z=-13.",createObject
+"Create a blue pyramid at X=-71, Y=-39, Z=-27.",createObject
+"Create a blue pyramid at X=-19, Y=39, Z=51.",createObject
+"Create a blue cube at X=98, Y=-81, Z=-88.",createObject
+"Create a yellow cube at X=-22, Y=80, Z=-91.",createObject
+"Create a red sphere at X=26, Y=64, Z=74.",createObject
+"Create a red sphere at X=76, Y=21, Z=-65.",createObject
+"Create a red sphere at X=92, Y=61, Z=-20.",createObject
+"Create a yellow pyramid at X=-72, Y=-33, Z=71.",createObject
+"Create a blue cube at X=-42, Y=88, Z=7.",createObject
+"Create a red cube at X=-87, Y=-8, Z=70.",createObject
+"Create a yellow pyramid at X=-36, Y=44, Z=28.",createObject
+"Create a red cube at X=8, Y=39, Z=-76.",createObject
+"Create a red cube at X=-42, Y=-100, Z=-81.",createObject
+"Create a red sphere at X=-23, Y=52, Z=-93.",createObject
+"Create a green pyramid at X=-38, Y=-67, Z=16.",createObject
+"Create a red sphere at X=58, Y=-92, Z=-51.",createObject
+"Create a red cube at X=37, Y=-63, Z=49.",createObject
+"Create a green sphere at X=-3, Y=-24, Z=51.",createObject
+"Create a red cube at X=-63, Y=-33, Z=-92.",createObject
+"Create a red cube at X=-24, Y=-29, Z=3.",createObject
+"Create a yellow sphere at X=8, Y=19, Z=10.",createObject
+"Create a blue cube at X=-96, Y=56, Z=-84.",createObject
+"Create a yellow cube at X=-97, Y=62, Z=65.",createObject
+"Create a blue pyramid at X=-74, Y=-32, Z=27.",createObject
+"Create a green pyramid at X=35, Y=26, Z=89.",createObject
+"Create a yellow pyramid at X=-31, Y=-50, Z=-38.",createObject
+"Create a yellow sphere at X=22, Y=64, Z=24.",createObject
+"Create a green pyramid at X=83, Y=9, Z=66.",createObject
+"Create a red pyramid at X=2, Y=-31, Z=26.",createObject
+"Create a red cube at X=27, Y=-14, Z=-31.",createObject
+"Create a blue pyramid at X=9, Y=90, Z=-81.",createObject
+"Create a blue cube at X=-45, Y=-46, Z=-68.",createObject
+"Create a green pyramid at X=-20, Y=33, Z=56.",createObject
+"Create a green pyramid at X=-16, Y=13, Z=-95.",createObject
+"Create a red cube at X=-74, Y=73, Z=56.",createObject
+"Create a blue cube at X=-74, Y=-55, Z=-47.",createObject
+"Create a green pyramid at X=78, Y=-49, Z=23.",createObject
+"Create a blue cube at X=-56, Y=-31, Z=94.",createObject
+"Create a yellow sphere at X=-42, Y=92, Z=-83.",createObject
+"Create a green sphere at X=61, Y=-93, Z=41.",createObject
+"Create a blue sphere at X=-41, Y=-92, Z=-91.",createObject
+"Create a red pyramid at X=64, Y=63, Z=-80.",createObject
+"Create a yellow pyramid at X=79, Y=-51, Z=69.",createObject
+"Create a yellow sphere at X=38, Y=29, Z=53.",createObject
+"Create a red pyramid at X=-99, Y=59, Z=35.",createObject
+"Create a yellow pyramid at X=-38, Y=4, Z=91.",createObject
+"Create a green cube at X=-20, Y=-99, Z=56.",createObject
+"Create a yellow cube at X=-47, Y=-43, Z=-38.",createObject
+"Create a red pyramid at X=29, Y=-91, Z=-44.",createObject
+"Create a yellow sphere at X=-45, Y=26, Z=-62.",createObject
+"Create a green cube at X=-32, Y=1, Z=-43.",createObject
+"Create a red pyramid at X=33, Y=98, Z=51.",createObject
+"Create a yellow pyramid at X=-25, Y=30, Z=-64.",createObject
+"Create a yellow sphere at X=66, Y=-38, Z=-24.",createObject
+"Create a red cube at X=-21, Y=-61, Z=71.",createObject
+"Create a red sphere at X=43, Y=-6, Z=73.",createObject
+"Create a yellow sphere at X=90, Y=-77, Z=-75.",createObject
+"Create a yellow sphere at X=-38, Y=-3, Z=75.",createObject
+"Create a blue pyramid at X=75, Y=-81, Z=-52.",createObject
+"Create a blue sphere at X=79, Y=14, Z=36.",createObject
+"Create a blue cube at X=-62, Y=-89, Z=2.",createObject
+"Create a blue cube at X=-28, Y=-12, Z=-48.",createObject
+"Create a red cube at X=62, Y=37, Z=29.",createObject
+"Create a blue pyramid at X=-82, Y=-27, Z=52.",createObject
+"Create a blue pyramid at X=-34, Y=-14, Z=-97.",createObject
+"Create a green cube at X=50, Y=62, Z=-91.",createObject
+"Create a blue pyramid at X=20, Y=97, Z=-18.",createObject
+"Create a yellow sphere at X=90, Y=-50, Z=27.",createObject
+"Create a green sphere at X=34, Y=79, Z=-17.",createObject
+"Create a yellow pyramid at X=-72, Y=-84, Z=96.",createObject
+"Create a yellow pyramid at X=-30, Y=-6, Z=64.",createObject
+"Create a blue cube at X=0, Y=-67, Z=89.",createObject
+"Create a yellow cube at X=-85, Y=28, Z=36.",createObject
+"Create a green sphere at X=-40, Y=11, Z=86.",createObject
+"Create a red sphere at X=-28, Y=39, Z=34.",createObject
+"Create a yellow sphere at X=-57, Y=-30, Z=-84.",createObject
+"Create a green sphere at X=50, Y=-7, Z=-53.",createObject
+"Create a yellow pyramid at X=-23, Y=55, Z=4.",createObject
+"Create a green pyramid at X=92, Y=-9, Z=-71.",createObject
+"Create a red pyramid at X=9, Y=-22, Z=-12.",createObject
+"Create a green cube at X=72, Y=41, Z=39.",createObject
+"Create a red cube at X=67, Y=65, Z=-16.",createObject
+"Create a blue pyramid at X=45, Y=-82, Z=-98.",createObject
+"Create a blue cube at X=-73, Y=-38, Z=68.",createObject
+"Create a yellow sphere at X=-70, Y=-40, Z=-73.",createObject
+"Move the object to X=-35, Y=-1, Z=-83.",moveObject
+"Move the sphere to X=-9, Y=-58, Z=2.",moveObject
+"Move the pyramid to X=-17, Y=82, Z=-63.",moveObject
+"Move the cube to X=86, Y=14, Z=47.",moveObject
+"Move the object to X=-12, Y=32, Z=-95.",moveObject
+"Move the cube to X=35, Y=-50, Z=-35.",moveObject
+"Move the pyramid to X=-92, Y=9, Z=34.",moveObject
+"Move the object to X=-58, Y=66, Z=-90.",moveObject
+"Move the sphere to X=-22, Y=58, Z=-73.",moveObject
+"Move the sphere to X=-19, Y=-98, Z=-24.",moveObject
+"Move the object to X=9, Y=-16, Z=31.",moveObject
+"Move the pyramid to X=28, Y=-76, Z=-9.",moveObject
+"Move the sphere to X=23, Y=-78, Z=-100.",moveObject
+"Move the sphere to X=-81, Y=-2, Z=-26.",moveObject
+"Move the object to X=-21, Y=99, Z=-3.",moveObject
+"Move the sphere to X=-7, Y=-45, Z=17.",moveObject
+"Move the sphere to X=-92, Y=68, Z=-30.",moveObject
+"Move the object to X=96, Y=-48, Z=-14.",moveObject
+"Move the object to X=63, Y=25, Z=87.",moveObject
+"Move the object to X=88, Y=60, Z=57.",moveObject
+"Move the object to X=-58, Y=-91, Z=-49.",moveObject
+"Move the object to X=37, Y=-38, Z=3.",moveObject
+"Move the object to X=62, Y=-29, Z=11.",moveObject
+"Move the cube to X=18, Y=32, Z=-84.",moveObject
+"Move the pyramid to X=-28, Y=14, Z=45.",moveObject
+"Move the object to X=-22, Y=-7, Z=-82.",moveObject
+"Move the cube to X=-29, Y=0, Z=98.",moveObject
+"Move the pyramid to X=95, Y=45, Z=43.",moveObject
+"Move the pyramid to X=98, Y=-9, Z=-96.",moveObject
+"Move the pyramid to X=19, Y=49, Z=38.",moveObject
+"Move the cube to X=-42, Y=-12, Z=44.",moveObject
+"Move the object to X=48, Y=97, Z=26.",moveObject
+"Move the sphere to X=-39, Y=-95, Z=-1.",moveObject
+"Move the pyramid to X=-29, Y=25, Z=-57.",moveObject
+"Move the cube to X=6, Y=-14, Z=-45.",moveObject
+"Move the pyramid to X=-20, Y=43, Z=-84.",moveObject
+"Move the cube to X=-51, Y=-90, Z=0.",moveObject
+"Move the sphere to X=-83, Y=-3, Z=-2.",moveObject
+"Move the cube to X=-89, Y=55, Z=-57.",moveObject
+"Move the sphere to X=-88, Y=-16, Z=-69.",moveObject
+"Move the cube to X=2, Y=-56, Z=-94.",moveObject
+"Move the sphere to X=-88, Y=20, Z=85.",moveObject
+"Move the object to X=-4, Y=43, Z=49.",moveObject
+"Move the cube to X=43, Y=-94, Z=78.",moveObject
+"Move the sphere to X=-69, Y=75, Z=-81.",moveObject
+"Move the object to X=-6, Y=54, Z=100.",moveObject
+"Move the pyramid to X=75, Y=-27, Z=97.",moveObject
+"Move the sphere to X=-85, Y=-98, Z=-79.",moveObject
+"Move the pyramid to X=-76, Y=-43, Z=11.",moveObject
+"Move the sphere to X=-40, Y=-37, Z=-93.",moveObject
+"Move the pyramid to X=-19, Y=-15, Z=-15.",moveObject
+"Move the object to X=-1, Y=70, Z=-58.",moveObject
+"Move the pyramid to X=-82, Y=-89, Z=17.",moveObject
+"Move the pyramid to X=34, Y=-86, Z=-81.",moveObject
+"Move the cube to X=65, Y=21, Z=92.",moveObject
+"Move the cube to X=72, Y=-15, Z=-18.",moveObject
+"Move the cube to X=-12, Y=-62, Z=-78.",moveObject
+"Move the pyramid to X=29, Y=76, Z=25.",moveObject
+"Move the cube to X=47, Y=76, Z=24.",moveObject
+"Move the pyramid to X=67, Y=86, Z=11.",moveObject
+"Move the object to X=-84, Y=-42, Z=6.",moveObject
+"Move the object to X=-89, Y=36, Z=-73.",moveObject
+"Move the object to X=-90, Y=4, Z=98.",moveObject
+"Move the pyramid to X=-85, Y=37, Z=-55.",moveObject
+"Move the sphere to X=89, Y=97, Z=-22.",moveObject
+"Move the sphere to X=88, Y=53, Z=54.",moveObject
+"Move the sphere to X=-17, Y=-36, Z=61.",moveObject
+"Move the object to X=-81, Y=-96, Z=-7.",moveObject
+"Move the object to X=-11, Y=-95, Z=82.",moveObject
+"Move the cube to X=30, Y=67, Z=33.",moveObject
+"Move the object to X=12, Y=18, Z=-64.",moveObject
+"Move the sphere to X=98, Y=62, Z=-41.",moveObject
+"Move the object to X=4, Y=36, Z=82.",moveObject
+"Move the cube to X=24, Y=-54, Z=15.",moveObject
+"Move the pyramid to X=5, Y=80, Z=91.",moveObject
+"Move the object to X=-100, Y=25, Z=69.",moveObject
+"Move the cube to X=14, Y=-57, Z=67.",moveObject
+"Move the object to X=-39, Y=34, Z=6.",moveObject
+"Move the pyramid to X=66, Y=-18, Z=83.",moveObject
+"Move the cube to X=98, Y=85, Z=-45.",moveObject
+"Move the cube to X=44, Y=-51, Z=26.",moveObject
+"Move the pyramid to X=-53, Y=-91, Z=68.",moveObject
+"Move the cube to X=31, Y=-48, Z=-35.",moveObject
+"Move the object to X=-53, Y=-95, Z=-40.",moveObject
+"Move the pyramid to X=-32, Y=1, Z=-7.",moveObject
+"Move the sphere to X=-23, Y=32, Z=-98.",moveObject
+"Move the cube to X=69, Y=-90, Z=4.",moveObject
+"Move the object to X=27, Y=-45, Z=44.",moveObject
+"Move the sphere to X=42, Y=-10, Z=33.",moveObject
+"Move the sphere to X=-83, Y=29, Z=28.",moveObject
+"Move the pyramid to X=-100, Y=21, Z=-72.",moveObject
+"Move the pyramid to X=-63, Y=-18, Z=52.",moveObject
+"Move the cube to X=-14, Y=-32, Z=6.",moveObject
+"Move the object to X=58, Y=45, Z=-29.",moveObject
+"Move the object to X=40, Y=-55, Z=-81.",moveObject
+"Move the pyramid to X=63, Y=65, Z=-3.",moveObject
+"Move the sphere to X=86, Y=93, Z=-96.",moveObject
+"Move the cube to X=18, Y=-47, Z=85.",moveObject
+"Move the sphere to X=-5, Y=82, Z=-64.",moveObject
+"Move the pyramid to X=76, Y=-23, Z=63.",moveObject
+"Rotate the object around X by 63 degrees, Y by 12 degrees, and Z by -33 degrees.",rotateObject
+"Rotate the cube around X by 63 degrees, Y by -40 degrees, and Z by -26 degrees.",rotateObject
+"Rotate the object around X by -63 degrees, Y by -10 degrees, and Z by -43 degrees.",rotateObject
+"Rotate the object around X by 48 degrees, Y by -87 degrees, and Z by 54 degrees.",rotateObject
+"Rotate the cube around X by -5 degrees, Y by -1 degrees, and Z by 66 degrees.",rotateObject
+"Rotate the sphere around X by 69 degrees, Y by 3 degrees, and Z by 16 degrees.",rotateObject
+"Rotate the object around X by -72 degrees, Y by -54 degrees, and Z by -41 degrees.",rotateObject
+"Rotate the pyramid around X by -47 degrees, Y by 41 degrees, and Z by 23 degrees.",rotateObject
+"Rotate the pyramid around X by -13 degrees, Y by 52 degrees, and Z by 32 degrees.",rotateObject
+"Rotate the sphere around X by -62 degrees, Y by 66 degrees, and Z by -74 degrees.",rotateObject
+"Rotate the cube around X by 15 degrees, Y by 97 degrees, and Z by -61 degrees.",rotateObject
+"Rotate the object around X by -57 degrees, Y by 69 degrees, and Z by 42 degrees.",rotateObject
+"Rotate the cube around X by 75 degrees, Y by -77 degrees, and Z by 13 degrees.",rotateObject
+"Rotate the pyramid around X by 18 degrees, Y by 16 degrees, and Z by 53 degrees.",rotateObject
+"Rotate the sphere around X by -100 degrees, Y by 82 degrees, and Z by -29 degrees.",rotateObject
+"Rotate the sphere around X by 72 degrees, Y by -54 degrees, and Z by -53 degrees.",rotateObject
+"Rotate the sphere around X by 77 degrees, Y by 68 degrees, and Z by -18 degrees.",rotateObject
+"Rotate the sphere around X by 37 degrees, Y by -16 degrees, and Z by -14 degrees.",rotateObject
+"Rotate the pyramid around X by 39 degrees, Y by -61 degrees, and Z by 43 degrees.",rotateObject
+"Rotate the pyramid around X by -70 degrees, Y by -4 degrees, and Z by -77 degrees.",rotateObject
+"Rotate the pyramid around X by -73 degrees, Y by 28 degrees, and Z by -45 degrees.",rotateObject
+"Rotate the pyramid around X by 37 degrees, Y by -27 degrees, and Z by 61 degrees.",rotateObject
+"Rotate the object around X by -7 degrees, Y by -97 degrees, and Z by -93 degrees.",rotateObject
+"Rotate the cube around X by 33 degrees, Y by -86 degrees, and Z by -66 degrees.",rotateObject
+"Rotate the cube around X by -82 degrees, Y by -3 degrees, and Z by 12 degrees.",rotateObject
+"Rotate the object around X by 97 degrees, Y by -54 degrees, and Z by -18 degrees.",rotateObject
+"Rotate the cube around X by -49 degrees, Y by -10 degrees, and Z by 70 degrees.",rotateObject
+"Rotate the cube around X by -69 degrees, Y by 83 degrees, and Z by -79 degrees.",rotateObject
+"Rotate the cube around X by 84 degrees, Y by -30 degrees, and Z by 60 degrees.",rotateObject
+"Rotate the sphere around X by 63 degrees, Y by -37 degrees, and Z by 24 degrees.",rotateObject
+"Rotate the pyramid around X by 47 degrees, Y by -60 degrees, and Z by -86 degrees.",rotateObject
+"Rotate the cube around X by 10 degrees, Y by -71 degrees, and Z by 31 degrees.",rotateObject
+"Rotate the object around X by -16 degrees, Y by 54 degrees, and Z by -37 degrees.",rotateObject
+"Rotate the object around X by -22 degrees, Y by -78 degrees, and Z by 92 degrees.",rotateObject
+"Rotate the cube around X by -7 degrees, Y by 24 degrees, and Z by -6 degrees.",rotateObject
+"Rotate the object around X by 41 degrees, Y by -39 degrees, and Z by -44 degrees.",rotateObject
+"Rotate the pyramid around X by -20 degrees, Y by -45 degrees, and Z by 88 degrees.",rotateObject
+"Rotate the pyramid around X by -80 degrees, Y by -2 degrees, and Z by 44 degrees.",rotateObject
+"Rotate the sphere around X by -1 degrees, Y by 95 degrees, and Z by -45 degrees.",rotateObject
+"Rotate the sphere around X by 91 degrees, Y by 80 degrees, and Z by -29 degrees.",rotateObject
+"Rotate the pyramid around X by 49 degrees, Y by 20 degrees, and Z by -61 degrees.",rotateObject
+"Rotate the pyramid around X by 82 degrees, Y by -9 degrees, and Z by 15 degrees.",rotateObject
+"Rotate the sphere around X by -83 degrees, Y by -75 degrees, and Z by -8 degrees.",rotateObject
+"Rotate the object around X by 21 degrees, Y by -100 degrees, and Z by 73 degrees.",rotateObject
+"Rotate the sphere around X by -40 degrees, Y by 60 degrees, and Z by -69 degrees.",rotateObject
+"Rotate the cube around X by -73 degrees, Y by -12 degrees, and Z by -17 degrees.",rotateObject
+"Rotate the cube around X by -27 degrees, Y by -3 degrees, and Z by -13 degrees.",rotateObject
+"Rotate the cube around X by 36 degrees, Y by -30 degrees, and Z by -3 degrees.",rotateObject
+"Rotate the object around X by 21 degrees, Y by 42 degrees, and Z by 62 degrees.",rotateObject
+"Rotate the object around X by 31 degrees, Y by -57 degrees, and Z by -11 degrees.",rotateObject
+"Rotate the cube around X by -42 degrees, Y by 46 degrees, and Z by -64 degrees.",rotateObject
+"Rotate the pyramid around X by -32 degrees, Y by 72 degrees, and Z by -11 degrees.",rotateObject
+"Rotate the sphere around X by 52 degrees, Y by 64 degrees, and Z by 34 degrees.",rotateObject
+"Rotate the object around X by -83 degrees, Y by 52 degrees, and Z by -21 degrees.",rotateObject
+"Rotate the object around X by 87 degrees, Y by 4 degrees, and Z by -8 degrees.",rotateObject
+"Rotate the sphere around X by 91 degrees, Y by -18 degrees, and Z by -48 degrees.",rotateObject
+"Rotate the pyramid around X by 74 degrees, Y by -93 degrees, and Z by 11 degrees.",rotateObject
+"Rotate the sphere around X by 44 degrees, Y by 73 degrees, and Z by -83 degrees.",rotateObject
+"Rotate the sphere around X by -27 degrees, Y by 3 degrees, and Z by 16 degrees.",rotateObject
+"Rotate the pyramid around X by -26 degrees, Y by -20 degrees, and Z by -65 degrees.",rotateObject
+"Rotate the sphere around X by -43 degrees, Y by -64 degrees, and Z by -63 degrees.",rotateObject
+"Rotate the object around X by -21 degrees, Y by -77 degrees, and Z by 37 degrees.",rotateObject
+"Rotate the object around X by 83 degrees, Y by -75 degrees, and Z by -46 degrees.",rotateObject
+"Rotate the cube around X by 45 degrees, Y by 8 degrees, and Z by 55 degrees.",rotateObject
+"Rotate the sphere around X by -87 degrees, Y by -81 degrees, and Z by 65 degrees.",rotateObject
+"Rotate the sphere around X by 11 degrees, Y by 36 degrees, and Z by 53 degrees.",rotateObject
+"Rotate the pyramid around X by -71 degrees, Y by -13 degrees, and Z by 31 degrees.",rotateObject
+"Rotate the object around X by 73 degrees, Y by 41 degrees, and Z by 77 degrees.",rotateObject
+"Rotate the pyramid around X by -94 degrees, Y by -44 degrees, and Z by -46 degrees.",rotateObject
+"Rotate the sphere around X by -12 degrees, Y by 98 degrees, and Z by -90 degrees.",rotateObject
+"Rotate the cube around X by -65 degrees, Y by 94 degrees, and Z by 65 degrees.",rotateObject
+"Rotate the pyramid around X by -54 degrees, Y by 99 degrees, and Z by -64 degrees.",rotateObject
+"Rotate the sphere around X by -93 degrees, Y by 42 degrees, and Z by -64 degrees.",rotateObject
+"Rotate the sphere around X by -4 degrees, Y by 87 degrees, and Z by -9 degrees.",rotateObject
+"Rotate the sphere around X by -9 degrees, Y by 72 degrees, and Z by 19 degrees.",rotateObject
+"Rotate the object around X by 100 degrees, Y by 39 degrees, and Z by -85 degrees.",rotateObject
+"Rotate the pyramid around X by -86 degrees, Y by -18 degrees, and Z by 72 degrees.",rotateObject
+"Rotate the sphere around X by 36 degrees, Y by -41 degrees, and Z by 26 degrees.",rotateObject
+"Rotate the pyramid around X by -19 degrees, Y by 24 degrees, and Z by 41 degrees.",rotateObject
+"Rotate the sphere around X by -2 degrees, Y by 83 degrees, and Z by 100 degrees.",rotateObject
+"Rotate the pyramid around X by -61 degrees, Y by -67 degrees, and Z by 93 degrees.",rotateObject
+"Rotate the pyramid around X by 64 degrees, Y by 85 degrees, and Z by 58 degrees.",rotateObject
+"Rotate the pyramid around X by 64 degrees, Y by -53 degrees, and Z by -39 degrees.",rotateObject
+"Rotate the cube around X by 28 degrees, Y by -56 degrees, and Z by -4 degrees.",rotateObject
+"Rotate the cube around X by 18 degrees, Y by -83 degrees, and Z by -15 degrees.",rotateObject
+"Rotate the sphere around X by -28 degrees, Y by 75 degrees, and Z by 100 degrees.",rotateObject
+"Rotate the object around X by 54 degrees, Y by 77 degrees, and Z by -52 degrees.",rotateObject
+"Rotate the cube around X by 5 degrees, Y by -42 degrees, and Z by 63 degrees.",rotateObject
+"Rotate the cube around X by 77 degrees, Y by 96 degrees, and Z by -91 degrees.",rotateObject
+"Rotate the object around X by 21 degrees, Y by 77 degrees, and Z by 99 degrees.",rotateObject
+"Rotate the sphere around X by 98 degrees, Y by 0 degrees, and Z by 75 degrees.",rotateObject
+"Rotate the pyramid around X by 12 degrees, Y by 23 degrees, and Z by -41 degrees.",rotateObject
+"Rotate the cube around X by -23 degrees, Y by 52 degrees, and Z by 44 degrees.",rotateObject
+"Rotate the pyramid around X by -12 degrees, Y by -84 degrees, and Z by -1 degrees.",rotateObject
+"Rotate the sphere around X by 15 degrees, Y by -17 degrees, and Z by -57 degrees.",rotateObject
+"Rotate the cube around X by -12 degrees, Y by -65 degrees, and Z by -84 degrees.",rotateObject
+"Rotate the pyramid around X by -95 degrees, Y by 28 degrees, and Z by 53 degrees.",rotateObject
+"Rotate the object around X by 44 degrees, Y by -77 degrees, and Z by -28 degrees.",rotateObject
+"Rotate the pyramid around X by 42 degrees, Y by 20 degrees, and Z by -82 degrees.",rotateObject
+"Rotate the cube around X by 72 degrees, Y by -11 degrees, and Z by 28 degrees.",rotateObject
+Scale the cube to 1.093629273532428 times its size.,scaleObject
+Scale the pyramid to 0.66369838811618 times its size.,scaleObject
+Scale the pyramid to 1.9451625997756536 times its size.,scaleObject
+Scale the cube to 1.5758945791052148 times its size.,scaleObject
+Scale the pyramid to 1.9273434864276093 times its size.,scaleObject
+Scale the pyramid to 1.412099027980115 times its size.,scaleObject
+Scale the pyramid to 1.7572708341594536 times its size.,scaleObject
+Scale the object to 1.1483953311073636 times its size.,scaleObject
+Scale the cube to 1.3403986501100933 times its size.,scaleObject
+Scale the cube to 0.7047212260135391 times its size.,scaleObject
+Scale the pyramid to 1.252299597434424 times its size.,scaleObject
+Scale the cube to 1.8569381258346 times its size.,scaleObject
+Scale the pyramid to 1.337401885017218 times its size.,scaleObject
+Scale the pyramid to 0.6045851912838154 times its size.,scaleObject
+Scale the pyramid to 1.2156462070239245 times its size.,scaleObject
+Scale the cube to 1.9408883225998625 times its size.,scaleObject
+Scale the object to 1.2318869341199303 times its size.,scaleObject
+Scale the pyramid to 1.7681716506475769 times its size.,scaleObject
+Scale the pyramid to 0.9603653828809318 times its size.,scaleObject
+Scale the pyramid to 0.7943569551598015 times its size.,scaleObject
+Scale the sphere to 1.4693869335509615 times its size.,scaleObject
+Scale the object to 0.6503503944720999 times its size.,scaleObject
+Scale the cube to 0.8488298460037937 times its size.,scaleObject
+Scale the object to 1.0347996641041917 times its size.,scaleObject
+Scale the pyramid to 1.6707375506580049 times its size.,scaleObject
+Scale the pyramid to 1.5754793131901847 times its size.,scaleObject
+Scale the cube to 1.3225188341366476 times its size.,scaleObject
+Scale the pyramid to 1.6013969683341156 times its size.,scaleObject
+Scale the sphere to 1.4157574233808703 times its size.,scaleObject
+Scale the object to 1.044734100363582 times its size.,scaleObject
+Scale the pyramid to 1.959399940149936 times its size.,scaleObject
+Scale the sphere to 1.292821199188718 times its size.,scaleObject
+Scale the cube to 0.7437317131313991 times its size.,scaleObject
+Scale the sphere to 0.7552185489993415 times its size.,scaleObject
+Scale the object to 0.6563292442111788 times its size.,scaleObject
+Scale the pyramid to 0.7112106280175574 times its size.,scaleObject
+Scale the pyramid to 1.7928661007453885 times its size.,scaleObject
+Scale the pyramid to 0.7551501267070719 times its size.,scaleObject
+Scale the object to 0.5713672322362984 times its size.,scaleObject
+Scale the sphere to 1.6828771062247985 times its size.,scaleObject
+Scale the sphere to 1.3299621175986647 times its size.,scaleObject
+Scale the object to 1.2535318999722012 times its size.,scaleObject
+Scale the pyramid to 1.6751440763089849 times its size.,scaleObject
+Scale the pyramid to 1.3759600722289567 times its size.,scaleObject
+Scale the cube to 0.56083799355299 times its size.,scaleObject
+Scale the cube to 0.964936066679899 times its size.,scaleObject
+Scale the pyramid to 1.3359669625800477 times its size.,scaleObject
+Scale the object to 1.8722037393848259 times its size.,scaleObject
+Scale the cube to 1.4926749686372682 times its size.,scaleObject
+Scale the pyramid to 1.544755568102941 times its size.,scaleObject
+Scale the object to 0.8226592914050368 times its size.,scaleObject
+Scale the pyramid to 0.7384028062783687 times its size.,scaleObject
+Scale the pyramid to 1.140410161696819 times its size.,scaleObject
+Scale the pyramid to 1.413254082881381 times its size.,scaleObject
+Scale the pyramid to 1.976459526882357 times its size.,scaleObject
+Scale the pyramid to 1.1978275011005215 times its size.,scaleObject
+Scale the sphere to 1.9360141300203584 times its size.,scaleObject
+Scale the cube to 0.5259997982290194 times its size.,scaleObject
+Scale the pyramid to 0.8629737998431313 times its size.,scaleObject
+Scale the pyramid to 1.5691674161631164 times its size.,scaleObject
+Scale the object to 1.4836519519214866 times its size.,scaleObject
+Scale the pyramid to 1.2241158939716494 times its size.,scaleObject
+Scale the object to 1.7360684062428158 times its size.,scaleObject
+Scale the object to 0.7416089792886378 times its size.,scaleObject
+Scale the object to 0.737223864043929 times its size.,scaleObject
+Scale the pyramid to 1.5539643513121737 times its size.,scaleObject
+Scale the cube to 1.510829833689739 times its size.,scaleObject
+Scale the object to 0.923813371324526 times its size.,scaleObject
+Scale the pyramid to 1.9392268306944243 times its size.,scaleObject
+Scale the pyramid to 1.486795495794483 times its size.,scaleObject
+Scale the cube to 1.7435229256533604 times its size.,scaleObject
+Scale the pyramid to 1.814109522201841 times its size.,scaleObject
+Scale the sphere to 1.579457772244178 times its size.,scaleObject
+Scale the sphere to 1.5223909902503974 times its size.,scaleObject
+Scale the pyramid to 0.7835953147249478 times its size.,scaleObject
+Scale the object to 0.9229801687919068 times its size.,scaleObject
+Scale the sphere to 1.792439139432662 times its size.,scaleObject
+Scale the pyramid to 0.5216266438104455 times its size.,scaleObject
+Scale the cube to 0.6687828971724594 times its size.,scaleObject
+Scale the pyramid to 0.6359611596505115 times its size.,scaleObject
+Scale the cube to 1.6160509720517742 times its size.,scaleObject
+Scale the cube to 1.6759163897810603 times its size.,scaleObject
+Scale the object to 1.6588350447951292 times its size.,scaleObject
+Scale the pyramid to 0.6662907482568152 times its size.,scaleObject
+Scale the object to 0.8280587055802945 times its size.,scaleObject
+Scale the cube to 0.7741415391911626 times its size.,scaleObject
+Scale the object to 1.4461967091619155 times its size.,scaleObject
+Scale the cube to 1.9800553995463253 times its size.,scaleObject
+Scale the object to 1.521555867202414 times its size.,scaleObject
+Scale the object to 1.2063289666450858 times its size.,scaleObject
+Scale the cube to 1.950433410867943 times its size.,scaleObject
+Scale the pyramid to 1.2675665720818574 times its size.,scaleObject
+Scale the cube to 0.7481025835444783 times its size.,scaleObject
+Scale the pyramid to 1.8090054807370408 times its size.,scaleObject
+Scale the object to 0.6995059909697221 times its size.,scaleObject
+Scale the sphere to 1.419530383803536 times its size.,scaleObject
+Scale the cube to 0.6781568797622364 times its size.,scaleObject
+Scale the cube to 1.3957541626741046 times its size.,scaleObject
+Scale the object to 1.7279229484662781 times its size.,scaleObject
+Scale the sphere to 1.775807171354133 times its size.,scaleObject
+Delete the pyramid.,deleteObject
+Delete the sphere.,deleteObject
+Delete the object.,deleteObject
+Delete the cube.,deleteObject
+Delete the object.,deleteObject
+Delete the cube.,deleteObject
+Delete the cube.,deleteObject
+Delete the object.,deleteObject
+Delete the cube.,deleteObject
+Delete the sphere.,deleteObject
+Delete the cube.,deleteObject
+Delete the sphere.,deleteObject
+Delete the object.,deleteObject
+Delete the object.,deleteObject
+Delete the pyramid.,deleteObject
+Delete the cube.,deleteObject
+Delete the cube.,deleteObject
+Delete the pyramid.,deleteObject
+Delete the pyramid.,deleteObject
+Delete the object.,deleteObject
+Delete the pyramid.,deleteObject
+Delete the sphere.,deleteObject
+Delete the object.,deleteObject
+Delete the sphere.,deleteObject
+Delete the cube.,deleteObject
+Delete the object.,deleteObject
+Delete the cube.,deleteObject
+Delete the sphere.,deleteObject
+Delete the sphere.,deleteObject
+Delete the pyramid.,deleteObject
+Delete the sphere.,deleteObject
+Delete the sphere.,deleteObject
+Delete the cube.,deleteObject
+Delete the sphere.,deleteObject
+Delete the sphere.,deleteObject
+Delete the sphere.,deleteObject
+Delete the pyramid.,deleteObject
+Delete the cube.,deleteObject
+Delete the object.,deleteObject
+Delete the cube.,deleteObject
+Delete the pyramid.,deleteObject
+Delete the object.,deleteObject
+Delete the cube.,deleteObject
+Delete the sphere.,deleteObject
+Delete the cube.,deleteObject
+Delete the pyramid.,deleteObject
+Delete the sphere.,deleteObject
+Delete the object.,deleteObject
+Delete the sphere.,deleteObject
+Delete the cube.,deleteObject
+Delete the sphere.,deleteObject
+Delete the sphere.,deleteObject
+Delete the cube.,deleteObject
+Delete the object.,deleteObject
+Delete the sphere.,deleteObject
+Delete the object.,deleteObject
+Delete the sphere.,deleteObject
+Delete the pyramid.,deleteObject
+Delete the cube.,deleteObject
+Delete the object.,deleteObject
+Delete the pyramid.,deleteObject
+Delete the object.,deleteObject
+Delete the object.,deleteObject
+Delete the cube.,deleteObject
+Delete the sphere.,deleteObject
+Delete the cube.,deleteObject
+Delete the sphere.,deleteObject
+Delete the object.,deleteObject
+Delete the sphere.,deleteObject
+Delete the pyramid.,deleteObject
+Delete the object.,deleteObject
+Delete the pyramid.,deleteObject
+Delete the pyramid.,deleteObject
+Delete the object.,deleteObject
+Delete the object.,deleteObject
+Delete the sphere.,deleteObject
+Delete the sphere.,deleteObject
+Delete the cube.,deleteObject
+Delete the object.,deleteObject
+Delete the pyramid.,deleteObject
+Delete the sphere.,deleteObject
+Delete the pyramid.,deleteObject
+Delete the sphere.,deleteObject
+Delete the object.,deleteObject
+Delete the pyramid.,deleteObject
+Delete the cube.,deleteObject
+Delete the sphere.,deleteObject
+Delete the pyramid.,deleteObject
+Delete the cube.,deleteObject
+Delete the cube.,deleteObject
+Delete the object.,deleteObject
+Delete the pyramid.,deleteObject
+Delete the object.,deleteObject
+Delete the cube.,deleteObject
+Delete the sphere.,deleteObject
+Delete the pyramid.,deleteObject
+Delete the pyramid.,deleteObject
+Delete the pyramid.,deleteObject
+Delete the sphere.,deleteObject
+Delete the pyramid.,deleteObject
+Change the color of the object to blue.,changeColor
+Change the color of the pyramid to red.,changeColor
+Change the color of the pyramid to yellow.,changeColor
+Change the color of the cube to yellow.,changeColor
+Change the color of the pyramid to red.,changeColor
+Change the color of the pyramid to green.,changeColor
+Change the color of the sphere to blue.,changeColor
+Change the color of the object to red.,changeColor
+Change the color of the pyramid to yellow.,changeColor
+Change the color of the sphere to green.,changeColor
+Change the color of the pyramid to yellow.,changeColor
+Change the color of the sphere to red.,changeColor
+Change the color of the pyramid to red.,changeColor
+Change the color of the pyramid to green.,changeColor
+Change the color of the object to blue.,changeColor
+Change the color of the sphere to red.,changeColor
+Change the color of the sphere to yellow.,changeColor
+Change the color of the cube to green.,changeColor
+Change the color of the pyramid to blue.,changeColor
+Change the color of the object to green.,changeColor
+Change the color of the object to red.,changeColor
+Change the color of the sphere to yellow.,changeColor
+Change the color of the cube to green.,changeColor
+Change the color of the sphere to green.,changeColor
+Change the color of the object to blue.,changeColor
+Change the color of the object to blue.,changeColor
+Change the color of the sphere to red.,changeColor
+Change the color of the sphere to red.,changeColor
+Change the color of the sphere to blue.,changeColor
+Change the color of the pyramid to blue.,changeColor
+Change the color of the cube to blue.,changeColor
+Change the color of the sphere to blue.,changeColor
+Change the color of the sphere to blue.,changeColor
+Change the color of the cube to yellow.,changeColor
+Change the color of the pyramid to blue.,changeColor
+Change the color of the pyramid to red.,changeColor
+Change the color of the object to blue.,changeColor
+Change the color of the sphere to red.,changeColor
+Change the color of the object to blue.,changeColor
+Change the color of the object to red.,changeColor
+Change the color of the cube to green.,changeColor
+Change the color of the object to yellow.,changeColor
+Change the color of the cube to red.,changeColor
+Change the color of the cube to yellow.,changeColor
+Change the color of the object to yellow.,changeColor
+Change the color of the object to red.,changeColor
+Change the color of the object to yellow.,changeColor
+Change the color of the sphere to red.,changeColor
+Change the color of the pyramid to red.,changeColor
+Change the color of the sphere to blue.,changeColor
+Change the color of the sphere to yellow.,changeColor
+Change the color of the sphere to red.,changeColor
+Change the color of the object to yellow.,changeColor
+Change the color of the cube to yellow.,changeColor
+Change the color of the cube to red.,changeColor
+Change the color of the sphere to green.,changeColor
+Change the color of the cube to blue.,changeColor
+Change the color of the sphere to green.,changeColor
+Change the color of the pyramid to red.,changeColor
+Change the color of the cube to green.,changeColor
+Change the color of the cube to yellow.,changeColor
+Change the color of the pyramid to yellow.,changeColor
+Change the color of the pyramid to green.,changeColor
+Change the color of the sphere to blue.,changeColor
+Change the color of the pyramid to green.,changeColor
+Change the color of the pyramid to red.,changeColor
+Change the color of the pyramid to red.,changeColor
+Change the color of the sphere to yellow.,changeColor
+Change the color of the sphere to red.,changeColor
+Change the color of the sphere to yellow.,changeColor
+Change the color of the object to blue.,changeColor
+Change the color of the cube to yellow.,changeColor
+Change the color of the sphere to green.,changeColor
+Change the color of the pyramid to yellow.,changeColor
+Change the color of the pyramid to yellow.,changeColor
+Change the color of the pyramid to yellow.,changeColor
+Change the color of the cube to yellow.,changeColor
+Change the color of the pyramid to green.,changeColor
+Change the color of the cube to green.,changeColor
+Change the color of the cube to red.,changeColor
+Change the color of the sphere to yellow.,changeColor
+Change the color of the cube to red.,changeColor
+Change the color of the pyramid to yellow.,changeColor
+Change the color of the sphere to blue.,changeColor
+Change the color of the pyramid to yellow.,changeColor
+Change the color of the pyramid to blue.,changeColor
+Change the color of the cube to green.,changeColor
+Change the color of the object to blue.,changeColor
+Change the color of the cube to blue.,changeColor
+Change the color of the sphere to green.,changeColor
+Change the color of the cube to green.,changeColor
+Change the color of the pyramid to red.,changeColor
+Change the color of the sphere to yellow.,changeColor
+Change the color of the object to yellow.,changeColor
+Change the color of the cube to green.,changeColor
+Change the color of the pyramid to yellow.,changeColor
+Change the color of the sphere to blue.,changeColor
+Change the color of the sphere to red.,changeColor
+Change the color of the object to green.,changeColor
+Change the color of the object to blue.,changeColor
+Set the texture of the sphere to glass.,setTexture
+Set the texture of the object to glass.,setTexture
+Set the texture of the sphere to wood.,setTexture
+Set the texture of the sphere to glass.,setTexture
+Set the texture of the cube to metal.,setTexture
+Set the texture of the pyramid to wood.,setTexture
+Set the texture of the sphere to glass.,setTexture
+Set the texture of the cube to glass.,setTexture
+Set the texture of the object to metal.,setTexture
+Set the texture of the pyramid to glass.,setTexture
+Set the texture of the pyramid to metal.,setTexture
+Set the texture of the pyramid to glass.,setTexture
+Set the texture of the sphere to wood.,setTexture
+Set the texture of the pyramid to wood.,setTexture
+Set the texture of the sphere to metal.,setTexture
+Set the texture of the sphere to glass.,setTexture
+Set the texture of the cube to metal.,setTexture
+Set the texture of the pyramid to wood.,setTexture
+Set the texture of the pyramid to metal.,setTexture
+Set the texture of the sphere to wood.,setTexture
+Set the texture of the pyramid to glass.,setTexture
+Set the texture of the object to wood.,setTexture
+Set the texture of the pyramid to metal.,setTexture
+Set the texture of the sphere to glass.,setTexture
+Set the texture of the object to metal.,setTexture
+Set the texture of the object to wood.,setTexture
+Set the texture of the pyramid to wood.,setTexture
+Set the texture of the pyramid to wood.,setTexture
+Set the texture of the cube to wood.,setTexture
+Set the texture of the cube to glass.,setTexture
+Set the texture of the sphere to wood.,setTexture
+Set the texture of the sphere to wood.,setTexture
+Set the texture of the cube to wood.,setTexture
+Set the texture of the sphere to wood.,setTexture
+Set the texture of the object to wood.,setTexture
+Set the texture of the object to metal.,setTexture
+Set the texture of the cube to glass.,setTexture
+Set the texture of the cube to glass.,setTexture
+Set the texture of the object to wood.,setTexture
+Set the texture of the pyramid to metal.,setTexture
+Set the texture of the sphere to metal.,setTexture
+Set the texture of the pyramid to glass.,setTexture
+Set the texture of the sphere to metal.,setTexture
+Set the texture of the cube to wood.,setTexture
+Set the texture of the pyramid to glass.,setTexture
+Set the texture of the cube to wood.,setTexture
+Set the texture of the pyramid to wood.,setTexture
+Set the texture of the object to metal.,setTexture
+Set the texture of the pyramid to wood.,setTexture
+Set the texture of the object to glass.,setTexture
+Set the texture of the object to wood.,setTexture
+Set the texture of the sphere to wood.,setTexture
+Set the texture of the sphere to metal.,setTexture
+Set the texture of the pyramid to metal.,setTexture
+Set the texture of the cube to wood.,setTexture
+Set the texture of the cube to metal.,setTexture
+Set the texture of the object to metal.,setTexture
+Set the texture of the object to wood.,setTexture
+Set the texture of the object to wood.,setTexture
+Set the texture of the object to metal.,setTexture
+Set the texture of the cube to glass.,setTexture
+Set the texture of the object to wood.,setTexture
+Set the texture of the sphere to glass.,setTexture
+Set the texture of the cube to wood.,setTexture
+Set the texture of the pyramid to glass.,setTexture
+Set the texture of the pyramid to glass.,setTexture
+Set the texture of the sphere to glass.,setTexture
+Set the texture of the pyramid to metal.,setTexture
+Set the texture of the pyramid to wood.,setTexture
+Set the texture of the sphere to wood.,setTexture
+Set the texture of the object to metal.,setTexture
+Set the texture of the cube to glass.,setTexture
+Set the texture of the cube to metal.,setTexture
+Set the texture of the sphere to wood.,setTexture
+Set the texture of the sphere to wood.,setTexture
+Set the texture of the object to wood.,setTexture
+Set the texture of the sphere to metal.,setTexture
+Set the texture of the pyramid to glass.,setTexture
+Set the texture of the sphere to glass.,setTexture
+Set the texture of the cube to metal.,setTexture
+Set the texture of the pyramid to wood.,setTexture
+Set the texture of the cube to glass.,setTexture
+Set the texture of the sphere to wood.,setTexture
+Set the texture of the object to wood.,setTexture
+Set the texture of the pyramid to wood.,setTexture
+Set the texture of the object to metal.,setTexture
+Set the texture of the pyramid to glass.,setTexture
+Set the texture of the sphere to metal.,setTexture
+Set the texture of the sphere to metal.,setTexture
+Set the texture of the cube to wood.,setTexture
+Set the texture of the cube to glass.,setTexture
+Set the texture of the sphere to metal.,setTexture
+Set the texture of the cube to wood.,setTexture
+Set the texture of the cube to metal.,setTexture
+Set the texture of the object to metal.,setTexture
+Set the texture of the object to metal.,setTexture
+Set the texture of the object to wood.,setTexture
+Set the texture of the sphere to glass.,setTexture
+Set the texture of the pyramid to glass.,setTexture
+Set the texture of the pyramid to wood.,setTexture
+Set the transparency of the pyramid to 0.38.,setTransparency
+Set the transparency of the cube to 0.27.,setTransparency
+Set the transparency of the pyramid to 0.34.,setTransparency
+Set the transparency of the cube to 0.48.,setTransparency
+Set the transparency of the pyramid to 0.11.,setTransparency
+Set the transparency of the pyramid to 0.68.,setTransparency
+Set the transparency of the object to 0.22.,setTransparency
+Set the transparency of the pyramid to 0.05.,setTransparency
+Set the transparency of the object to 0.63.,setTransparency
+Set the transparency of the pyramid to 0.93.,setTransparency
+Set the transparency of the sphere to 0.35.,setTransparency
+Set the transparency of the sphere to 0.71.,setTransparency
+Set the transparency of the pyramid to 1.0.,setTransparency
+Set the transparency of the pyramid to 0.71.,setTransparency
+Set the transparency of the sphere to 0.85.,setTransparency
+Set the transparency of the pyramid to 0.8.,setTransparency
+Set the transparency of the cube to 0.11.,setTransparency
+Set the transparency of the object to 0.98.,setTransparency
+Set the transparency of the cube to 0.47.,setTransparency
+Set the transparency of the pyramid to 0.87.,setTransparency
+Set the transparency of the sphere to 0.69.,setTransparency
+Set the transparency of the cube to 0.71.,setTransparency
+Set the transparency of the cube to 0.86.,setTransparency
+Set the transparency of the object to 0.6.,setTransparency
+Set the transparency of the cube to 0.41.,setTransparency
+Set the transparency of the pyramid to 0.44.,setTransparency
+Set the transparency of the pyramid to 0.31.,setTransparency
+Set the transparency of the pyramid to 0.81.,setTransparency
+Set the transparency of the cube to 0.84.,setTransparency
+Set the transparency of the sphere to 0.98.,setTransparency
+Set the transparency of the object to 0.54.,setTransparency
+Set the transparency of the sphere to 0.86.,setTransparency
+Set the transparency of the object to 0.01.,setTransparency
+Set the transparency of the pyramid to 0.16.,setTransparency
+Set the transparency of the cube to 0.55.,setTransparency
+Set the transparency of the cube to 0.59.,setTransparency
+Set the transparency of the cube to 0.84.,setTransparency
+Set the transparency of the cube to 0.93.,setTransparency
+Set the transparency of the pyramid to 0.32.,setTransparency
+Set the transparency of the object to 0.16.,setTransparency
+Set the transparency of the cube to 0.81.,setTransparency
+Set the transparency of the sphere to 0.43.,setTransparency
+Set the transparency of the object to 0.11.,setTransparency
+Set the transparency of the pyramid to 0.71.,setTransparency
+Set the transparency of the object to 0.37.,setTransparency
+Set the transparency of the sphere to 0.19.,setTransparency
+Set the transparency of the pyramid to 0.42.,setTransparency
+Set the transparency of the pyramid to 0.6.,setTransparency
+Set the transparency of the object to 0.74.,setTransparency
+Set the transparency of the cube to 0.95.,setTransparency
+Set the transparency of the pyramid to 0.63.,setTransparency
+Set the transparency of the pyramid to 0.12.,setTransparency
+Set the transparency of the sphere to 0.55.,setTransparency
+Set the transparency of the pyramid to 0.91.,setTransparency
+Set the transparency of the cube to 0.31.,setTransparency
+Set the transparency of the cube to 0.87.,setTransparency
+Set the transparency of the object to 0.34.,setTransparency
+Set the transparency of the pyramid to 0.99.,setTransparency
+Set the transparency of the cube to 0.05.,setTransparency
+Set the transparency of the sphere to 0.03.,setTransparency
+Set the transparency of the cube to 0.57.,setTransparency
+Set the transparency of the sphere to 0.59.,setTransparency
+Set the transparency of the object to 0.27.,setTransparency
+Set the transparency of the cube to 0.67.,setTransparency
+Set the transparency of the cube to 0.94.,setTransparency
+Set the transparency of the cube to 0.12.,setTransparency
+Set the transparency of the sphere to 0.32.,setTransparency
+Set the transparency of the cube to 0.75.,setTransparency
+Set the transparency of the cube to 0.24.,setTransparency
+Set the transparency of the pyramid to 0.21.,setTransparency
+Set the transparency of the object to 0.54.,setTransparency
+Set the transparency of the pyramid to 0.97.,setTransparency
+Set the transparency of the pyramid to 0.23.,setTransparency
+Set the transparency of the sphere to 0.66.,setTransparency
+Set the transparency of the object to 0.39.,setTransparency
+Set the transparency of the pyramid to 0.75.,setTransparency
+Set the transparency of the object to 0.7.,setTransparency
+Set the transparency of the cube to 0.68.,setTransparency
+Set the transparency of the pyramid to 0.2.,setTransparency
+Set the transparency of the pyramid to 0.62.,setTransparency
+Set the transparency of the sphere to 0.52.,setTransparency
+Set the transparency of the pyramid to 0.19.,setTransparency
+Set the transparency of the cube to 0.85.,setTransparency
+Set the transparency of the cube to 0.93.,setTransparency
+Set the transparency of the object to 0.67.,setTransparency
+Set the transparency of the sphere to 0.08.,setTransparency
+Set the transparency of the sphere to 0.79.,setTransparency
+Set the transparency of the cube to 0.45.,setTransparency
+Set the transparency of the sphere to 0.85.,setTransparency
+Set the transparency of the cube to 0.2.,setTransparency
+Set the transparency of the object to 0.53.,setTransparency
+Set the transparency of the object to 0.44.,setTransparency
+Set the transparency of the sphere to 0.84.,setTransparency
+Set the transparency of the object to 0.52.,setTransparency
+Set the transparency of the sphere to 0.81.,setTransparency
+Set the transparency of the cube to 0.9.,setTransparency
+Set the transparency of the object to 0.46.,setTransparency
+Set the transparency of the sphere to 0.27.,setTransparency
+Set the transparency of the object to 0.57.,setTransparency
+Set the transparency of the sphere to 0.18.,setTransparency
+"Set the lighting to type=directional, intensity=7, color=yellow.",changeLighting
+"Set the lighting to type=ambient, intensity=4, color=yellow.",changeLighting
+"Set the lighting to type=ambient, intensity=8, color=red.",changeLighting
+"Set the lighting to type=ambient, intensity=10, color=blue.",changeLighting
+"Set the lighting to type=spot, intensity=2, color=blue.",changeLighting
+"Set the lighting to type=ambient, intensity=8, color=green.",changeLighting
+"Set the lighting to type=ambient, intensity=1, color=yellow.",changeLighting
+"Set the lighting to type=ambient, intensity=10, color=blue.",changeLighting
+"Set the lighting to type=directional, intensity=7, color=red.",changeLighting
+"Set the lighting to type=directional, intensity=7, color=blue.",changeLighting
+"Set the lighting to type=ambient, intensity=10, color=blue.",changeLighting
+"Set the lighting to type=spot, intensity=3, color=red.",changeLighting
+"Set the lighting to type=ambient, intensity=1, color=red.",changeLighting
+"Set the lighting to type=spot, intensity=8, color=yellow.",changeLighting
+"Set the lighting to type=directional, intensity=2, color=red.",changeLighting
+"Set the lighting to type=directional, intensity=10, color=red.",changeLighting
+"Set the lighting to type=spot, intensity=8, color=red.",changeLighting
+"Set the lighting to type=ambient, intensity=9, color=green.",changeLighting
+"Set the lighting to type=ambient, intensity=1, color=yellow.",changeLighting
+"Set the lighting to type=spot, intensity=4, color=blue.",changeLighting
+"Set the lighting to type=directional, intensity=3, color=yellow.",changeLighting
+"Set the lighting to type=directional, intensity=4, color=blue.",changeLighting
+"Set the lighting to type=spot, intensity=9, color=blue.",changeLighting
+"Set the lighting to type=spot, intensity=6, color=blue.",changeLighting
+"Set the lighting to type=ambient, intensity=5, color=red.",changeLighting
+"Set the lighting to type=spot, intensity=2, color=green.",changeLighting
+"Set the lighting to type=spot, intensity=5, color=blue.",changeLighting
+"Set the lighting to type=ambient, intensity=10, color=blue.",changeLighting
+"Set the lighting to type=directional, intensity=1, color=blue.",changeLighting
+"Set the lighting to type=ambient, intensity=1, color=blue.",changeLighting
+"Set the lighting to type=directional, intensity=10, color=yellow.",changeLighting
+"Set the lighting to type=ambient, intensity=3, color=yellow.",changeLighting
+"Set the lighting to type=ambient, intensity=7, color=yellow.",changeLighting
+"Set the lighting to type=spot, intensity=4, color=red.",changeLighting
+"Set the lighting to type=ambient, intensity=10, color=red.",changeLighting
+"Set the lighting to type=directional, intensity=6, color=yellow.",changeLighting
+"Set the lighting to type=spot, intensity=8, color=green.",changeLighting
+"Set the lighting to type=directional, intensity=1, color=blue.",changeLighting
+"Set the lighting to type=spot, intensity=9, color=red.",changeLighting
+"Set the lighting to type=ambient, intensity=6, color=yellow.",changeLighting
+"Set the lighting to type=directional, intensity=8, color=green.",changeLighting
+"Set the lighting to type=directional, intensity=8, color=red.",changeLighting
+"Set the lighting to type=directional, intensity=1, color=blue.",changeLighting
+"Set the lighting to type=ambient, intensity=8, color=yellow.",changeLighting
+"Set the lighting to type=spot, intensity=8, color=blue.",changeLighting
+"Set the lighting to type=directional, intensity=3, color=blue.",changeLighting
+"Set the lighting to type=spot, intensity=3, color=green.",changeLighting
+"Set the lighting to type=ambient, intensity=2, color=red.",changeLighting
+"Set the lighting to type=ambient, intensity=9, color=yellow.",changeLighting
+"Set the lighting to type=directional, intensity=4, color=blue.",changeLighting
+"Set the lighting to type=spot, intensity=9, color=yellow.",changeLighting
+"Set the lighting to type=ambient, intensity=7, color=blue.",changeLighting
+"Set the lighting to type=spot, intensity=4, color=green.",changeLighting
+"Set the lighting to type=spot, intensity=8, color=yellow.",changeLighting
+"Set the lighting to type=directional, intensity=7, color=red.",changeLighting
+"Set the lighting to type=directional, intensity=3, color=yellow.",changeLighting
+"Set the lighting to type=spot, intensity=9, color=red.",changeLighting
+"Set the lighting to type=directional, intensity=8, color=blue.",changeLighting
+"Set the lighting to type=directional, intensity=6, color=red.",changeLighting
+"Set the lighting to type=ambient, intensity=1, color=green.",changeLighting
+"Set the lighting to type=directional, intensity=9, color=red.",changeLighting
+"Set the lighting to type=spot, intensity=10, color=green.",changeLighting
+"Set the lighting to type=ambient, intensity=6, color=red.",changeLighting
+"Set the lighting to type=directional, intensity=7, color=yellow.",changeLighting
+"Set the lighting to type=directional, intensity=1, color=yellow.",changeLighting
+"Set the lighting to type=directional, intensity=10, color=green.",changeLighting
+"Set the lighting to type=directional, intensity=2, color=red.",changeLighting
+"Set the lighting to type=spot, intensity=6, color=yellow.",changeLighting
+"Set the lighting to type=directional, intensity=3, color=red.",changeLighting
+"Set the lighting to type=directional, intensity=8, color=green.",changeLighting
+"Set the lighting to type=ambient, intensity=3, color=blue.",changeLighting
+"Set the lighting to type=ambient, intensity=6, color=green.",changeLighting
+"Set the lighting to type=spot, intensity=8, color=red.",changeLighting
+"Set the lighting to type=spot, intensity=5, color=blue.",changeLighting
+"Set the lighting to type=directional, intensity=1, color=red.",changeLighting
+"Set the lighting to type=directional, intensity=1, color=green.",changeLighting
+"Set the lighting to type=directional, intensity=10, color=green.",changeLighting
+"Set the lighting to type=spot, intensity=10, color=blue.",changeLighting
+"Set the lighting to type=spot, intensity=7, color=yellow.",changeLighting
+"Set the lighting to type=directional, intensity=6, color=green.",changeLighting
+"Set the lighting to type=ambient, intensity=1, color=green.",changeLighting
+"Set the lighting to type=ambient, intensity=5, color=red.",changeLighting
+"Set the lighting to type=ambient, intensity=10, color=green.",changeLighting
+"Set the lighting to type=ambient, intensity=9, color=red.",changeLighting
+"Set the lighting to type=spot, intensity=1, color=green.",changeLighting
+"Set the lighting to type=ambient, intensity=4, color=red.",changeLighting
+"Set the lighting to type=directional, intensity=10, color=blue.",changeLighting
+"Set the lighting to type=spot, intensity=5, color=green.",changeLighting
+"Set the lighting to type=ambient, intensity=4, color=red.",changeLighting
+"Set the lighting to type=ambient, intensity=3, color=yellow.",changeLighting
+"Set the lighting to type=ambient, intensity=8, color=green.",changeLighting
+"Set the lighting to type=spot, intensity=1, color=red.",changeLighting
+"Set the lighting to type=ambient, intensity=8, color=green.",changeLighting
+"Set the lighting to type=directional, intensity=8, color=red.",changeLighting
+"Set the lighting to type=spot, intensity=1, color=blue.",changeLighting
+"Set the lighting to type=spot, intensity=7, color=blue.",changeLighting
+"Set the lighting to type=ambient, intensity=2, color=yellow.",changeLighting
+"Set the lighting to type=ambient, intensity=1, color=green.",changeLighting
+"Set the lighting to type=directional, intensity=2, color=red.",changeLighting
+"Set the lighting to type=directional, intensity=3, color=blue.",changeLighting
+Set the background color to blue or image to sky.jpg.,setBackground
+Set the background color to red or image to sky.jpg.,setBackground
+Set the background color to red or image to sky.jpg.,setBackground
+Set the background color to red or image to mountain.png.,setBackground
+Set the background color to red or image to sky.jpg.,setBackground
+Set the background color to green or image to mountain.png.,setBackground
+Set the background color to red or image to sky.jpg.,setBackground
+Set the background color to green or image to mountain.png.,setBackground
+Set the background color to red or image to mountain.png.,setBackground
+Set the background color to blue or image to mountain.png.,setBackground
+Set the background color to green or image to mountain.png.,setBackground
+Set the background color to green or image to mountain.png.,setBackground
+Set the background color to yellow or image to mountain.png.,setBackground
+Set the background color to yellow or image to mountain.png.,setBackground
+Set the background color to red or image to sky.jpg.,setBackground
+Set the background color to green or image to mountain.png.,setBackground
+Set the background color to blue or image to sky.jpg.,setBackground
+Set the background color to green or image to sky.jpg.,setBackground
+Set the background color to red or image to mountain.png.,setBackground
+Set the background color to blue or image to sky.jpg.,setBackground
+Set the background color to green or image to mountain.png.,setBackground
+Set the background color to red or image to sky.jpg.,setBackground
+Set the background color to green or image to mountain.png.,setBackground
+Set the background color to yellow or image to mountain.png.,setBackground
+Set the background color to green or image to mountain.png.,setBackground
+Set the background color to green or image to mountain.png.,setBackground
+Set the background color to red or image to mountain.png.,setBackground
+Set the background color to red or image to mountain.png.,setBackground
+Set the background color to green or image to mountain.png.,setBackground
+Set the background color to green or image to sky.jpg.,setBackground
+Set the background color to yellow or image to sky.jpg.,setBackground
+Set the background color to blue or image to mountain.png.,setBackground
+Set the background color to yellow or image to sky.jpg.,setBackground
+Set the background color to blue or image to sky.jpg.,setBackground
+Set the background color to red or image to mountain.png.,setBackground
+Set the background color to blue or image to mountain.png.,setBackground
+Set the background color to yellow or image to sky.jpg.,setBackground
+Set the background color to blue or image to mountain.png.,setBackground
+Set the background color to green or image to sky.jpg.,setBackground
+Set the background color to red or image to mountain.png.,setBackground
+Set the background color to yellow or image to sky.jpg.,setBackground
+Set the background color to green or image to mountain.png.,setBackground
+Set the background color to yellow or image to mountain.png.,setBackground
+Set the background color to yellow or image to mountain.png.,setBackground
+Set the background color to red or image to sky.jpg.,setBackground
+Set the background color to green or image to sky.jpg.,setBackground
+Set the background color to blue or image to mountain.png.,setBackground
+Set the background color to green or image to mountain.png.,setBackground
+Set the background color to green or image to mountain.png.,setBackground
+Set the background color to blue or image to mountain.png.,setBackground
+Set the background color to red or image to mountain.png.,setBackground
+Set the background color to green or image to mountain.png.,setBackground
+Set the background color to yellow or image to mountain.png.,setBackground
+Set the background color to red or image to mountain.png.,setBackground
+Set the background color to yellow or image to sky.jpg.,setBackground
+Set the background color to yellow or image to mountain.png.,setBackground
+Set the background color to green or image to sky.jpg.,setBackground
+Set the background color to yellow or image to mountain.png.,setBackground
+Set the background color to red or image to mountain.png.,setBackground
+Set the background color to blue or image to mountain.png.,setBackground
+Set the background color to green or image to sky.jpg.,setBackground
+Set the background color to green or image to sky.jpg.,setBackground
+Set the background color to green or image to mountain.png.,setBackground
+Set the background color to yellow or image to mountain.png.,setBackground
+Set the background color to red or image to sky.jpg.,setBackground
+Set the background color to yellow or image to sky.jpg.,setBackground
+Set the background color to red or image to sky.jpg.,setBackground
+Set the background color to yellow or image to sky.jpg.,setBackground
+Set the background color to blue or image to mountain.png.,setBackground
+Set the background color to blue or image to sky.jpg.,setBackground
+Set the background color to yellow or image to mountain.png.,setBackground
+Set the background color to red or image to mountain.png.,setBackground
+Set the background color to red or image to sky.jpg.,setBackground
+Set the background color to green or image to sky.jpg.,setBackground
+Set the background color to red or image to mountain.png.,setBackground
+Set the background color to green or image to sky.jpg.,setBackground
+Set the background color to green or image to sky.jpg.,setBackground
+Set the background color to blue or image to mountain.png.,setBackground
+Set the background color to green or image to mountain.png.,setBackground
+Set the background color to red or image to mountain.png.,setBackground
+Set the background color to red or image to mountain.png.,setBackground
+Set the background color to blue or image to sky.jpg.,setBackground
+Set the background color to red or image to sky.jpg.,setBackground
+Set the background color to yellow or image to mountain.png.,setBackground
+Set the background color to yellow or image to mountain.png.,setBackground
+Set the background color to green or image to sky.jpg.,setBackground
+Set the background color to yellow or image to sky.jpg.,setBackground
+Set the background color to green or image to sky.jpg.,setBackground
+Set the background color to red or image to mountain.png.,setBackground
+Set the background color to red or image to sky.jpg.,setBackground
+Set the background color to yellow or image to mountain.png.,setBackground
+Set the background color to yellow or image to mountain.png.,setBackground
+Set the background color to green or image to sky.jpg.,setBackground
+Set the background color to yellow or image to mountain.png.,setBackground
+Set the background color to yellow or image to sky.jpg.,setBackground
+Set the background color to green or image to mountain.png.,setBackground
+Set the background color to green or image to sky.jpg.,setBackground
+Set the background color to blue or image to sky.jpg.,setBackground
+Set the background color to red or image to mountain.png.,setBackground
+Set the background color to yellow or image to sky.jpg.,setBackground
+Group [object1] and [object2] into group Group3.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group3.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group3.,groupObjects
+Group [object1] and [object2] into group Group3.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group3.,groupObjects
+Group [object1] and [object2] into group Group3.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group3.,groupObjects
+Group [object1] and [object2] into group Group3.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group3.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group3.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group3.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group3.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group3.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group3.,groupObjects
+Group [object1] and [object2] into group Group3.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group3.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group3.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group3.,groupObjects
+Group [object1] and [object2] into group Group3.,groupObjects
+Group [object1] and [object2] into group Group3.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group3.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group3.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group3.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group3.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group3.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group1.,groupObjects
+Group [object1] and [object2] into group Group3.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Group [object1] and [object2] into group Group2.,groupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group2.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group2.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group2.,ungroupObjects
+Ungroup the group Group2.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group2.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group2.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group2.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group2.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group2.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group2.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group2.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group2.,ungroupObjects
+Ungroup the group Group2.,ungroupObjects
+Ungroup the group Group2.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group2.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group2.,ungroupObjects
+Ungroup the group Group2.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group2.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group2.,ungroupObjects
+Ungroup the group Group2.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group2.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group2.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group2.,ungroupObjects
+Ungroup the group Group1.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group2.,ungroupObjects
+Ungroup the group Group3.,ungroupObjects
+Ungroup the group Group2.,ungroupObjects
+"Duplicate the pyramid at X=39, Y=1, Z=-4.",duplicateObject
+"Duplicate the sphere at X=-90, Y=-16, Z=33.",duplicateObject
+"Duplicate the sphere at X=80, Y=-17, Z=61.",duplicateObject
+"Duplicate the cube at X=8, Y=37, Z=55.",duplicateObject
+"Duplicate the sphere at X=-17, Y=-36, Z=-2.",duplicateObject
+"Duplicate the object at X=-73, Y=-5, Z=-94.",duplicateObject
+"Duplicate the cube at X=38, Y=87, Z=-5.",duplicateObject
+"Duplicate the cube at X=-36, Y=-26, Z=84.",duplicateObject
+"Duplicate the sphere at X=67, Y=49, Z=-40.",duplicateObject
+"Duplicate the object at X=0, Y=-80, Z=50.",duplicateObject
+"Duplicate the object at X=-3, Y=2, Z=-86.",duplicateObject
+"Duplicate the cube at X=-33, Y=0, Z=-58.",duplicateObject
+"Duplicate the cube at X=79, Y=61, Z=9.",duplicateObject
+"Duplicate the cube at X=64, Y=48, Z=-15.",duplicateObject
+"Duplicate the cube at X=-80, Y=-46, Z=53.",duplicateObject
+"Duplicate the object at X=-60, Y=66, Z=-27.",duplicateObject
+"Duplicate the object at X=63, Y=16, Z=88.",duplicateObject
+"Duplicate the pyramid at X=-2, Y=6, Z=-70.",duplicateObject
+"Duplicate the cube at X=2, Y=65, Z=30.",duplicateObject
+"Duplicate the cube at X=-50, Y=-65, Z=66.",duplicateObject
+"Duplicate the pyramid at X=-31, Y=-67, Z=5.",duplicateObject
+"Duplicate the object at X=2, Y=8, Z=-58.",duplicateObject
+"Duplicate the sphere at X=-6, Y=-59, Z=32.",duplicateObject
+"Duplicate the object at X=50, Y=0, Z=-73.",duplicateObject
+"Duplicate the object at X=84, Y=17, Z=96.",duplicateObject
+"Duplicate the cube at X=3, Y=-17, Z=-86.",duplicateObject
+"Duplicate the sphere at X=8, Y=-46, Z=5.",duplicateObject
+"Duplicate the pyramid at X=-93, Y=61, Z=-12.",duplicateObject
+"Duplicate the sphere at X=76, Y=-40, Z=-53.",duplicateObject
+"Duplicate the cube at X=-45, Y=10, Z=5.",duplicateObject
+"Duplicate the object at X=-48, Y=-91, Z=47.",duplicateObject
+"Duplicate the pyramid at X=-91, Y=-41, Z=-7.",duplicateObject
+"Duplicate the sphere at X=-14, Y=31, Z=-86.",duplicateObject
+"Duplicate the pyramid at X=-13, Y=12, Z=-83.",duplicateObject
+"Duplicate the object at X=-1, Y=73, Z=78.",duplicateObject
+"Duplicate the pyramid at X=50, Y=100, Z=44.",duplicateObject
+"Duplicate the sphere at X=-68, Y=-16, Z=50.",duplicateObject
+"Duplicate the pyramid at X=73, Y=20, Z=23.",duplicateObject
+"Duplicate the sphere at X=0, Y=-79, Z=83.",duplicateObject
+"Duplicate the sphere at X=82, Y=-62, Z=-96.",duplicateObject
+"Duplicate the cube at X=47, Y=89, Z=-21.",duplicateObject
+"Duplicate the object at X=36, Y=-71, Z=-66.",duplicateObject
+"Duplicate the sphere at X=-2, Y=-57, Z=-37.",duplicateObject
+"Duplicate the cube at X=79, Y=-8, Z=-9.",duplicateObject
+"Duplicate the pyramid at X=-83, Y=-86, Z=27.",duplicateObject
+"Duplicate the pyramid at X=-54, Y=-50, Z=56.",duplicateObject
+"Duplicate the pyramid at X=4, Y=-82, Z=36.",duplicateObject
+"Duplicate the object at X=41, Y=26, Z=-61.",duplicateObject
+"Duplicate the pyramid at X=-26, Y=-81, Z=85.",duplicateObject
+"Duplicate the object at X=39, Y=-37, Z=34.",duplicateObject
+"Duplicate the object at X=-73, Y=100, Z=-80.",duplicateObject
+"Duplicate the pyramid at X=55, Y=4, Z=-31.",duplicateObject
+"Duplicate the cube at X=-97, Y=-92, Z=-69.",duplicateObject
+"Duplicate the pyramid at X=97, Y=93, Z=94.",duplicateObject
+"Duplicate the object at X=48, Y=48, Z=-89.",duplicateObject
+"Duplicate the sphere at X=36, Y=-92, Z=-21.",duplicateObject
+"Duplicate the cube at X=78, Y=21, Z=99.",duplicateObject
+"Duplicate the cube at X=12, Y=64, Z=69.",duplicateObject
+"Duplicate the object at X=-60, Y=-88, Z=60.",duplicateObject
+"Duplicate the pyramid at X=-9, Y=-52, Z=72.",duplicateObject
+"Duplicate the cube at X=-73, Y=-35, Z=-38.",duplicateObject
+"Duplicate the pyramid at X=39, Y=1, Z=58.",duplicateObject
+"Duplicate the object at X=-41, Y=-53, Z=86.",duplicateObject
+"Duplicate the object at X=-56, Y=89, Z=-99.",duplicateObject
+"Duplicate the object at X=-6, Y=-10, Z=81.",duplicateObject
+"Duplicate the pyramid at X=44, Y=-72, Z=-75.",duplicateObject
+"Duplicate the object at X=-93, Y=50, Z=-70.",duplicateObject
+"Duplicate the sphere at X=-79, Y=-15, Z=-38.",duplicateObject
+"Duplicate the pyramid at X=-65, Y=77, Z=-98.",duplicateObject
+"Duplicate the pyramid at X=43, Y=60, Z=-43.",duplicateObject
+"Duplicate the object at X=-55, Y=-76, Z=19.",duplicateObject
+"Duplicate the pyramid at X=81, Y=19, Z=6.",duplicateObject
+"Duplicate the pyramid at X=19, Y=97, Z=93.",duplicateObject
+"Duplicate the cube at X=-55, Y=-56, Z=96.",duplicateObject
+"Duplicate the sphere at X=-78, Y=45, Z=-50.",duplicateObject
+"Duplicate the pyramid at X=-21, Y=-88, Z=-2.",duplicateObject
+"Duplicate the sphere at X=97, Y=67, Z=-39.",duplicateObject
+"Duplicate the sphere at X=-37, Y=45, Z=20.",duplicateObject
+"Duplicate the cube at X=-67, Y=-12, Z=44.",duplicateObject
+"Duplicate the pyramid at X=49, Y=67, Z=-74.",duplicateObject
+"Duplicate the sphere at X=67, Y=-42, Z=97.",duplicateObject
+"Duplicate the object at X=48, Y=10, Z=-47.",duplicateObject
+"Duplicate the object at X=-56, Y=-63, Z=-61.",duplicateObject
+"Duplicate the object at X=2, Y=-73, Z=-33.",duplicateObject
+"Duplicate the sphere at X=99, Y=57, Z=17.",duplicateObject
+"Duplicate the cube at X=68, Y=-60, Z=-54.",duplicateObject
+"Duplicate the sphere at X=-67, Y=35, Z=14.",duplicateObject
+"Duplicate the sphere at X=-5, Y=75, Z=-43.",duplicateObject
+"Duplicate the pyramid at X=68, Y=59, Z=-60.",duplicateObject
+"Duplicate the cube at X=48, Y=17, Z=74.",duplicateObject
+"Duplicate the pyramid at X=-80, Y=73, Z=-76.",duplicateObject
+"Duplicate the object at X=95, Y=92, Z=-20.",duplicateObject
+"Duplicate the cube at X=-4, Y=13, Z=7.",duplicateObject
+"Duplicate the sphere at X=56, Y=84, Z=-54.",duplicateObject
+"Duplicate the sphere at X=39, Y=100, Z=-91.",duplicateObject
+"Duplicate the object at X=-59, Y=-20, Z=-89.",duplicateObject
+"Duplicate the pyramid at X=97, Y=21, Z=37.",duplicateObject
+"Duplicate the sphere at X=-62, Y=-33, Z=-76.",duplicateObject
+"Duplicate the pyramid at X=-30, Y=-64, Z=79.",duplicateObject
+"Duplicate the cube at X=97, Y=85, Z=-3.",duplicateObject
+Set the property friction of sphere to 33.25407303335766.,setObjectProperty
+Set the property friction of sphere to 35.03925198054816.,setObjectProperty
+Set the property velocity of object to 47.66930793637218.,setObjectProperty
+Set the property mass of cube to 60.47232202928202.,setObjectProperty
+Set the property friction of cube to 85.79057121953153.,setObjectProperty
+Set the property velocity of pyramid to 32.40874001555779.,setObjectProperty
+Set the property friction of pyramid to 57.906271506795875.,setObjectProperty
+Set the property mass of sphere to 19.051237678710443.,setObjectProperty
+Set the property mass of pyramid to 19.831827461388826.,setObjectProperty
+Set the property mass of sphere to 44.27715509254709.,setObjectProperty
+Set the property mass of cube to 31.215555027328733.,setObjectProperty
+Set the property mass of object to 9.079535620287235.,setObjectProperty
+Set the property friction of pyramid to 50.85170747311626.,setObjectProperty
+Set the property friction of pyramid to 18.725902018932825.,setObjectProperty
+Set the property mass of cube to 32.033759521544376.,setObjectProperty
+Set the property friction of object to 29.93744825003183.,setObjectProperty
+Set the property mass of sphere to 31.07202066307875.,setObjectProperty
+Set the property velocity of pyramid to 4.584206921621849.,setObjectProperty
+Set the property friction of sphere to 37.768353067922476.,setObjectProperty
+Set the property velocity of sphere to 67.79094962042461.,setObjectProperty
+Set the property mass of sphere to 45.271711973518784.,setObjectProperty
+Set the property mass of sphere to 45.727063210259836.,setObjectProperty
+Set the property mass of sphere to 62.21401505417858.,setObjectProperty
+Set the property friction of object to 58.89547816079856.,setObjectProperty
+Set the property mass of pyramid to 71.94005729722768.,setObjectProperty
+Set the property velocity of sphere to 1.8413283573773243.,setObjectProperty
+Set the property velocity of sphere to 6.5442529714170234.,setObjectProperty
+Set the property mass of cube to 10.37608831600315.,setObjectProperty
+Set the property velocity of cube to 62.7198812596929.,setObjectProperty
+Set the property friction of pyramid to 35.90953067120546.,setObjectProperty
+Set the property mass of object to 11.964265244955593.,setObjectProperty
+Set the property mass of cube to 2.0527746985704023.,setObjectProperty
+Set the property friction of cube to 76.57897801984711.,setObjectProperty
+Set the property velocity of pyramid to 49.5478302657164.,setObjectProperty
+Set the property mass of cube to 7.535577417699263.,setObjectProperty
+Set the property mass of pyramid to 42.07760483687828.,setObjectProperty
+Set the property velocity of sphere to 41.41953035840578.,setObjectProperty
+Set the property mass of cube to 62.598367035077935.,setObjectProperty
+Set the property mass of pyramid to 69.27160941534079.,setObjectProperty
+Set the property friction of object to 76.38299224925568.,setObjectProperty
+Set the property friction of object to 1.2177435681898912.,setObjectProperty
+Set the property mass of object to 50.260519309438486.,setObjectProperty
+Set the property friction of pyramid to 97.41165033984691.,setObjectProperty
+Set the property velocity of pyramid to 29.036006542934373.,setObjectProperty
+Set the property friction of object to 6.588913406841888.,setObjectProperty
+Set the property mass of cube to 29.73889515527901.,setObjectProperty
+Set the property mass of object to 68.62276064144866.,setObjectProperty
+Set the property velocity of sphere to 67.29087652297069.,setObjectProperty
+Set the property mass of pyramid to 3.963541590036555.,setObjectProperty
+Set the property friction of pyramid to 24.181851963723467.,setObjectProperty
+Set the property mass of cube to 46.34094734212775.,setObjectProperty
+Set the property velocity of cube to 80.6658283344888.,setObjectProperty
+Set the property friction of sphere to 76.16017268253131.,setObjectProperty
+Set the property mass of object to 32.460560192200575.,setObjectProperty
+Set the property friction of cube to 81.11974459734158.,setObjectProperty
+Set the property friction of pyramid to 49.081456065387414.,setObjectProperty
+Set the property mass of cube to 48.571416580977605.,setObjectProperty
+Set the property friction of pyramid to 49.956108953379584.,setObjectProperty
+Set the property velocity of object to 7.728706332882996.,setObjectProperty
+Set the property friction of cube to 35.06854942537193.,setObjectProperty
+Set the property mass of pyramid to 16.19280240180516.,setObjectProperty
+Set the property friction of cube to 62.55499921886201.,setObjectProperty
+Set the property friction of cube to 39.72919178519248.,setObjectProperty
+Set the property mass of object to 8.824267601567673.,setObjectProperty
+Set the property velocity of sphere to 49.570077755722075.,setObjectProperty
+Set the property mass of cube to 76.67702701549999.,setObjectProperty
+Set the property friction of pyramid to 44.35072173791572.,setObjectProperty
+Set the property mass of sphere to 17.393195743169873.,setObjectProperty
+Set the property velocity of sphere to 43.638714752511994.,setObjectProperty
+Set the property friction of object to 8.505516116011599.,setObjectProperty
+Set the property friction of cube to 45.56020552530362.,setObjectProperty
+Set the property friction of sphere to 37.867336899945414.,setObjectProperty
+Set the property velocity of sphere to 14.916526561817122.,setObjectProperty
+Set the property mass of cube to 17.439279278256993.,setObjectProperty
+Set the property mass of sphere to 75.49434137057774.,setObjectProperty
+Set the property velocity of object to 94.27992137702167.,setObjectProperty
+Set the property mass of sphere to 37.79519015250568.,setObjectProperty
+Set the property mass of pyramid to 22.3288384002575.,setObjectProperty
+Set the property velocity of object to 24.58507821686435.,setObjectProperty
+Set the property velocity of sphere to 74.98970209812846.,setObjectProperty
+Set the property velocity of sphere to 21.12389222541337.,setObjectProperty
+Set the property mass of pyramid to 61.84139093833919.,setObjectProperty
+Set the property friction of object to 97.81828746325185.,setObjectProperty
+Set the property friction of pyramid to 55.38490911048155.,setObjectProperty
+Set the property friction of sphere to 85.8893264540844.,setObjectProperty
+Set the property friction of object to 91.97115538781362.,setObjectProperty
+Set the property mass of object to 12.293346766060012.,setObjectProperty
+Set the property velocity of object to 63.9739279054097.,setObjectProperty
+Set the property friction of sphere to 84.73017070290507.,setObjectProperty
+Set the property friction of object to 2.8641665189809964.,setObjectProperty
+Set the property velocity of sphere to 70.2400298872147.,setObjectProperty
+Set the property friction of pyramid to 56.519000249362264.,setObjectProperty
+Set the property mass of cube to 86.9934673631909.,setObjectProperty
+Set the property friction of cube to 31.6835512620583.,setObjectProperty
+Set the property mass of cube to 58.85425422057415.,setObjectProperty
+Set the property velocity of sphere to 44.407913131108366.,setObjectProperty
+Set the property velocity of object to 6.846225084976189.,setObjectProperty
+Set the property mass of pyramid to 22.008342683418572.,setObjectProperty
+Set the property velocity of object to 55.966750035785715.,setObjectProperty
+Set the property mass of cube to 9.049289135583553.,setObjectProperty

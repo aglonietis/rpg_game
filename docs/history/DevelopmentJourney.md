@@ -100,3 +100,33 @@ It is a total failure. Now have to see what is going on. How is model responding
 Do i need to increase training amount, refactor data or even change the model to something else
 
 
+
+## First success in accuracy
+
+At first I did not understand what the output was. There was training_loss, validation_loss
+What are those mystical things. Ok, they have a meaning, but no matter how big or small these
+numbers were I did not get useful output, because in the end predictions were still
+always just empty spaces and I was very confused. What is the model training for?
+
+So I added "accuracy", which indicated how much of the answers did I actually get right?
+
+And I was shocked - it was 0. 
+
+I went and remade the testing data. I have multiple datasets in the datasets directory.
+Currently using text_to_command_dataset_v1.csv.
+
+I changed the command sets so that they would be understandable.
+
+I generated 500 data points and increased the epoch count. 
+
+I was finally rewarded with an accuracy that was 0.14 which is 14%. I am really happy,
+because it is atleast something
+
+Here are the cool images of it:
+
+![Image with first model accuracy greater than 0](08_first_model_accuracy_greater_than_0.png)
+![Image with first model accuracy greater than 0 predictions](09_first_model_accuracy_greater_than_0_predictions.png)
+
+
+
+

@@ -1,0 +1,181 @@
+{
+  "commands": [
+    {
+      "command": "createObject",
+      "description": "Create a 3D object in the scene.",
+      "parameters": {
+        "type": {
+          "description": "The type of object to create (e.g., cube, sphere, pyramid).",
+          "type": "string"
+        },
+        "color": {
+          "description": "The color of the object (e.g., red, blue, green).",
+          "type": "string",
+          "optional": true
+        },
+        "location": {
+          "description": "The coordinates where the object will be placed.",
+          "type": "object",
+          "properties": {
+            "x": { "type": "number", "description": "X coordinate" },
+            "y": { "type": "number", "description": "Y coordinate" },
+            "z": { "type": "number", "description": "Z coordinate" }
+          }
+        },
+        "size": {
+          "description": "The size of the object. Can be a single number for uniform scaling or an object for non-uniform scaling.",
+          "type": ["number", "object"],
+          "optional": true
+        }
+      }
+    },
+    {
+      "command": "moveObject",
+      "description": "Move an object to a new location.",
+      "parameters": {
+        "target": {
+          "description": "The name or ID of the object to move.",
+          "type": "string"
+        },
+        "location": {
+          "description": "The new coordinates to move the object to.",
+          "type": "object",
+          "properties": {
+            "x": { "type": "number", "description": "X coordinate" },
+            "y": { "type": "number", "description": "Y coordinate" },
+            "z": { "type": "number", "description": "Z coordinate" }
+          }
+        }
+      }
+    },
+    {
+      "command": "rotateObject",
+      "description": "Rotate an object around its axes.",
+      "parameters": {
+        "target": {
+          "description": "The name or ID of the object to rotate.",
+          "type": "string"
+        },
+        "rotation": {
+          "description": "The rotation values in degrees for each axis.",
+          "type": "object",
+          "properties": {
+            "x": { "type": "number", "description": "Rotation around the X-axis" },
+            "y": { "type": "number", "description": "Rotation around the Y-axis" },
+            "z": { "type": "number", "description": "Rotation around the Z-axis" }
+          }
+        }
+      }
+    },
+    {
+      "command": "scaleObject",
+      "description": "Scale an object.",
+      "parameters": {
+        "target": {
+          "description": "The name or ID of the object to scale.",
+          "type": "string"
+        },
+        "scale": {
+          "description": "The scale factor. Can be a single value for uniform scaling or an object for non-uniform scaling.",
+          "type": ["number", "object"],
+          "optional": true,
+          "properties": {
+            "x": { "type": "number", "description": "Scaling factor for X-axis" },
+            "y": { "type": "number", "description": "Scaling factor for Y-axis" },
+            "z": { "type": "number", "description": "Scaling factor for Z-axis" }
+          }
+        }
+      }
+    },
+    {
+      "command": "deleteObject",
+      "description": "Remove an object from the scene.",
+      "parameters": {
+        "target": {
+          "description": "The name or ID of the object to delete.",
+          "type": "string"
+        }
+      }
+    },
+    {
+      "command": "changeColor",
+      "description": "Change the color of an object.",
+      "parameters": {
+        "target": {
+          "description": "The name or ID of the object to change color.",
+          "type": "string"
+        },
+        "color": {
+          "description": "The new color (e.g., red, blue, green).",
+          "type": "string"
+        }
+      }
+    },
+    {
+      "command": "setTexture",
+      "description": "Apply a texture to an object.",
+      "parameters": {
+        "target": {
+          "description": "The name or ID of the object to apply texture to.",
+          "type": "string"
+        },
+        "texture": {
+          "description": "The path or identifier of the texture to apply.",
+          "type": "string"
+        }
+      }
+    },
+    {
+      "command": "setTransparency",
+      "description": "Make an object transparent or opaque.",
+      "parameters": {
+        "target": {
+          "description": "The name or ID of the object to change transparency.",
+          "type": "string"
+        },
+        "transparency": {
+          "description": "A value between 0 (fully transparent) and 1 (fully opaque).",
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    },
+    {
+      "command": "setBackground",
+      "description": "Change the background color or image of the scene.",
+      "parameters": {
+        "color": {
+          "description": "The background color (if solid color).",
+          "type": "string",
+          "optional": true
+        },
+        "image": {
+          "description": "The background image file (optional).",
+          "type": "string",
+          "optional": true
+        }
+      }
+    },
+    {
+      "command": "duplicateObject",
+      "description": "Create a duplicate of an existing object.",
+      "parameters": {
+        "target": {
+          "description": "The name or ID of the object to duplicate.",
+          "type": "string"
+        },
+        "location": {
+          "description": "The new location for the duplicated object.",
+          "type": "object",
+          "properties": {
+            "x": { "type": "number", "description": "X coordinate" },
+            "y": { "type": "number", "description": "Y coordinate" },
+            "z": { "type": "number", "description": "Z coordinate" }
+          },
+          "optional": true
+        }
+      }
+    }
+  ]
+}

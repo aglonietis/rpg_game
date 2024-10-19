@@ -1,0 +1,901 @@
+input,output
+Create a green pyramid at 68 -50 -6,create-object pyramid green 68 -50 -6
+Create a yellow cube at -75 33 41,create-object cube yellow -75 33 41
+Create a green sphere at 16 54 -15,create-object sphere green 16 54 -15
+Create a red pyramid at 70 90 -46,create-object pyramid red 70 90 -46
+Create a yellow pyramid at 31 -80 -52,create-object pyramid yellow 31 -80 -52
+Create a blue cube at -46 30 -37,create-object cube blue -46 30 -37
+Create a red cube at 100 -34 29,create-object cube red 100 -34 29
+Create a red cube at 12 -96 -48,create-object cube red 12 -96 -48
+Create a green pyramid at 84 16 -40,create-object pyramid green 84 16 -40
+Create a green sphere at 61 14 -23,create-object sphere green 61 14 -23
+Create a yellow sphere at 4 -59 86,create-object sphere yellow 4 -59 86
+Create a red sphere at -31 -37 60,create-object sphere red -31 -37 60
+Create a blue pyramid at -22 42 17,create-object pyramid blue -22 42 17
+Create a blue sphere at 90 -55 -50,create-object sphere blue 90 -55 -50
+Create a green cube at 95 -55 -77,create-object cube green 95 -55 -77
+Create a blue pyramid at -13 52 -9,create-object pyramid blue -13 52 -9
+Create a yellow cube at -83 -71 -49,create-object cube yellow -83 -71 -49
+Create a blue pyramid at 6 -88 13,create-object pyramid blue 6 -88 13
+Create a blue sphere at 89 7 49,create-object sphere blue 89 7 49
+Create a red sphere at 10 -85 94,create-object sphere red 10 -85 94
+Create a blue cube at 94 -75 -67,create-object cube blue 94 -75 -67
+Create a yellow sphere at 69 56 -66,create-object sphere yellow 69 56 -66
+Create a blue pyramid at -13 -98 37,create-object pyramid blue -13 -98 37
+Create a red pyramid at -45 24 73,create-object pyramid red -45 24 73
+Create a green sphere at -73 24 71,create-object sphere green -73 24 71
+Create a green sphere at 96 -4 46,create-object sphere green 96 -4 46
+Create a red cube at -73 -57 8,create-object cube red -73 -57 8
+Create a red sphere at 21 43 99,create-object sphere red 21 43 99
+Create a red cube at -74 68 -40,create-object cube red -74 68 -40
+Create a yellow pyramid at -85 86 88,create-object pyramid yellow -85 86 88
+Create a green sphere at -87 -60 70,create-object sphere green -87 -60 70
+Create a green sphere at -78 -71 -73,create-object sphere green -78 -71 -73
+Create a red cube at 4 -95 -39,create-object cube red 4 -95 -39
+Create a green sphere at -26 -68 80,create-object sphere green -26 -68 80
+Create a red cube at 73 -31 -89,create-object cube red 73 -31 -89
+Create a red sphere at -35 34 14,create-object sphere red -35 34 14
+Create a red sphere at 14 -40 55,create-object sphere red 14 -40 55
+Create a red sphere at -55 54 62,create-object sphere red -55 54 62
+Create a blue sphere at 12 25 69,create-object sphere blue 12 25 69
+Create a yellow sphere at -40 -47 22,create-object sphere yellow -40 -47 22
+Create a yellow pyramid at -42 10 -18,create-object pyramid yellow -42 10 -18
+Create a green sphere at 33 92 36,create-object sphere green 33 92 36
+Create a yellow sphere at -54 35 29,create-object sphere yellow -54 35 29
+Create a yellow sphere at -7 -12 38,create-object sphere yellow -7 -12 38
+Create a blue pyramid at -1 5 -42,create-object pyramid blue -1 5 -42
+Create a green sphere at -48 -81 -10,create-object sphere green -48 -81 -10
+Create a yellow sphere at 76 64 -5,create-object sphere yellow 76 64 -5
+Create a blue pyramid at 12 -43 -54,create-object pyramid blue 12 -43 -54
+Create a green pyramid at -68 -13 -31,create-object pyramid green -68 -13 -31
+Create a red cube at 16 -96 -93,create-object cube red 16 -96 -93
+Create a yellow pyramid at 10 45 87,create-object pyramid yellow 10 45 87
+Create a green pyramid at -69 47 -93,create-object pyramid green -69 47 -93
+Create a blue pyramid at -56 -44 78,create-object pyramid blue -56 -44 78
+Create a red cube at 35 -20 36,create-object cube red 35 -20 36
+Create a yellow cube at 64 9 51,create-object cube yellow 64 9 51
+Create a green pyramid at 87 59 -29,create-object pyramid green 87 59 -29
+Create a yellow pyramid at 47 -7 0,create-object pyramid yellow 47 -7 0
+Create a yellow cube at -65 50 92,create-object cube yellow -65 50 92
+Create a red sphere at 42 64 -41,create-object sphere red 42 64 -41
+Create a red sphere at 17 -78 67,create-object sphere red 17 -78 67
+Create a yellow pyramid at 56 -84 18,create-object pyramid yellow 56 -84 18
+Create a blue sphere at 51 -86 99,create-object sphere blue 51 -86 99
+Create a blue pyramid at -13 -94 -99,create-object pyramid blue -13 -94 -99
+Create a blue cube at 2 -65 85,create-object cube blue 2 -65 85
+Create a blue pyramid at 91 5 -74,create-object pyramid blue 91 5 -74
+Create a blue cube at -1 74 -35,create-object cube blue -1 74 -35
+Create a yellow pyramid at -84 31 -23,create-object pyramid yellow -84 31 -23
+Create a yellow cube at 7 58 -69,create-object cube yellow 7 58 -69
+Create a red sphere at 36 8 -51,create-object sphere red 36 8 -51
+Create a blue sphere at 32 -62 -69,create-object sphere blue 32 -62 -69
+Create a red pyramid at -38 -70 -85,create-object pyramid red -38 -70 -85
+Create a yellow cube at 93 -64 45,create-object cube yellow 93 -64 45
+Create a blue cube at -33 85 -88,create-object cube blue -33 85 -88
+Create a blue pyramid at -33 -70 -14,create-object pyramid blue -33 -70 -14
+Create a green cube at 19 -25 66,create-object cube green 19 -25 66
+Create a blue pyramid at -72 88 -84,create-object pyramid blue -72 88 -84
+Create a red cube at 75 -10 -92,create-object cube red 75 -10 -92
+Create a green pyramid at -66 50 25,create-object pyramid green -66 50 25
+Create a red sphere at -70 32 30,create-object sphere red -70 32 30
+Create a green cube at 94 -60 -10,create-object cube green 94 -60 -10
+Create a yellow pyramid at -48 93 -19,create-object pyramid yellow -48 93 -19
+Create a red sphere at -21 43 38,create-object sphere red -21 43 38
+Create a red pyramid at -12 -67 -42,create-object pyramid red -12 -67 -42
+Create a green sphere at -79 85 15,create-object sphere green -79 85 15
+Create a blue cube at 42 -59 93,create-object cube blue 42 -59 93
+Create a green pyramid at 56 -57 -100,create-object pyramid green 56 -57 -100
+Create a yellow pyramid at 89 30 45,create-object pyramid yellow 89 30 45
+Create a green pyramid at -15 -91 -72,create-object pyramid green -15 -91 -72
+Create a blue pyramid at -37 36 25,create-object pyramid blue -37 36 25
+Create a yellow sphere at 82 -29 99,create-object sphere yellow 82 -29 99
+Create a red cube at -67 98 39,create-object cube red -67 98 39
+Create a green cube at 23 -8 -51,create-object cube green 23 -8 -51
+Create a yellow cube at -84 -100 -97,create-object cube yellow -84 -100 -97
+Create a blue pyramid at 24 29 53,create-object pyramid blue 24 29 53
+Create a yellow cube at -68 -26 17,create-object cube yellow -68 -26 17
+Create a red cube at -77 -54 -80,create-object cube red -77 -54 -80
+Create a yellow sphere at -41 -57 87,create-object sphere yellow -41 -57 87
+Create a yellow pyramid at -69 -84 65,create-object pyramid yellow -69 -84 65
+Create a blue sphere at 38 -76 -51,create-object sphere blue 38 -76 -51
+Create a yellow cube at -70 58 31,create-object cube yellow -70 58 31
+Move pyramid to 35 -63 -67,move-object pyramid 35 -63 -67
+Move sphere to -53 39 44,move-object sphere -53 39 44
+Move sphere to 33 -3 71,move-object sphere 33 -3 71
+Move sphere to 68 -30 33,move-object sphere 68 -30 33
+Move pyramid to 75 3 -60,move-object pyramid 75 3 -60
+Move pyramid to -81 60 60,move-object pyramid -81 60 60
+Move pyramid to -56 -44 56,move-object pyramid -56 -44 56
+Move cube to -50 15 46,move-object cube -50 15 46
+Move sphere to 12 59 -62,move-object sphere 12 59 -62
+Move sphere to 93 -33 39,move-object sphere 93 -33 39
+Move cube to -67 72 -36,move-object cube -67 72 -36
+Move cube to -24 60 -36,move-object cube -24 60 -36
+Move sphere to -77 76 63,move-object sphere -77 76 63
+Move cube to 37 99 2,move-object cube 37 99 2
+Move sphere to 4 -63 44,move-object sphere 4 -63 44
+Move cube to -12 12 -74,move-object cube -12 12 -74
+Move sphere to 53 39 55,move-object sphere 53 39 55
+Move sphere to -27 -92 25,move-object sphere -27 -92 25
+Move sphere to 25 -56 -77,move-object sphere 25 -56 -77
+Move sphere to -13 -33 21,move-object sphere -13 -33 21
+Move cube to -59 -60 -34,move-object cube -59 -60 -34
+Move sphere to 57 66 -20,move-object sphere 57 66 -20
+Move pyramid to -100 8 -93,move-object pyramid -100 8 -93
+Move pyramid to 40 24 26,move-object pyramid 40 24 26
+Move sphere to -59 -63 -49,move-object sphere -59 -63 -49
+Move pyramid to 96 39 -79,move-object pyramid 96 39 -79
+Move cube to 80 9 32,move-object cube 80 9 32
+Move sphere to -62 8 2,move-object sphere -62 8 2
+Move cube to 37 -38 -27,move-object cube 37 -38 -27
+Move pyramid to 93 43 84,move-object pyramid 93 43 84
+Move sphere to 64 -100 -16,move-object sphere 64 -100 -16
+Move cube to 87 35 -87,move-object cube 87 35 -87
+Move pyramid to 87 54 -15,move-object pyramid 87 54 -15
+Move cube to 94 -87 -82,move-object cube 94 -87 -82
+Move cube to -43 20 31,move-object cube -43 20 31
+Move cube to -48 40 45,move-object cube -48 40 45
+Move cube to 12 62 -74,move-object cube 12 62 -74
+Move pyramid to 38 66 -73,move-object pyramid 38 66 -73
+Move cube to 72 19 -37,move-object cube 72 19 -37
+Move pyramid to 64 39 31,move-object pyramid 64 39 31
+Move pyramid to 28 88 66,move-object pyramid 28 88 66
+Move pyramid to -4 32 -45,move-object pyramid -4 32 -45
+Move sphere to 33 -95 -10,move-object sphere 33 -95 -10
+Move cube to -6 79 56,move-object cube -6 79 56
+Move sphere to -12 -79 -62,move-object sphere -12 -79 -62
+Move sphere to -19 56 -47,move-object sphere -19 56 -47
+Move pyramid to 14 -36 -22,move-object pyramid 14 -36 -22
+Move pyramid to 62 75 -70,move-object pyramid 62 75 -70
+Move sphere to 80 6 31,move-object sphere 80 6 31
+Move cube to 99 14 -58,move-object cube 99 14 -58
+Move pyramid to 34 -34 97,move-object pyramid 34 -34 97
+Move sphere to 90 9 -34,move-object sphere 90 9 -34
+Move sphere to 14 69 9,move-object sphere 14 69 9
+Move pyramid to -20 0 -26,move-object pyramid -20 0 -26
+Move cube to 48 -23 -69,move-object cube 48 -23 -69
+Move sphere to -76 -95 -26,move-object sphere -76 -95 -26
+Move cube to -76 58 98,move-object cube -76 58 98
+Move pyramid to 36 -50 -94,move-object pyramid 36 -50 -94
+Move cube to -18 9 -34,move-object cube -18 9 -34
+Move sphere to 28 54 -69,move-object sphere 28 54 -69
+Move cube to -71 43 30,move-object cube -71 43 30
+Move sphere to -5 -92 25,move-object sphere -5 -92 25
+Move sphere to -2 -52 28,move-object sphere -2 -52 28
+Move pyramid to 37 -5 77,move-object pyramid 37 -5 77
+Move cube to -44 -31 11,move-object cube -44 -31 11
+Move pyramid to -55 68 48,move-object pyramid -55 68 48
+Move cube to 53 75 -89,move-object cube 53 75 -89
+Move pyramid to 23 -1 -62,move-object pyramid 23 -1 -62
+Move pyramid to 97 83 30,move-object pyramid 97 83 30
+Move cube to -49 36 -78,move-object cube -49 36 -78
+Move cube to -2 -94 5,move-object cube -2 -94 5
+Move pyramid to 74 -62 19,move-object pyramid 74 -62 19
+Move cube to -33 -79 95,move-object cube -33 -79 95
+Move pyramid to -85 0 -56,move-object pyramid -85 0 -56
+Move cube to 31 -59 -57,move-object cube 31 -59 -57
+Move cube to 84 -53 -54,move-object cube 84 -53 -54
+Move sphere to -39 50 -6,move-object sphere -39 50 -6
+Move cube to -50 -43 -38,move-object cube -50 -43 -38
+Move sphere to 79 -69 99,move-object sphere 79 -69 99
+Move sphere to -26 14 21,move-object sphere -26 14 21
+Move sphere to 52 -64 93,move-object sphere 52 -64 93
+Move pyramid to -66 60 -17,move-object pyramid -66 60 -17
+Move cube to 68 -93 -52,move-object cube 68 -93 -52
+Move pyramid to -47 86 80,move-object pyramid -47 86 80
+Move sphere to 69 82 -63,move-object sphere 69 82 -63
+Move cube to -73 54 38,move-object cube -73 54 38
+Move sphere to -41 53 84,move-object sphere -41 53 84
+Move cube to -17 100 34,move-object cube -17 100 34
+Move cube to 1 40 10,move-object cube 1 40 10
+Move pyramid to -39 -41 66,move-object pyramid -39 -41 66
+Move sphere to -17 -56 60,move-object sphere -17 -56 60
+Move cube to 34 -79 -35,move-object cube 34 -79 -35
+Move pyramid to -22 -68 63,move-object pyramid -22 -68 63
+Move pyramid to -24 13 43,move-object pyramid -24 13 43
+Move sphere to 4 -3 -72,move-object sphere 4 -3 -72
+Move cube to 66 82 -39,move-object cube 66 82 -39
+Move sphere to 79 99 -55,move-object sphere 79 99 -55
+Move sphere to 9 70 -56,move-object sphere 9 70 -56
+Move sphere to 27 0 -79,move-object sphere 27 0 -79
+Move sphere to -90 73 -80,move-object sphere -90 73 -80
+Rotate sphere by 258 degrees on x axis,rotate-object sphere x 258
+Rotate cube by 32 degrees on x axis,rotate-object cube x 32
+Rotate sphere by 241 degrees on z axis,rotate-object sphere z 241
+Rotate pyramid by 108 degrees on y axis,rotate-object pyramid y 108
+Rotate cube by 77 degrees on x axis,rotate-object cube x 77
+Rotate cube by 331 degrees on x axis,rotate-object cube x 331
+Rotate pyramid by 81 degrees on x axis,rotate-object pyramid x 81
+Rotate pyramid by 62 degrees on x axis,rotate-object pyramid x 62
+Rotate sphere by 280 degrees on x axis,rotate-object sphere x 280
+Rotate sphere by 196 degrees on x axis,rotate-object sphere x 196
+Rotate cube by 170 degrees on y axis,rotate-object cube y 170
+Rotate sphere by 199 degrees on x axis,rotate-object sphere x 199
+Rotate pyramid by 212 degrees on z axis,rotate-object pyramid z 212
+Rotate sphere by 17 degrees on y axis,rotate-object sphere y 17
+Rotate pyramid by 339 degrees on y axis,rotate-object pyramid y 339
+Rotate cube by 34 degrees on z axis,rotate-object cube z 34
+Rotate cube by 282 degrees on x axis,rotate-object cube x 282
+Rotate pyramid by 269 degrees on x axis,rotate-object pyramid x 269
+Rotate pyramid by 210 degrees on z axis,rotate-object pyramid z 210
+Rotate pyramid by 89 degrees on y axis,rotate-object pyramid y 89
+Rotate cube by 243 degrees on z axis,rotate-object cube z 243
+Rotate cube by 344 degrees on y axis,rotate-object cube y 344
+Rotate pyramid by 183 degrees on z axis,rotate-object pyramid z 183
+Rotate cube by 143 degrees on y axis,rotate-object cube y 143
+Rotate cube by 10 degrees on z axis,rotate-object cube z 10
+Rotate sphere by 151 degrees on z axis,rotate-object sphere z 151
+Rotate sphere by 85 degrees on z axis,rotate-object sphere z 85
+Rotate sphere by 43 degrees on x axis,rotate-object sphere x 43
+Rotate pyramid by 283 degrees on z axis,rotate-object pyramid z 283
+Rotate pyramid by 270 degrees on y axis,rotate-object pyramid y 270
+Rotate cube by 10 degrees on x axis,rotate-object cube x 10
+Rotate cube by 288 degrees on x axis,rotate-object cube x 288
+Rotate cube by 244 degrees on z axis,rotate-object cube z 244
+Rotate cube by 25 degrees on z axis,rotate-object cube z 25
+Rotate sphere by 194 degrees on y axis,rotate-object sphere y 194
+Rotate cube by 317 degrees on z axis,rotate-object cube z 317
+Rotate pyramid by 10 degrees on x axis,rotate-object pyramid x 10
+Rotate sphere by 296 degrees on z axis,rotate-object sphere z 296
+Rotate cube by 68 degrees on y axis,rotate-object cube y 68
+Rotate pyramid by 99 degrees on z axis,rotate-object pyramid z 99
+Rotate cube by 217 degrees on z axis,rotate-object cube z 217
+Rotate cube by 141 degrees on x axis,rotate-object cube x 141
+Rotate cube by 340 degrees on x axis,rotate-object cube x 340
+Rotate sphere by 16 degrees on y axis,rotate-object sphere y 16
+Rotate sphere by 199 degrees on z axis,rotate-object sphere z 199
+Rotate sphere by 20 degrees on x axis,rotate-object sphere x 20
+Rotate pyramid by 345 degrees on y axis,rotate-object pyramid y 345
+Rotate cube by 191 degrees on z axis,rotate-object cube z 191
+Rotate sphere by 305 degrees on y axis,rotate-object sphere y 305
+Rotate pyramid by 161 degrees on z axis,rotate-object pyramid z 161
+Rotate sphere by 57 degrees on y axis,rotate-object sphere y 57
+Rotate cube by 353 degrees on x axis,rotate-object cube x 353
+Rotate cube by 341 degrees on x axis,rotate-object cube x 341
+Rotate sphere by 354 degrees on z axis,rotate-object sphere z 354
+Rotate sphere by 20 degrees on x axis,rotate-object sphere x 20
+Rotate sphere by 174 degrees on y axis,rotate-object sphere y 174
+Rotate cube by 49 degrees on z axis,rotate-object cube z 49
+Rotate sphere by 5 degrees on z axis,rotate-object sphere z 5
+Rotate pyramid by 280 degrees on x axis,rotate-object pyramid x 280
+Rotate cube by 219 degrees on x axis,rotate-object cube x 219
+Rotate cube by 95 degrees on y axis,rotate-object cube y 95
+Rotate sphere by 204 degrees on y axis,rotate-object sphere y 204
+Rotate sphere by 271 degrees on y axis,rotate-object sphere y 271
+Rotate cube by 336 degrees on z axis,rotate-object cube z 336
+Rotate sphere by 258 degrees on x axis,rotate-object sphere x 258
+Rotate cube by 104 degrees on y axis,rotate-object cube y 104
+Rotate pyramid by 133 degrees on z axis,rotate-object pyramid z 133
+Rotate sphere by 270 degrees on z axis,rotate-object sphere z 270
+Rotate cube by 310 degrees on y axis,rotate-object cube y 310
+Rotate pyramid by 311 degrees on y axis,rotate-object pyramid y 311
+Rotate sphere by 226 degrees on x axis,rotate-object sphere x 226
+Rotate sphere by 354 degrees on y axis,rotate-object sphere y 354
+Rotate pyramid by 7 degrees on y axis,rotate-object pyramid y 7
+Rotate cube by 26 degrees on z axis,rotate-object cube z 26
+Rotate cube by 279 degrees on x axis,rotate-object cube x 279
+Rotate sphere by 125 degrees on z axis,rotate-object sphere z 125
+Rotate sphere by 121 degrees on x axis,rotate-object sphere x 121
+Rotate cube by 2 degrees on x axis,rotate-object cube x 2
+Rotate pyramid by 158 degrees on x axis,rotate-object pyramid x 158
+Rotate cube by 65 degrees on z axis,rotate-object cube z 65
+Rotate pyramid by 158 degrees on y axis,rotate-object pyramid y 158
+Rotate sphere by 344 degrees on x axis,rotate-object sphere x 344
+Rotate pyramid by 95 degrees on x axis,rotate-object pyramid x 95
+Rotate cube by 103 degrees on y axis,rotate-object cube y 103
+Rotate sphere by 253 degrees on y axis,rotate-object sphere y 253
+Rotate sphere by 118 degrees on z axis,rotate-object sphere z 118
+Rotate pyramid by 291 degrees on x axis,rotate-object pyramid x 291
+Rotate sphere by 167 degrees on z axis,rotate-object sphere z 167
+Rotate cube by 118 degrees on y axis,rotate-object cube y 118
+Rotate pyramid by 42 degrees on x axis,rotate-object pyramid x 42
+Rotate pyramid by 223 degrees on x axis,rotate-object pyramid x 223
+Rotate pyramid by 236 degrees on z axis,rotate-object pyramid z 236
+Rotate sphere by 145 degrees on z axis,rotate-object sphere z 145
+Rotate sphere by 243 degrees on z axis,rotate-object sphere z 243
+Rotate cube by 208 degrees on y axis,rotate-object cube y 208
+Rotate cube by 220 degrees on y axis,rotate-object cube y 220
+Rotate pyramid by 163 degrees on y axis,rotate-object pyramid y 163
+Rotate pyramid by 139 degrees on z axis,rotate-object pyramid z 139
+Rotate sphere by 55 degrees on x axis,rotate-object sphere x 55
+Rotate pyramid by 57 degrees on x axis,rotate-object pyramid x 57
+Scale sphere by a factor of 1.0,scale-object sphere 1.0
+Scale pyramid by a factor of 1.8,scale-object pyramid 1.8
+Scale cube by a factor of 1.6,scale-object cube 1.6
+Scale cube by a factor of 1.8,scale-object cube 1.8
+Scale sphere by a factor of 0.7,scale-object sphere 0.7
+Scale sphere by a factor of 1.6,scale-object sphere 1.6
+Scale cube by a factor of 1.5,scale-object cube 1.5
+Scale pyramid by a factor of 1.4,scale-object pyramid 1.4
+Scale sphere by a factor of 1.3,scale-object sphere 1.3
+Scale cube by a factor of 0.6,scale-object cube 0.6
+Scale sphere by a factor of 2.0,scale-object sphere 2.0
+Scale cube by a factor of 0.9,scale-object cube 0.9
+Scale sphere by a factor of 1.0,scale-object sphere 1.0
+Scale cube by a factor of 1.9,scale-object cube 1.9
+Scale cube by a factor of 1.0,scale-object cube 1.0
+Scale pyramid by a factor of 1.8,scale-object pyramid 1.8
+Scale sphere by a factor of 1.4,scale-object sphere 1.4
+Scale pyramid by a factor of 1.8,scale-object pyramid 1.8
+Scale sphere by a factor of 1.3,scale-object sphere 1.3
+Scale pyramid by a factor of 1.4,scale-object pyramid 1.4
+Scale pyramid by a factor of 1.4,scale-object pyramid 1.4
+Scale pyramid by a factor of 0.7,scale-object pyramid 0.7
+Scale cube by a factor of 1.0,scale-object cube 1.0
+Scale sphere by a factor of 1.8,scale-object sphere 1.8
+Scale pyramid by a factor of 0.8,scale-object pyramid 0.8
+Scale sphere by a factor of 1.6,scale-object sphere 1.6
+Scale sphere by a factor of 1.9,scale-object sphere 1.9
+Scale pyramid by a factor of 1.5,scale-object pyramid 1.5
+Scale sphere by a factor of 1.5,scale-object sphere 1.5
+Scale pyramid by a factor of 1.8,scale-object pyramid 1.8
+Scale pyramid by a factor of 0.7,scale-object pyramid 0.7
+Scale cube by a factor of 0.8,scale-object cube 0.8
+Scale pyramid by a factor of 0.8,scale-object pyramid 0.8
+Scale cube by a factor of 1.3,scale-object cube 1.3
+Scale pyramid by a factor of 1.1,scale-object pyramid 1.1
+Scale cube by a factor of 1.2,scale-object cube 1.2
+Scale sphere by a factor of 0.7,scale-object sphere 0.7
+Scale sphere by a factor of 0.9,scale-object sphere 0.9
+Scale sphere by a factor of 0.7,scale-object sphere 0.7
+Scale cube by a factor of 0.8,scale-object cube 0.8
+Scale sphere by a factor of 1.4,scale-object sphere 1.4
+Scale pyramid by a factor of 1.7,scale-object pyramid 1.7
+Scale cube by a factor of 0.8,scale-object cube 0.8
+Scale pyramid by a factor of 0.9,scale-object pyramid 0.9
+Scale cube by a factor of 0.7,scale-object cube 0.7
+Scale pyramid by a factor of 1.7,scale-object pyramid 1.7
+Scale cube by a factor of 0.9,scale-object cube 0.9
+Scale pyramid by a factor of 0.7,scale-object pyramid 0.7
+Scale pyramid by a factor of 1.6,scale-object pyramid 1.6
+Scale cube by a factor of 1.3,scale-object cube 1.3
+Scale pyramid by a factor of 1.8,scale-object pyramid 1.8
+Scale cube by a factor of 1.3,scale-object cube 1.3
+Scale pyramid by a factor of 1.1,scale-object pyramid 1.1
+Scale pyramid by a factor of 1.9,scale-object pyramid 1.9
+Scale cube by a factor of 0.6,scale-object cube 0.6
+Scale pyramid by a factor of 0.6,scale-object pyramid 0.6
+Scale pyramid by a factor of 0.5,scale-object pyramid 0.5
+Scale cube by a factor of 0.6,scale-object cube 0.6
+Scale sphere by a factor of 0.9,scale-object sphere 0.9
+Scale sphere by a factor of 1.9,scale-object sphere 1.9
+Scale sphere by a factor of 1.2,scale-object sphere 1.2
+Scale sphere by a factor of 1.0,scale-object sphere 1.0
+Scale sphere by a factor of 1.2,scale-object sphere 1.2
+Scale sphere by a factor of 1.3,scale-object sphere 1.3
+Scale pyramid by a factor of 1.7,scale-object pyramid 1.7
+Scale sphere by a factor of 1.1,scale-object sphere 1.1
+Scale cube by a factor of 1.1,scale-object cube 1.1
+Scale pyramid by a factor of 0.7,scale-object pyramid 0.7
+Scale cube by a factor of 1.9,scale-object cube 1.9
+Scale sphere by a factor of 0.6,scale-object sphere 0.6
+Scale cube by a factor of 1.0,scale-object cube 1.0
+Scale pyramid by a factor of 0.9,scale-object pyramid 0.9
+Scale pyramid by a factor of 1.5,scale-object pyramid 1.5
+Scale pyramid by a factor of 0.8,scale-object pyramid 0.8
+Scale sphere by a factor of 1.7,scale-object sphere 1.7
+Scale cube by a factor of 1.7,scale-object cube 1.7
+Scale sphere by a factor of 0.7,scale-object sphere 0.7
+Scale pyramid by a factor of 1.5,scale-object pyramid 1.5
+Scale sphere by a factor of 0.5,scale-object sphere 0.5
+Scale sphere by a factor of 1.6,scale-object sphere 1.6
+Scale pyramid by a factor of 1.2,scale-object pyramid 1.2
+Scale cube by a factor of 1.5,scale-object cube 1.5
+Scale cube by a factor of 0.7,scale-object cube 0.7
+Scale cube by a factor of 0.6,scale-object cube 0.6
+Scale sphere by a factor of 1.2,scale-object sphere 1.2
+Scale pyramid by a factor of 1.1,scale-object pyramid 1.1
+Scale pyramid by a factor of 0.9,scale-object pyramid 0.9
+Scale sphere by a factor of 0.8,scale-object sphere 0.8
+Scale pyramid by a factor of 1.3,scale-object pyramid 1.3
+Scale sphere by a factor of 1.2,scale-object sphere 1.2
+Scale pyramid by a factor of 1.9,scale-object pyramid 1.9
+Scale cube by a factor of 1.9,scale-object cube 1.9
+Scale sphere by a factor of 1.6,scale-object sphere 1.6
+Scale pyramid by a factor of 1.7,scale-object pyramid 1.7
+Scale cube by a factor of 0.9,scale-object cube 0.9
+Scale sphere by a factor of 2.0,scale-object sphere 2.0
+Scale sphere by a factor of 1.1,scale-object sphere 1.1
+Scale cube by a factor of 0.7,scale-object cube 0.7
+Scale sphere by a factor of 0.8,scale-object sphere 0.8
+Scale sphere by a factor of 2.0,scale-object sphere 2.0
+Delete sphere,delete-object sphere
+Delete sphere,delete-object sphere
+Delete sphere,delete-object sphere
+Delete pyramid,delete-object pyramid
+Delete cube,delete-object cube
+Delete cube,delete-object cube
+Delete pyramid,delete-object pyramid
+Delete cube,delete-object cube
+Delete cube,delete-object cube
+Delete sphere,delete-object sphere
+Delete pyramid,delete-object pyramid
+Delete sphere,delete-object sphere
+Delete cube,delete-object cube
+Delete sphere,delete-object sphere
+Delete cube,delete-object cube
+Delete pyramid,delete-object pyramid
+Delete sphere,delete-object sphere
+Delete sphere,delete-object sphere
+Delete sphere,delete-object sphere
+Delete cube,delete-object cube
+Delete pyramid,delete-object pyramid
+Delete pyramid,delete-object pyramid
+Delete sphere,delete-object sphere
+Delete sphere,delete-object sphere
+Delete pyramid,delete-object pyramid
+Delete cube,delete-object cube
+Delete sphere,delete-object sphere
+Delete cube,delete-object cube
+Delete pyramid,delete-object pyramid
+Delete cube,delete-object cube
+Delete cube,delete-object cube
+Delete pyramid,delete-object pyramid
+Delete cube,delete-object cube
+Delete cube,delete-object cube
+Delete sphere,delete-object sphere
+Delete pyramid,delete-object pyramid
+Delete sphere,delete-object sphere
+Delete cube,delete-object cube
+Delete cube,delete-object cube
+Delete sphere,delete-object sphere
+Delete cube,delete-object cube
+Delete pyramid,delete-object pyramid
+Delete pyramid,delete-object pyramid
+Delete cube,delete-object cube
+Delete sphere,delete-object sphere
+Delete cube,delete-object cube
+Delete sphere,delete-object sphere
+Delete sphere,delete-object sphere
+Delete pyramid,delete-object pyramid
+Delete sphere,delete-object sphere
+Delete pyramid,delete-object pyramid
+Delete cube,delete-object cube
+Delete pyramid,delete-object pyramid
+Delete cube,delete-object cube
+Delete pyramid,delete-object pyramid
+Delete pyramid,delete-object pyramid
+Delete cube,delete-object cube
+Delete cube,delete-object cube
+Delete cube,delete-object cube
+Delete cube,delete-object cube
+Delete pyramid,delete-object pyramid
+Delete cube,delete-object cube
+Delete sphere,delete-object sphere
+Delete sphere,delete-object sphere
+Delete pyramid,delete-object pyramid
+Delete pyramid,delete-object pyramid
+Delete cube,delete-object cube
+Delete sphere,delete-object sphere
+Delete sphere,delete-object sphere
+Delete pyramid,delete-object pyramid
+Delete sphere,delete-object sphere
+Delete sphere,delete-object sphere
+Delete sphere,delete-object sphere
+Delete pyramid,delete-object pyramid
+Delete sphere,delete-object sphere
+Delete cube,delete-object cube
+Delete pyramid,delete-object pyramid
+Delete cube,delete-object cube
+Delete pyramid,delete-object pyramid
+Delete pyramid,delete-object pyramid
+Delete cube,delete-object cube
+Delete sphere,delete-object sphere
+Delete cube,delete-object cube
+Delete sphere,delete-object sphere
+Delete sphere,delete-object sphere
+Delete cube,delete-object cube
+Delete sphere,delete-object sphere
+Delete cube,delete-object cube
+Delete cube,delete-object cube
+Delete pyramid,delete-object pyramid
+Delete pyramid,delete-object pyramid
+Delete cube,delete-object cube
+Delete cube,delete-object cube
+Delete pyramid,delete-object pyramid
+Delete cube,delete-object cube
+Delete cube,delete-object cube
+Delete sphere,delete-object sphere
+Delete pyramid,delete-object pyramid
+Delete cube,delete-object cube
+Delete cube,delete-object cube
+Change the color of cube to green,change-color cube green
+Change the color of cube to red,change-color cube red
+Change the color of pyramid to red,change-color pyramid red
+Change the color of sphere to green,change-color sphere green
+Change the color of sphere to red,change-color sphere red
+Change the color of cube to red,change-color cube red
+Change the color of cube to red,change-color cube red
+Change the color of cube to green,change-color cube green
+Change the color of sphere to blue,change-color sphere blue
+Change the color of cube to green,change-color cube green
+Change the color of cube to green,change-color cube green
+Change the color of cube to yellow,change-color cube yellow
+Change the color of sphere to yellow,change-color sphere yellow
+Change the color of pyramid to red,change-color pyramid red
+Change the color of cube to green,change-color cube green
+Change the color of cube to red,change-color cube red
+Change the color of sphere to green,change-color sphere green
+Change the color of cube to green,change-color cube green
+Change the color of sphere to green,change-color sphere green
+Change the color of sphere to blue,change-color sphere blue
+Change the color of pyramid to blue,change-color pyramid blue
+Change the color of cube to blue,change-color cube blue
+Change the color of cube to yellow,change-color cube yellow
+Change the color of sphere to red,change-color sphere red
+Change the color of sphere to red,change-color sphere red
+Change the color of sphere to red,change-color sphere red
+Change the color of sphere to blue,change-color sphere blue
+Change the color of pyramid to green,change-color pyramid green
+Change the color of pyramid to red,change-color pyramid red
+Change the color of cube to red,change-color cube red
+Change the color of cube to red,change-color cube red
+Change the color of pyramid to red,change-color pyramid red
+Change the color of pyramid to red,change-color pyramid red
+Change the color of sphere to yellow,change-color sphere yellow
+Change the color of sphere to yellow,change-color sphere yellow
+Change the color of sphere to yellow,change-color sphere yellow
+Change the color of pyramid to blue,change-color pyramid blue
+Change the color of pyramid to red,change-color pyramid red
+Change the color of sphere to red,change-color sphere red
+Change the color of sphere to yellow,change-color sphere yellow
+Change the color of cube to yellow,change-color cube yellow
+Change the color of pyramid to yellow,change-color pyramid yellow
+Change the color of cube to blue,change-color cube blue
+Change the color of sphere to red,change-color sphere red
+Change the color of sphere to green,change-color sphere green
+Change the color of sphere to red,change-color sphere red
+Change the color of cube to green,change-color cube green
+Change the color of pyramid to yellow,change-color pyramid yellow
+Change the color of pyramid to blue,change-color pyramid blue
+Change the color of pyramid to green,change-color pyramid green
+Change the color of pyramid to red,change-color pyramid red
+Change the color of cube to green,change-color cube green
+Change the color of cube to red,change-color cube red
+Change the color of sphere to red,change-color sphere red
+Change the color of cube to blue,change-color cube blue
+Change the color of sphere to red,change-color sphere red
+Change the color of cube to red,change-color cube red
+Change the color of sphere to red,change-color sphere red
+Change the color of cube to yellow,change-color cube yellow
+Change the color of cube to red,change-color cube red
+Change the color of cube to yellow,change-color cube yellow
+Change the color of cube to green,change-color cube green
+Change the color of cube to blue,change-color cube blue
+Change the color of cube to blue,change-color cube blue
+Change the color of pyramid to green,change-color pyramid green
+Change the color of cube to red,change-color cube red
+Change the color of sphere to blue,change-color sphere blue
+Change the color of pyramid to red,change-color pyramid red
+Change the color of cube to blue,change-color cube blue
+Change the color of sphere to red,change-color sphere red
+Change the color of pyramid to blue,change-color pyramid blue
+Change the color of pyramid to blue,change-color pyramid blue
+Change the color of cube to blue,change-color cube blue
+Change the color of sphere to green,change-color sphere green
+Change the color of sphere to green,change-color sphere green
+Change the color of pyramid to yellow,change-color pyramid yellow
+Change the color of sphere to red,change-color sphere red
+Change the color of sphere to blue,change-color sphere blue
+Change the color of pyramid to red,change-color pyramid red
+Change the color of cube to green,change-color cube green
+Change the color of pyramid to green,change-color pyramid green
+Change the color of cube to blue,change-color cube blue
+Change the color of cube to yellow,change-color cube yellow
+Change the color of cube to green,change-color cube green
+Change the color of cube to blue,change-color cube blue
+Change the color of pyramid to blue,change-color pyramid blue
+Change the color of sphere to green,change-color sphere green
+Change the color of sphere to yellow,change-color sphere yellow
+Change the color of cube to blue,change-color cube blue
+Change the color of pyramid to blue,change-color pyramid blue
+Change the color of sphere to yellow,change-color sphere yellow
+Change the color of cube to green,change-color cube green
+Change the color of pyramid to blue,change-color pyramid blue
+Change the color of sphere to yellow,change-color sphere yellow
+Change the color of cube to yellow,change-color cube yellow
+Change the color of sphere to blue,change-color sphere blue
+Change the color of pyramid to yellow,change-color pyramid yellow
+Change the color of pyramid to yellow,change-color pyramid yellow
+Change the color of sphere to red,change-color sphere red
+Change the color of sphere to red,change-color sphere red
+Set the texture of cube to wood,set-texture cube wood
+Set the texture of cube to wood,set-texture cube wood
+Set the texture of sphere to glass,set-texture sphere glass
+Set the texture of cube to wood,set-texture cube wood
+Set the texture of cube to wood,set-texture cube wood
+Set the texture of pyramid to wood,set-texture pyramid wood
+Set the texture of cube to metal,set-texture cube metal
+Set the texture of sphere to glass,set-texture sphere glass
+Set the texture of sphere to metal,set-texture sphere metal
+Set the texture of cube to wood,set-texture cube wood
+Set the texture of sphere to glass,set-texture sphere glass
+Set the texture of cube to glass,set-texture cube glass
+Set the texture of sphere to glass,set-texture sphere glass
+Set the texture of sphere to metal,set-texture sphere metal
+Set the texture of sphere to wood,set-texture sphere wood
+Set the texture of cube to metal,set-texture cube metal
+Set the texture of cube to metal,set-texture cube metal
+Set the texture of sphere to glass,set-texture sphere glass
+Set the texture of pyramid to wood,set-texture pyramid wood
+Set the texture of sphere to glass,set-texture sphere glass
+Set the texture of cube to glass,set-texture cube glass
+Set the texture of sphere to wood,set-texture sphere wood
+Set the texture of sphere to wood,set-texture sphere wood
+Set the texture of sphere to wood,set-texture sphere wood
+Set the texture of sphere to glass,set-texture sphere glass
+Set the texture of cube to metal,set-texture cube metal
+Set the texture of cube to metal,set-texture cube metal
+Set the texture of pyramid to glass,set-texture pyramid glass
+Set the texture of cube to wood,set-texture cube wood
+Set the texture of sphere to wood,set-texture sphere wood
+Set the texture of pyramid to wood,set-texture pyramid wood
+Set the texture of pyramid to metal,set-texture pyramid metal
+Set the texture of cube to metal,set-texture cube metal
+Set the texture of sphere to metal,set-texture sphere metal
+Set the texture of cube to metal,set-texture cube metal
+Set the texture of cube to wood,set-texture cube wood
+Set the texture of cube to wood,set-texture cube wood
+Set the texture of pyramid to glass,set-texture pyramid glass
+Set the texture of sphere to glass,set-texture sphere glass
+Set the texture of sphere to metal,set-texture sphere metal
+Set the texture of sphere to wood,set-texture sphere wood
+Set the texture of cube to metal,set-texture cube metal
+Set the texture of cube to wood,set-texture cube wood
+Set the texture of sphere to metal,set-texture sphere metal
+Set the texture of sphere to glass,set-texture sphere glass
+Set the texture of cube to glass,set-texture cube glass
+Set the texture of sphere to metal,set-texture sphere metal
+Set the texture of cube to wood,set-texture cube wood
+Set the texture of cube to metal,set-texture cube metal
+Set the texture of sphere to metal,set-texture sphere metal
+Set the texture of cube to wood,set-texture cube wood
+Set the texture of cube to wood,set-texture cube wood
+Set the texture of sphere to glass,set-texture sphere glass
+Set the texture of cube to wood,set-texture cube wood
+Set the texture of cube to glass,set-texture cube glass
+Set the texture of cube to glass,set-texture cube glass
+Set the texture of cube to wood,set-texture cube wood
+Set the texture of pyramid to wood,set-texture pyramid wood
+Set the texture of cube to glass,set-texture cube glass
+Set the texture of pyramid to wood,set-texture pyramid wood
+Set the texture of cube to wood,set-texture cube wood
+Set the texture of cube to metal,set-texture cube metal
+Set the texture of cube to wood,set-texture cube wood
+Set the texture of sphere to metal,set-texture sphere metal
+Set the texture of cube to wood,set-texture cube wood
+Set the texture of cube to glass,set-texture cube glass
+Set the texture of cube to metal,set-texture cube metal
+Set the texture of sphere to metal,set-texture sphere metal
+Set the texture of cube to glass,set-texture cube glass
+Set the texture of sphere to glass,set-texture sphere glass
+Set the texture of sphere to glass,set-texture sphere glass
+Set the texture of sphere to glass,set-texture sphere glass
+Set the texture of pyramid to metal,set-texture pyramid metal
+Set the texture of sphere to wood,set-texture sphere wood
+Set the texture of sphere to wood,set-texture sphere wood
+Set the texture of sphere to wood,set-texture sphere wood
+Set the texture of cube to glass,set-texture cube glass
+Set the texture of sphere to glass,set-texture sphere glass
+Set the texture of cube to metal,set-texture cube metal
+Set the texture of sphere to wood,set-texture sphere wood
+Set the texture of pyramid to wood,set-texture pyramid wood
+Set the texture of sphere to wood,set-texture sphere wood
+Set the texture of cube to wood,set-texture cube wood
+Set the texture of sphere to glass,set-texture sphere glass
+Set the texture of pyramid to wood,set-texture pyramid wood
+Set the texture of sphere to wood,set-texture sphere wood
+Set the texture of cube to wood,set-texture cube wood
+Set the texture of pyramid to wood,set-texture pyramid wood
+Set the texture of pyramid to glass,set-texture pyramid glass
+Set the texture of cube to glass,set-texture cube glass
+Set the texture of cube to glass,set-texture cube glass
+Set the texture of cube to wood,set-texture cube wood
+Set the texture of cube to glass,set-texture cube glass
+Set the texture of cube to wood,set-texture cube wood
+Set the texture of sphere to metal,set-texture sphere metal
+Set the texture of cube to metal,set-texture cube metal
+Set the texture of pyramid to metal,set-texture pyramid metal
+Set the texture of cube to wood,set-texture cube wood
+Set the texture of sphere to glass,set-texture sphere glass
+Set the texture of cube to wood,set-texture cube wood
+Set the transparency of pyramid to 0,set-transparency pyramid 0
+Set the transparency of sphere to 1,set-transparency sphere 1
+Set the transparency of sphere to 0,set-transparency sphere 0
+Set the transparency of cube to 0,set-transparency cube 0
+Set the transparency of sphere to 0,set-transparency sphere 0
+Set the transparency of sphere to 0,set-transparency sphere 0
+Set the transparency of sphere to 0,set-transparency sphere 0
+Set the transparency of sphere to 0,set-transparency sphere 0
+Set the transparency of sphere to 0.2,set-transparency sphere 0.2
+Set the transparency of sphere to 1,set-transparency sphere 1
+Set the transparency of cube to 0.5,set-transparency cube 0.5
+Set the transparency of sphere to 0,set-transparency sphere 0
+Set the transparency of sphere to 0,set-transparency sphere 0
+Set the transparency of sphere to 1,set-transparency sphere 1
+Set the transparency of sphere to 1,set-transparency sphere 1
+Set the transparency of cube to 0.5,set-transparency cube 0.5
+Set the transparency of pyramid to 1,set-transparency pyramid 1
+Set the transparency of cube to 0.9,set-transparency cube 0.9
+Set the transparency of cube to 0.3,set-transparency cube 0.3
+Set the transparency of sphere to 0.5,set-transparency sphere 0.5
+Set the transparency of cube to 1,set-transparency cube 1
+Set the transparency of sphere to 1,set-transparency sphere 1
+Set the transparency of sphere to 1,set-transparency sphere 1
+Set the transparency of sphere to 1,set-transparency sphere 1
+Set the transparency of pyramid to 0,set-transparency pyramid 0
+Set the transparency of cube to 0,set-transparency cube 0
+Set the transparency of sphere to 0,set-transparency sphere 0
+Set the transparency of cube to 1,set-transparency cube 1
+Set the transparency of pyramid to 1,set-transparency pyramid 1
+Set the transparency of cube to 0,set-transparency cube 0
+Set the transparency of cube to 0.7,set-transparency cube 0.7
+Set the transparency of pyramid to 1,set-transparency pyramid 1
+Set the transparency of cube to 1,set-transparency cube 1
+Set the transparency of sphere to 0.6,set-transparency sphere 0.6
+Set the transparency of sphere to 0,set-transparency sphere 0
+Set the transparency of cube to 1,set-transparency cube 1
+Set the transparency of sphere to 1,set-transparency sphere 1
+Set the transparency of cube to 0.5,set-transparency cube 0.5
+Set the transparency of cube to 0,set-transparency cube 0
+Set the transparency of cube to 0,set-transparency cube 0
+Set the transparency of sphere to 0.6,set-transparency sphere 0.6
+Set the transparency of cube to 1,set-transparency cube 1
+Set the transparency of cube to 1,set-transparency cube 1
+Set the transparency of cube to 0.3,set-transparency cube 0.3
+Set the transparency of cube to 1,set-transparency cube 1
+Set the transparency of pyramid to 0.6,set-transparency pyramid 0.6
+Set the transparency of cube to 0.7,set-transparency cube 0.7
+Set the transparency of sphere to 0.8,set-transparency sphere 0.8
+Set the transparency of sphere to 0.8,set-transparency sphere 0.8
+Set the transparency of pyramid to 0,set-transparency pyramid 0
+Set the transparency of pyramid to 0,set-transparency pyramid 0
+Set the transparency of pyramid to 0,set-transparency pyramid 0
+Set the transparency of sphere to 0.6,set-transparency sphere 0.6
+Set the transparency of cube to 0.9,set-transparency cube 0.9
+Set the transparency of cube to 0.4,set-transparency cube 0.4
+Set the transparency of sphere to 0,set-transparency sphere 0
+Set the transparency of pyramid to 0.6,set-transparency pyramid 0.6
+Set the transparency of cube to 0.6,set-transparency cube 0.6
+Set the transparency of pyramid to 0,set-transparency pyramid 0
+Set the transparency of cube to 0.9,set-transparency cube 0.9
+Set the transparency of sphere to 1,set-transparency sphere 1
+Set the transparency of sphere to 1,set-transparency sphere 1
+Set the transparency of cube to 0,set-transparency cube 0
+Set the transparency of sphere to 0.6,set-transparency sphere 0.6
+Set the transparency of cube to 0.2,set-transparency cube 0.2
+Set the transparency of cube to 0.3,set-transparency cube 0.3
+Set the transparency of pyramid to 1,set-transparency pyramid 1
+Set the transparency of sphere to 1,set-transparency sphere 1
+Set the transparency of sphere to 0,set-transparency sphere 0
+Set the transparency of cube to 0.9,set-transparency cube 0.9
+Set the transparency of sphere to 0,set-transparency sphere 0
+Set the transparency of cube to 1,set-transparency cube 1
+Set the transparency of pyramid to 1,set-transparency pyramid 1
+Set the transparency of sphere to 0.4,set-transparency sphere 0.4
+Set the transparency of cube to 1,set-transparency cube 1
+Set the transparency of cube to 0.2,set-transparency cube 0.2
+Set the transparency of sphere to 1,set-transparency sphere 1
+Set the transparency of cube to 0,set-transparency cube 0
+Set the transparency of cube to 0.9,set-transparency cube 0.9
+Set the transparency of cube to 1,set-transparency cube 1
+Set the transparency of sphere to 0.7,set-transparency sphere 0.7
+Set the transparency of sphere to 0.4,set-transparency sphere 0.4
+Set the transparency of pyramid to 0,set-transparency pyramid 0
+Set the transparency of sphere to 0.4,set-transparency sphere 0.4
+Set the transparency of pyramid to 0.3,set-transparency pyramid 0.3
+Set the transparency of pyramid to 0,set-transparency pyramid 0
+Set the transparency of pyramid to 0,set-transparency pyramid 0
+Set the transparency of pyramid to 0.7,set-transparency pyramid 0.7
+Set the transparency of pyramid to 1.0,set-transparency pyramid 1.0
+Set the transparency of cube to 1,set-transparency cube 1
+Set the transparency of sphere to 0.7,set-transparency sphere 0.7
+Set the transparency of sphere to 1,set-transparency sphere 1
+Set the transparency of sphere to 0.9,set-transparency sphere 0.9
+Set the transparency of pyramid to 0,set-transparency pyramid 0
+Set the transparency of sphere to 0,set-transparency sphere 0
+Set the transparency of sphere to 1,set-transparency sphere 1
+Set the transparency of pyramid to 0.0,set-transparency pyramid 0.0
+Set the transparency of sphere to 1,set-transparency sphere 1
+Set the transparency of pyramid to 0.2,set-transparency pyramid 0.2
+Set the transparency of cube to 1,set-transparency cube 1
+Duplicate sphere and place it at 36 -12 72,duplicate-object sphere 36 -12 72
+Duplicate sphere and place it at -92 -36 -86,duplicate-object sphere -92 -36 -86
+Duplicate sphere and place it at 15 19 -13,duplicate-object sphere 15 19 -13
+Duplicate sphere and place it at -95 11 -74,duplicate-object sphere -95 11 -74
+Duplicate cube and place it at -89 -97 47,duplicate-object cube -89 -97 47
+Duplicate cube and place it at 99 -18 56,duplicate-object cube 99 -18 56
+Duplicate pyramid and place it at -97 80 -50,duplicate-object pyramid -97 80 -50
+Duplicate pyramid and place it at -71 -41 -41,duplicate-object pyramid -71 -41 -41
+Duplicate pyramid and place it at 23 -89 -19,duplicate-object pyramid 23 -89 -19
+Duplicate sphere and place it at 44 -81 -27,duplicate-object sphere 44 -81 -27
+Duplicate sphere and place it at 35 5 71,duplicate-object sphere 35 5 71
+Duplicate sphere and place it at 7 8 -9,duplicate-object sphere 7 8 -9
+Duplicate pyramid and place it at -50 9 -39,duplicate-object pyramid -50 9 -39
+Duplicate pyramid and place it at 98 -99 -34,duplicate-object pyramid 98 -99 -34
+Duplicate pyramid and place it at 80 -40 -23,duplicate-object pyramid 80 -40 -23
+Duplicate pyramid and place it at 13 29 52,duplicate-object pyramid 13 29 52
+Duplicate cube and place it at 17 72 -30,duplicate-object cube 17 72 -30
+Duplicate pyramid and place it at 32 58 74,duplicate-object pyramid 32 58 74
+Duplicate pyramid and place it at 62 -23 49,duplicate-object pyramid 62 -23 49
+Duplicate pyramid and place it at -56 91 -20,duplicate-object pyramid -56 91 -20
+Duplicate cube and place it at -15 -41 73,duplicate-object cube -15 -41 73
+Duplicate cube and place it at -6 -90 -14,duplicate-object cube -6 -90 -14
+Duplicate pyramid and place it at -72 89 56,duplicate-object pyramid -72 89 56
+Duplicate pyramid and place it at -12 90 -91,duplicate-object pyramid -12 90 -91
+Duplicate pyramid and place it at 37 -7 -52,duplicate-object pyramid 37 -7 -52
+Duplicate pyramid and place it at -3 51 100,duplicate-object pyramid -3 51 100
+Duplicate pyramid and place it at -8 35 -96,duplicate-object pyramid -8 35 -96
+Duplicate cube and place it at 8 37 6,duplicate-object cube 8 37 6
+Duplicate pyramid and place it at -94 -18 -26,duplicate-object pyramid -94 -18 -26
+Duplicate pyramid and place it at -94 -60 -16,duplicate-object pyramid -94 -60 -16
+Duplicate sphere and place it at -29 77 -7,duplicate-object sphere -29 77 -7
+Duplicate pyramid and place it at -39 -94 91,duplicate-object pyramid -39 -94 91
+Duplicate cube and place it at -99 78 -94,duplicate-object cube -99 78 -94
+Duplicate cube and place it at 99 -56 98,duplicate-object cube 99 -56 98
+Duplicate cube and place it at 4 -54 -12,duplicate-object cube 4 -54 -12
+Duplicate pyramid and place it at 100 -84 -99,duplicate-object pyramid 100 -84 -99
+Duplicate cube and place it at -49 -7 -93,duplicate-object cube -49 -7 -93
+Duplicate cube and place it at 44 -28 -94,duplicate-object cube 44 -28 -94
+Duplicate sphere and place it at -5 -87 72,duplicate-object sphere -5 -87 72
+Duplicate pyramid and place it at -86 69 -41,duplicate-object pyramid -86 69 -41
+Duplicate pyramid and place it at -35 -84 -54,duplicate-object pyramid -35 -84 -54
+Duplicate cube and place it at 75 -57 -88,duplicate-object cube 75 -57 -88
+Duplicate pyramid and place it at -92 -12 -80,duplicate-object pyramid -92 -12 -80
+Duplicate cube and place it at -20 -17 93,duplicate-object cube -20 -17 93
+Duplicate cube and place it at 97 61 32,duplicate-object cube 97 61 32
+Duplicate sphere and place it at -17 -56 -58,duplicate-object sphere -17 -56 -58
+Duplicate sphere and place it at -36 39 -66,duplicate-object sphere -36 39 -66
+Duplicate cube and place it at -83 76 12,duplicate-object cube -83 76 12
+Duplicate cube and place it at 71 83 -25,duplicate-object cube 71 83 -25
+Duplicate pyramid and place it at -63 46 23,duplicate-object pyramid -63 46 23
+Duplicate sphere and place it at -84 -82 -9,duplicate-object sphere -84 -82 -9
+Duplicate cube and place it at -66 -93 -51,duplicate-object cube -66 -93 -51
+Duplicate cube and place it at -92 -1 -32,duplicate-object cube -92 -1 -32
+Duplicate cube and place it at 46 92 -26,duplicate-object cube 46 92 -26
+Duplicate cube and place it at 38 18 77,duplicate-object cube 38 18 77
+Duplicate pyramid and place it at -39 98 11,duplicate-object pyramid -39 98 11
+Duplicate pyramid and place it at -13 16 57,duplicate-object pyramid -13 16 57
+Duplicate cube and place it at 25 -79 50,duplicate-object cube 25 -79 50
+Duplicate pyramid and place it at -23 57 51,duplicate-object pyramid -23 57 51
+Duplicate pyramid and place it at -83 67 73,duplicate-object pyramid -83 67 73
+Duplicate sphere and place it at -43 22 3,duplicate-object sphere -43 22 3
+Duplicate cube and place it at -15 84 -25,duplicate-object cube -15 84 -25
+Duplicate pyramid and place it at 94 -22 40,duplicate-object pyramid 94 -22 40
+Duplicate sphere and place it at 64 89 -86,duplicate-object sphere 64 89 -86
+Duplicate cube and place it at -45 -94 23,duplicate-object cube -45 -94 23
+Duplicate cube and place it at 51 -95 -46,duplicate-object cube 51 -95 -46
+Duplicate sphere and place it at 58 -74 -32,duplicate-object sphere 58 -74 -32
+Duplicate sphere and place it at -37 72 -23,duplicate-object sphere -37 72 -23
+Duplicate sphere and place it at -82 71 55,duplicate-object sphere -82 71 55
+Duplicate pyramid and place it at -12 -59 -1,duplicate-object pyramid -12 -59 -1
+Duplicate cube and place it at -31 21 32,duplicate-object cube -31 21 32
+Duplicate pyramid and place it at 63 97 88,duplicate-object pyramid 63 97 88
+Duplicate cube and place it at 66 -28 76,duplicate-object cube 66 -28 76
+Duplicate sphere and place it at -21 28 -19,duplicate-object sphere -21 28 -19
+Duplicate cube and place it at -47 84 -96,duplicate-object cube -47 84 -96
+Duplicate cube and place it at 49 26 59,duplicate-object cube 49 26 59
+Duplicate sphere and place it at -23 -80 -7,duplicate-object sphere -23 -80 -7
+Duplicate sphere and place it at 26 76 -86,duplicate-object sphere 26 76 -86
+Duplicate sphere and place it at 14 86 27,duplicate-object sphere 14 86 27
+Duplicate sphere and place it at 4 -66 -46,duplicate-object sphere 4 -66 -46
+Duplicate sphere and place it at -62 15 38,duplicate-object sphere -62 15 38
+Duplicate pyramid and place it at -45 53 41,duplicate-object pyramid -45 53 41
+Duplicate pyramid and place it at -28 37 -48,duplicate-object pyramid -28 37 -48
+Duplicate cube and place it at 4 72 82,duplicate-object cube 4 72 82
+Duplicate sphere and place it at 66 -61 -3,duplicate-object sphere 66 -61 -3
+Duplicate cube and place it at 90 38 42,duplicate-object cube 90 38 42
+Duplicate cube and place it at 100 99 30,duplicate-object cube 100 99 30
+Duplicate sphere and place it at -61 -15 30,duplicate-object sphere -61 -15 30
+Duplicate sphere and place it at 48 -56 -83,duplicate-object sphere 48 -56 -83
+Duplicate pyramid and place it at 71 18 36,duplicate-object pyramid 71 18 36
+Duplicate cube and place it at -8 -65 60,duplicate-object cube -8 -65 60
+Duplicate cube and place it at -77 -84 -15,duplicate-object cube -77 -84 -15
+Duplicate pyramid and place it at 44 68 24,duplicate-object pyramid 44 68 24
+Duplicate cube and place it at 84 41 -88,duplicate-object cube 84 41 -88
+Duplicate pyramid and place it at -68 44 81,duplicate-object pyramid -68 44 81
+Duplicate cube and place it at 48 32 32,duplicate-object cube 48 32 32
+Duplicate sphere and place it at -97 -67 -68,duplicate-object sphere -97 -67 -68
+Duplicate pyramid and place it at 39 8 -54,duplicate-object pyramid 39 8 -54
+Duplicate cube and place it at 73 -6 -96,duplicate-object cube 73 -6 -96
+Duplicate pyramid and place it at -15 -84 -65,duplicate-object pyramid -15 -84 -65
