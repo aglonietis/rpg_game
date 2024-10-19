@@ -127,6 +127,21 @@ Here are the cool images of it:
 ![Image with first model accuracy greater than 0](08_first_model_accuracy_greater_than_0.png)
 ![Image with first model accuracy greater than 0 predictions](09_first_model_accuracy_greater_than_0_predictions.png)
 
+## Exporting model to onnx
+
+Onnx is an open format to represent machine learning models. More info at: https://onnx.ai/
+
+Afterwards I got the model to 1.0 accuracy which is 100%
+
+To use the model in browser, it needs to be exported to onnx format
+which is the standard way of exporting machine learning models
+
+I added it to my website assets so it could be used.
+It was nothing special, had to import onnx runtime and some 
+other libraries in python and export the model
+
+![Image with exported onnx model in assets](10_exporting_model_to_onnx.png)
+
 
 
 

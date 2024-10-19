@@ -1,0 +1,81 @@
+[
+  {
+    "command": "create-object",
+    "description": "Creates an object in the 3D space.",
+    "parameters": [
+      {"name": "target", "position": "first", "description": "Type of object (e.g., cube, sphere, pyramid)"},
+      {"name": "color", "position": "second", "description": "Color of the object (e.g., red, blue, green)"},
+      {"name": "x", "position": "third", "description": "X-coordinate for the object's position"},
+      {"name": "y", "position": "fourth", "description": "Y-coordinate for the object's position"},
+      {"name": "z", "position": "fifth", "description": "Z-coordinate for the object's position"}
+    ]
+  },
+  {
+    "command": "move-object",
+    "description": "Moves an object to a new position.",
+    "parameters": [
+      {"name": "target", "position": "first", "description": "Type of object to move (e.g., cube, sphere, pyramid)"},
+      {"name": "x", "position": "second", "description": "X-coordinate to move the object to"},
+      {"name": "y", "position": "third", "description": "Y-coordinate to move the object to"},
+      {"name": "z", "position": "fourth", "description": "Z-coordinate to move the object to"}
+    ]
+  },
+  {
+    "command": "rotate-object",
+    "description": "Rotates an object around an axis.",
+    "parameters": [
+      {"name": "target", "position": "first", "description": "Type of object to rotate (e.g., cube, sphere, pyramid)"},
+      {"name": "axis", "position": "second", "description": "Axis of rotation (x, y, or z)"},
+      {"name": "degrees", "position": "third", "description": "Number of degrees to rotate the object"}
+    ]
+  },
+  {
+    "command": "scale-object",
+    "description": "Scales an object by a given factor.",
+    "parameters": [
+      {"name": "target", "position": "first", "description": "Type of object to scale (e.g., cube, sphere, pyramid)"},
+      {"name": "scale-factor", "position": "second", "description": "Scaling factor (e.g., 1.5 for 1.5 times bigger)"}
+    ]
+  },
+  {
+    "command": "delete-object",
+    "description": "Deletes an object from the scene.",
+    "parameters": [
+      {"name": "target", "position": "first", "description": "Type of object to delete (e.g., cube, sphere, pyramid)"}
+    ]
+  },
+  {
+    "command": "change-color",
+    "description": "Changes the color of an object.",
+    "parameters": [
+      {"name": "target", "position": "first", "description": "Type of object (e.g., cube, sphere, pyramid)"},
+      {"name": "new-color", "position": "second", "description": "New color for the object (e.g., blue, red)"}
+    ]
+  },
+  {
+    "command": "set-texture",
+    "description": "Applies a texture to an object.",
+    "parameters": [
+      {"name": "target", "position": "first", "description": "Type of object (e.g., cube, sphere, pyramid)"},
+      {"name": "texture", "position": "second", "description": "Texture to apply (e.g., wood, glass)"}
+    ]
+  },
+  {
+    "command": "set-transparency",
+    "description": "Sets the transparency level of an object.",
+    "parameters": [
+      {"name": "target", "position": "first", "description": "Type of object (e.g., cube, sphere, pyramid)"},
+      {"name": "transparency", "position": "second", "description": "Transparency level (0 to 1)"}
+    ]
+  },
+  {
+    "command": "duplicate-object",
+    "description": "Duplicates an object and places it at a new location.",
+    "parameters": [
+      {"name": "target", "position": "first", "description": "Type of object to duplicate (e.g., cube, sphere, pyramid)"},
+      {"name": "x", "position": "second", "description": "X-coordinate for the new object's position"},
+      {"name": "y", "position": "third", "description": "Y-coordinate for the new object's position"},
+      {"name": "z", "position": "fourth", "description": "Z-coordinate for the new object's position"}
+    ]
+  }
+]

@@ -25,7 +25,7 @@
 
 <script setup lang="ts">
 import * as ort from "onnxruntime-web";
-import {onBeforeMount, onBeforeUnmount, onMounted, onUnmounted, ref, useTemplateRef} from "vue";
+import {onBeforeMount, onBeforeUnmount, onMounted, ref, useTemplateRef} from "vue";
 import {Game} from '@/game/game';
 
 declare global {
@@ -61,6 +61,11 @@ const showMenu = () => {
   gameMenuVisible.value = !document.pointerLockElement;
 };
 
+function decodeTokenIds(tokenIds: ort.Tensor): string {
+  // Dummy function – you'd implement this with a real tokenizer
+  return JSON.stringify(tokenIds)
+}
+
 onBeforeMount(async () => {
   recognition.start()
 
@@ -84,17 +89,48 @@ onBeforeMount(async () => {
     recognition.start()
   }
 
-  // console.log("Model loaded")
-
+  console.log("Model loaded")
+  //
   // const session = await ort.InferenceSession.create('/rpg_game/assets/models/mnist.onnx');
-
-  // Prepare input data (ensure that the input data matches the model's input requirements)
+  //
+  // // Prepare input data (ensure that the input data matches the model's input requirements)
   // const input = new ort.Tensor('float32', new Float32Array([1, 2, 3, 4]), [2, 2]);
-
-  // Run the model with the input data
+  //
+  // // Run the model with the input data
   // const output = await session.run({ input });
-
+  //
   // console.log("Model output:",output);
+
+  try {
+    // Load the ONNX T5 model (encoder, decoder, or decoder_with_past)
+    const session = await ort.InferenceSession.create('/rpg_game/src/assets/t5_onnx/encoder_model.onnx');
+    console.log("Model loaded");
+
+    // Prepare input token IDs (you'll need a tokenizer to convert text to token IDs)
+    const input_ids = new ort.Tensor('int64', new BigInt64Array([0, 1, 2, 3, 4]), [1, 5]);
+
+    // Run the encoder with the input
+    const encoderOutput = await session.run({ input_ids });
+
+    console.log("Encoder output:", encoderOutput);
+
+    // Load the decoder model and pass encoder hidden states
+    const decoderSession = await ort.InferenceSession.create('/rpg_game/src/assets/t5_onnx/decoder_model.onnx');
+    const decoderInput = new ort.Tensor('int64', new BigInt64Array([0]), [1, 1]);  // Start token
+    const decoderOutput = await decoderSession.run({
+      input_ids: decoderInput,  // Start token for decoder
+      encoder_hidden_states: encoderOutput.last_hidden_state  // Output from encoder
+    });
+
+    console.log("Decoder output:", decoderOutput);  // You'd convert this output back to text
+
+    // Optionally: Decode the output token IDs to text (implement or use an API)
+    const decodedText = decodeTokenIds(decoderOutput.logits);
+    console.log("Generated text:", decodedText);
+
+  } catch (err) {
+    console.error("Failed to load model or run inference:", err);
+  }
 })
 
 onBeforeUnmount(() => {
