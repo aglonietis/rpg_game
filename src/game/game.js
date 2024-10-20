@@ -82,11 +82,52 @@ export class Game {
     }
 
     processTextInput(text) {
+        text = text.trim().toLowerCase().replaceAll(":"," ")
         if(!this.controls.isLocked) {
             console.log("Ignoring text input, user is not in the game")
             return
         }
         console.log("Processing Text:", text)
+
+        const params = text.split(" ")
+
+        if(params.length === 0) {
+            console.log("empty text input")
+            return
+        }
+
+        console.log(
+            "Data",
+            params[0],
+            params[0] === 'create',
+            params[1],
+            this.isColor(params[1]),
+            params[2],
+            this.isSupportedType(params[2]),
+            params[3],
+            params[3] === 'at',
+            params[4],
+            !isNaN(Number(params[4])),
+        )
+
+        if(
+            params[0] === 'create'
+            && this.isColor(params[1])
+            && this.isSupportedType(params[2])
+            && params[3] === 'at'
+            && !isNaN(Number(params[4]))
+        ) {
+            this.createObject(
+                params[1],
+                params[2],
+                params[4],
+                params[5] ?? params[4],
+                params[6] ?? params[5] ?? params[4]
+            )
+            console.log("Object created")
+            return;
+        }
+
         const geometry = new TextGeometry(text, {
             font: geometryFont,
             size: 1,
@@ -132,9 +173,25 @@ export class Game {
         })
 
         this.scene.add(strokeGroup)
+
+        console.log("Generated text as fallback action")
+    }
+
+    createObject(color, type, x, y, z) {
+        if (type === 'cube') {
+            this.environment.addCube(x,y,z, 5,color)
+        }
     }
 
     focus() {
         this.controls.lock()
+    }
+
+    isColor(param) {
+        return ["red", "green", "blue", "white", "black"].includes(param);
+    }
+
+    isSupportedType(param) {
+        return ["cube"].includes(param);
     }
 }

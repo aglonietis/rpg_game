@@ -19,9 +19,4 @@ export default defineConfig({
     minify: false,
   },
   base: 'rpg_game/',
-  server: {
-    mimeTypes: {
-      'application/wasm': ['wasm']
-    }
-  }
 })

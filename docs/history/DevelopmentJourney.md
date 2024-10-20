@@ -143,5 +143,16 @@ other libraries in python and export the model
 ![Image with exported onnx model in assets](10_exporting_model_to_onnx.png)
 
 
+## Adding onnx model to game
 
+I tried adding the model using ort runetime as onnxruntime-web, but without
+any success. There was one error after another. 
+I built the model with the base of Googles T5-small and realized that
+onnx does not support it. There are a few open issues with exporting T5 models to onnx
 
+So I gave up and started just parsing voice input. In this case
+I need to talk as I would input commands.
+
+As in: create blue cube at 20 30 40
+
+Game will parse it as command create and params color=blue, type=cube, coordinates x=20, y=30, z=40

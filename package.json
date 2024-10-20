@@ -19,6 +19,7 @@
     "onnxruntime-web": "^1.19.2",
     "pinia": "^2.1.7",
     "three": "^0.169.0",
+    "vite-plugin-wasm": "^3.3.0",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3"
   },
