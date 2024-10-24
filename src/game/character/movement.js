@@ -73,7 +73,6 @@ export class MovementControls {
     }
 
     onKeyDown( event ) {
-        console.log("key down")
         switch ( event.code ) {
             case 'ArrowUp':
             case 'KeyW':
@@ -103,7 +102,6 @@ export class MovementControls {
     };
 
     onKeyUp ( event ) {
-        console.log("key up")
         switch ( event.code ) {
             case 'ArrowUp':
             case 'KeyW':

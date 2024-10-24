@@ -19,4 +19,7 @@ export default defineConfig({
     minify: false,
   },
   base: 'rpg_game/',
+  define: {
+    'process.env': {}
+  }
 })

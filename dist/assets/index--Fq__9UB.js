@@ -6460,7 +6460,7 @@ function createCurrentLocation(base, location2) {
   const path = stripBase(pathname, base);
   return path + search + hash;
 }
-function useHistoryListeners(base, historyState, currentLocation, replace) {
+function useHistoryListeners(base, historyState, currentLocation, replace2) {
   let listeners = [];
   let teardowns = [];
   let pauseState = null;
@@ -6478,7 +6478,7 @@ function useHistoryListeners(base, historyState, currentLocation, replace) {
       }
       delta = fromState ? state.position - fromState.position : 0;
     } else {
-      replace(to2);
+      replace2(to2);
     }
     listeners.forEach((listener) => {
       listener(currentLocation.value, from, {
@@ -6553,20 +6553,20 @@ function useHistoryStateNavigation(base) {
       scroll: null
     }, true);
   }
-  function changeLocation(to2, state, replace2) {
+  function changeLocation(to2, state, replace22) {
     const hashIndex = base.indexOf("#");
     const url = hashIndex > -1 ? (location2.host && document.querySelector("base") ? base : base.slice(hashIndex)) + to2 : createBaseLocation() + base + to2;
     try {
-      history2[replace2 ? "replaceState" : "pushState"](state, "", url);
+      history2[replace22 ? "replaceState" : "pushState"](state, "", url);
       historyState.value = state;
     } catch (err) {
       {
         console.error(err);
       }
-      location2[replace2 ? "replace" : "assign"](url);
+      location2[replace22 ? "replace" : "assign"](url);
     }
   }
-  function replace(to2, data) {
+  function replace2(to2, data) {
     const state = assign({}, history2.state, buildState(
       historyState.value.back,
       // keep back and forward entries but override current position
@@ -6599,7 +6599,7 @@ function useHistoryStateNavigation(base) {
     location: currentLocation,
     state: historyState,
     push,
-    replace
+    replace: replace2
   };
 }
 function createWebHistory(base) {
@@ -7669,7 +7669,7 @@ function createRouter(options) {
   function push(to2) {
     return pushWithRedirect(to2);
   }
-  function replace(to2) {
+  function replace2(to2) {
     return push(assign(locationAsObject(to2), { replace: true }));
   }
   function handleRedirectRecord(to2) {
@@ -7697,14 +7697,14 @@ function createRouter(options) {
     const from = currentRoute.value;
     const data = to2.state;
     const force = to2.force;
-    const replace2 = to2.replace === true;
+    const replace22 = to2.replace === true;
     const shouldRedirect = handleRedirectRecord(targetLocation);
     if (shouldRedirect)
       return pushWithRedirect(
         assign(locationAsObject(shouldRedirect), {
           state: typeof shouldRedirect === "object" ? assign({}, data, shouldRedirect.state) : data,
           force,
-          replace: replace2
+          replace: replace22
         }),
         // keep original redirectedFrom if it exists
         redirectedFrom || targetLocation
@@ -7746,7 +7746,7 @@ function createRouter(options) {
             // keep options
             assign({
               // preserve an existing replacement but allow the redirect to override it
-              replace: replace2
+              replace: replace22
             }, locationAsObject(failure2.to), {
               state: typeof failure2.to === "object" ? assign({}, data, failure2.to.state) : data,
               force
@@ -7756,7 +7756,7 @@ function createRouter(options) {
           );
         }
       } else {
-        failure2 = finalizeNavigation(toLocation, from, true, replace2, data);
+        failure2 = finalizeNavigation(toLocation, from, true, replace22, data);
       }
       triggerAfterEach(toLocation, from, failure2);
       return failure2;
@@ -7832,14 +7832,14 @@ function createRouter(options) {
   function triggerAfterEach(to2, from, failure) {
     afterGuards.list().forEach((guard) => runWithContext(() => guard(to2, from, failure)));
   }
-  function finalizeNavigation(toLocation, from, isPush, replace2, data) {
+  function finalizeNavigation(toLocation, from, isPush, replace22, data) {
     const error = checkCanceledNavigation(toLocation, from);
     if (error)
       return error;
     const isFirstNavigation = from === START_LOCATION_NORMALIZED;
     const state = !isBrowser ? {} : history.state;
     if (isPush) {
-      if (replace2 || isFirstNavigation)
+      if (replace22 || isFirstNavigation)
         routerHistory.replace(toLocation.fullPath, assign({
           scroll: isFirstNavigation && state && state.scroll
         }, data));
@@ -7978,7 +7978,7 @@ function createRouter(options) {
     resolve: resolve2,
     options,
     push,
-    replace,
+    replace: replace2,
     go: go2,
     back: () => go2(-1),
     forward: () => go2(1),
@@ -43703,7 +43703,6 @@ class MovementControls {
     }
   }
   onKeyDown(event) {
-    console.log("key down");
     switch (event.code) {
       case "ArrowUp":
       case "KeyW":
@@ -43728,7 +43727,6 @@ class MovementControls {
     }
   }
   onKeyUp(event) {
-    console.log("key up");
     switch (event.code) {
       case "ArrowUp":
       case "KeyW":
@@ -44697,11 +44695,41 @@ class Game {
     return this.renderer !== null;
   }
   processTextInput(text) {
+    text = text.trim().toLowerCase().replaceAll(":", " ");
     if (!this.controls.isLocked) {
       console.log("Ignoring text input, user is not in the game");
       return;
     }
     console.log("Processing Text:", text);
+    const params = text.split(" ");
+    if (params.length === 0) {
+      console.log("empty text input");
+      return;
+    }
+    console.log(
+      "Data",
+      params[0],
+      params[0] === "create",
+      params[1],
+      this.isColor(params[1]),
+      params[2],
+      this.isSupportedType(params[2]),
+      params[3],
+      params[3] === "at",
+      params[4],
+      !isNaN(Number(params[4]))
+    );
+    if (params[0] === "create" && this.isColor(params[1]) && this.isSupportedType(params[2]) && params[3] === "at" && !isNaN(Number(params[4]))) {
+      this.createObject(
+        params[1],
+        params[2],
+        params[4],
+        params[5] ?? params[4],
+        params[6] ?? params[5] ?? params[4]
+      );
+      console.log("Object created");
+      return;
+    }
     const geometry = new TextGeometry(text, {
       font: geometryFont,
       size: 1,
@@ -44744,11 +44772,337 @@ class Game {
       strokeGroup.add(strokeMesh);
     });
     this.scene.add(strokeGroup);
+    console.log("Generated text as fallback action");
+  }
+  createObject(color, type, x, y, z2) {
+    if (type === "cube") {
+      this.environment.addCube(x, y, z2, 5, color);
+    }
   }
   focus() {
     this.controls.lock();
   }
+  isColor(param) {
+    return ["red", "green", "blue", "white", "black"].includes(param);
+  }
+  isSupportedType(param) {
+    return ["cube"].includes(param);
+  }
 }
+function getAugmentedNamespace(n) {
+  if (n.__esModule) return n;
+  var f = n.default;
+  if (typeof f == "function") {
+    var a = function a2() {
+      if (this instanceof a2) {
+        return Reflect.construct(f, arguments, this.constructor);
+      }
+      return f.apply(this, arguments);
+    };
+    a.prototype = f.prototype;
+  } else a = {};
+  Object.defineProperty(a, "__esModule", { value: true });
+  Object.keys(n).forEach(function(k2) {
+    var d = Object.getOwnPropertyDescriptor(n, k2);
+    Object.defineProperty(a, k2, d.get ? d : {
+      enumerable: true,
+      get: function() {
+        return n[k2];
+      }
+    });
+  });
+  return a;
+}
+const __viteBrowserExternal = {};
+const __viteBrowserExternal$1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  default: __viteBrowserExternal
+}, Symbol.toStringTag, { value: "Module" }));
+const require$$2 = /* @__PURE__ */ getAugmentedNamespace(__viteBrowserExternal$1);
+const { existsSync, readFileSync } = require$$2;
+const { join } = require$$2;
+const { platform, arch } = process;
+let nativeBinding = null;
+let localFileExisted = false;
+let loadError = null;
+function isMusl() {
+  if (!process.report || typeof process.report.getReport !== "function") {
+    try {
+      const lddPath = require$$2.execSync("which ldd").toString().trim();
+      return readFileSync(lddPath, "utf8").includes("musl");
+    } catch (e) {
+      return true;
+    }
+  } else {
+    const { glibcVersionRuntime } = process.report.getReport().header;
+    return !glibcVersionRuntime;
+  }
+}
+switch (platform) {
+  case "android":
+    switch (arch) {
+      case "arm64":
+        localFileExisted = existsSync(join(__dirname, "tokenizers.android-arm64.node"));
+        try {
+          if (localFileExisted) {
+            nativeBinding = require("./tokenizers.android-arm64.node");
+          } else {
+            nativeBinding = require("tokenizers-android-arm64");
+          }
+        } catch (e) {
+          loadError = e;
+        }
+        break;
+      case "arm":
+        localFileExisted = existsSync(join(__dirname, "tokenizers.android-arm-eabi.node"));
+        try {
+          if (localFileExisted) {
+            nativeBinding = require("./tokenizers.android-arm-eabi.node");
+          } else {
+            nativeBinding = require("tokenizers-android-arm-eabi");
+          }
+        } catch (e) {
+          loadError = e;
+        }
+        break;
+      default:
+        throw new Error(`Unsupported architecture on Android ${arch}`);
+    }
+    break;
+  case "win32":
+    switch (arch) {
+      case "x64":
+        localFileExisted = existsSync(join(__dirname, "tokenizers.win32-x64-msvc.node"));
+        try {
+          if (localFileExisted) {
+            nativeBinding = require("./tokenizers.win32-x64-msvc.node");
+          } else {
+            nativeBinding = require("tokenizers-win32-x64-msvc");
+          }
+        } catch (e) {
+          loadError = e;
+        }
+        break;
+      case "ia32":
+        localFileExisted = existsSync(join(__dirname, "tokenizers.win32-ia32-msvc.node"));
+        try {
+          if (localFileExisted) {
+            nativeBinding = require("./tokenizers.win32-ia32-msvc.node");
+          } else {
+            nativeBinding = require("tokenizers-win32-ia32-msvc");
+          }
+        } catch (e) {
+          loadError = e;
+        }
+        break;
+      case "arm64":
+        localFileExisted = existsSync(join(__dirname, "tokenizers.win32-arm64-msvc.node"));
+        try {
+          if (localFileExisted) {
+            nativeBinding = require("./tokenizers.win32-arm64-msvc.node");
+          } else {
+            nativeBinding = require("tokenizers-win32-arm64-msvc");
+          }
+        } catch (e) {
+          loadError = e;
+        }
+        break;
+      default:
+        throw new Error(`Unsupported architecture on Windows: ${arch}`);
+    }
+    break;
+  case "darwin":
+    localFileExisted = existsSync(join(__dirname, "tokenizers.darwin-universal.node"));
+    try {
+      if (localFileExisted) {
+        nativeBinding = require("./tokenizers.darwin-universal.node");
+      } else {
+        nativeBinding = require("tokenizers-darwin-universal");
+      }
+      break;
+    } catch {
+    }
+    switch (arch) {
+      case "x64":
+        localFileExisted = existsSync(join(__dirname, "tokenizers.darwin-x64.node"));
+        try {
+          if (localFileExisted) {
+            nativeBinding = require("./tokenizers.darwin-x64.node");
+          } else {
+            nativeBinding = require("tokenizers-darwin-x64");
+          }
+        } catch (e) {
+          loadError = e;
+        }
+        break;
+      case "arm64":
+        localFileExisted = existsSync(join(__dirname, "tokenizers.darwin-arm64.node"));
+        try {
+          if (localFileExisted) {
+            nativeBinding = require("./tokenizers.darwin-arm64.node");
+          } else {
+            nativeBinding = require("tokenizers-darwin-arm64");
+          }
+        } catch (e) {
+          loadError = e;
+        }
+        break;
+      default:
+        throw new Error(`Unsupported architecture on macOS: ${arch}`);
+    }
+    break;
+  case "freebsd":
+    if (arch !== "x64") {
+      throw new Error(`Unsupported architecture on FreeBSD: ${arch}`);
+    }
+    localFileExisted = existsSync(join(__dirname, "tokenizers.freebsd-x64.node"));
+    try {
+      if (localFileExisted) {
+        nativeBinding = require("./tokenizers.freebsd-x64.node");
+      } else {
+        nativeBinding = require("tokenizers-freebsd-x64");
+      }
+    } catch (e) {
+      loadError = e;
+    }
+    break;
+  case "linux":
+    switch (arch) {
+      case "x64":
+        if (isMusl()) {
+          localFileExisted = existsSync(join(__dirname, "tokenizers.linux-x64-musl.node"));
+          try {
+            if (localFileExisted) {
+              nativeBinding = require("./tokenizers.linux-x64-musl.node");
+            } else {
+              nativeBinding = require("tokenizers-linux-x64-musl");
+            }
+          } catch (e) {
+            loadError = e;
+          }
+        } else {
+          localFileExisted = existsSync(join(__dirname, "tokenizers.linux-x64-gnu.node"));
+          try {
+            if (localFileExisted) {
+              nativeBinding = require("./tokenizers.linux-x64-gnu.node");
+            } else {
+              nativeBinding = require("tokenizers-linux-x64-gnu");
+            }
+          } catch (e) {
+            loadError = e;
+          }
+        }
+        break;
+      case "arm64":
+        if (isMusl()) {
+          localFileExisted = existsSync(join(__dirname, "tokenizers.linux-arm64-musl.node"));
+          try {
+            if (localFileExisted) {
+              nativeBinding = require("./tokenizers.linux-arm64-musl.node");
+            } else {
+              nativeBinding = require("tokenizers-linux-arm64-musl");
+            }
+          } catch (e) {
+            loadError = e;
+          }
+        } else {
+          localFileExisted = existsSync(join(__dirname, "tokenizers.linux-arm64-gnu.node"));
+          try {
+            if (localFileExisted) {
+              nativeBinding = require("./tokenizers.linux-arm64-gnu.node");
+            } else {
+              nativeBinding = require("tokenizers-linux-arm64-gnu");
+            }
+          } catch (e) {
+            loadError = e;
+          }
+        }
+        break;
+      case "arm":
+        localFileExisted = existsSync(join(__dirname, "tokenizers.linux-arm-gnueabihf.node"));
+        try {
+          if (localFileExisted) {
+            nativeBinding = require("./tokenizers.linux-arm-gnueabihf.node");
+          } else {
+            nativeBinding = require("tokenizers-linux-arm-gnueabihf");
+          }
+        } catch (e) {
+          loadError = e;
+        }
+        break;
+      default:
+        throw new Error(`Unsupported architecture on Linux: ${arch}`);
+    }
+    break;
+  default:
+    throw new Error(`Unsupported OS: ${platform}, architecture: ${arch}`);
+}
+if (!nativeBinding) {
+  if (loadError) {
+    throw loadError;
+  }
+  throw new Error(`Failed to load native binding`);
+}
+const {
+  Decoder,
+  bpeDecoder,
+  byteFallbackDecoder,
+  ctcDecoder,
+  fuseDecoder,
+  metaspaceDecoder,
+  replaceDecoder,
+  sequenceDecoder,
+  stripDecoder,
+  wordPieceDecoder,
+  Encoding,
+  TruncationDirection,
+  TruncationStrategy,
+  Model,
+  BPE,
+  WordPiece,
+  WordLevel,
+  Unigram,
+  Normalizer,
+  prependNormalizer,
+  stripAccentsNormalizer,
+  bertNormalizer,
+  nfdNormalizer,
+  nfkdNormalizer,
+  nfcNormalizer,
+  nfkcNormalizer,
+  stripNormalizer,
+  sequenceNormalizer,
+  lowercase,
+  replace,
+  nmt,
+  precompiled,
+  JsSplitDelimiterBehavior,
+  PreTokenizer,
+  byteLevelPreTokenizer,
+  byteLevelAlphabet,
+  whitespacePreTokenizer,
+  whitespaceSplitPreTokenizer,
+  bertPreTokenizer,
+  metaspacePreTokenizer,
+  splitPreTokenizer,
+  punctuationPreTokenizer,
+  sequencePreTokenizer,
+  charDelimiterSplit,
+  digitsPreTokenizer,
+  Processor,
+  bertProcessing,
+  robertaProcessing,
+  byteLevelProcessing,
+  templateProcessing,
+  sequenceProcessing,
+  PaddingDirection,
+  AddedToken,
+  Tokenizer,
+  Trainer,
+  slice,
+  mergeEncodings
+} = nativeBinding;
+var Tokenizer_1 = Tokenizer;
 const _hoisted_1 = ["open"];
 const _hoisted_2 = { class: "instructions" };
 const _sfc_main$1 = /* @__PURE__ */ defineComponent({
@@ -44820,15 +45174,21 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
       }
     }
     async function loadModel() {
-      console.log("Model loading");
+      console.log("Model loading 2");
       try {
         const options = {
           executionProviders: ["wasm"],
-          wasmPaths: "/rpg_game/assets/onnxruntime/"
+          wasmPaths: "/rpg_game/assets/onnxruntimes/"
           // Local path to ort-wasm-simd-threaded.wasm
         };
-        const session = await Kd.create("/rpg_game/assets/models/t5_onnx/encoder_model.onnx", options);
+        const session = await Kd.create("/rpg_game/assets/models/onnx-v1/encoder_model.onnx", options);
         console.log("Model loaded");
+        let tokenizer = Tokenizer_1.fromFile("/rpg_game/assets/models/onnx-v1/tokenizer.json");
+        const text = "create blue cube at 5 5 5";
+        const tokenized = tokenizer.encode(text);
+        const input_ids = new Tt("int64", BigInt64Array.from(tokenized.ids.map(BigInt)), [1, tokenized.ids.length]);
+        const encoderOutput = await session.run({ input_ids });
+        console.log("Encoder output:", encoderOutput);
       } catch (err) {
         console.error("Failed to load model or run inference:", err);
       }
@@ -44880,7 +45240,7 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const GameView = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-5bb406c7"]]);
+const GameView = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-fd35aa55"]]);
 const _sfc_main = /* @__PURE__ */ defineComponent({
   __name: "AboutView",
   setup(__props) {

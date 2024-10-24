@@ -24,9 +24,9 @@
 </template>
 
 <script setup lang="ts">
-import * as ort from "onnxruntime-web";
 import {onBeforeMount, onBeforeUnmount, onMounted, ref, useTemplateRef} from "vue";
 import {Game} from '@/game/game';
+import { env, pipeline } from '@huggingface/transformers';
 
 declare global {
   interface Window {
@@ -62,10 +62,10 @@ const showMenu = () => {
   gameMenuVisible.value = !document.pointerLockElement;
 };
 
-function decodeTokenIds(tokenIds: ort.Tensor): string {
-  // Dummy function – you'd implement this with a real tokenizer
-  return JSON.stringify(tokenIds)
-}
+// function decodeTokenIds(tokenIds: ort.Tensor): string {
+//   // Dummy function – you'd implement this with a real tokenizer
+//   return JSON.stringify(tokenIds)
+// }
 
 onBeforeMount(async () => {
   recognition.start()
@@ -137,8 +137,11 @@ async function checkRecognitionService() {
 }
 
 async function loadModel() {
-
-  console.log("Model loading")
+  // TODO: Enable loading model when fix is found. Not for presentation.
+  if (5 + Math.random() > 0) {
+    return;
+  }
+  console.log("Model loading 2")
   //
   // const session = await ort.InferenceSession.create('/rpg_game/assets/models/mnist.onnx');
   //
@@ -149,42 +152,75 @@ async function loadModel() {
   // const output = await session.run({ input });
   //
   // console.log("Model output:",output);
+  // Specify a custom location for models (defaults to '/models/').
+  env.localModelPath = '/rpg_game/assets/models/';
 
-  // try {
-    // Specify the local path to the .wasm file
-    // const options = {
-    //   executionProviders: ['wasm'],
-    //   wasmPaths: '/rpg_game/assets/onnxruntime/'  // Local path to ort-wasm-simd-threaded.wasm
-    // };
-    // // Load the ONNX T5 model (encoder, decoder, or decoder_with_past)
-    // const session = await ort.InferenceSession.create('/rpg_game/assets/models/t5_onnx/encoder_model.onnx', options);
-    // console.log("Model loaded");
+// Disable the loading of remote models from the Hugging Face Hub:
+  env.allowRemoteModels = false;
+  env.allowLocalModels = true;
 
-    // // Prepare input token IDs (you'll need a tokenizer to convert text to token IDs)
-    // const input_ids = new ort.Tensor('int64', new BigInt64Array([0, 1, 2, 3, 4]), [1, 5]);
-    //
-    // // Run the encoder with the input
-    // const encoderOutput = await session.run({ input_ids });
-    //
-    // console.log("Encoder output:", encoderOutput);
+    console.log("Creating command translator");
 
-    // // Load the decoder model and pass encoder hidden states
-    // const decoderSession = await ort.InferenceSession.create('/rpg_game/src/assets/t5_onnx/decoder_model.onnx');
-    // const decoderInput = new ort.Tensor('int64', new BigInt64Array([0]), [1, 1]);  // Start token
-    // const decoderOutput = await decoderSession.run({
-    //   input_ids: decoderInput,  // Start token for decoder
-    //   encoder_hidden_states: encoderOutput.last_hidden_state  // Output from encoder
-    // });
-    //
-    // console.log("Decoder output:", decoderOutput);  // You'd convert this output back to text
-    //
-    // // Optionally: Decode the output token IDs to text (implement or use an API)
-    // const decodedText = decodeTokenIds(decoderOutput.logits);
-    // console.log("Generated text:", decodedText);
-  // } catch (err) {
-  //   console.error("Failed to load model or run inference:", err);
-  // }
+  const commandTranslator = await pipeline(
+      'text2text-generation',
+      'onnx-v2',
+      {
+        cache_dir: '/',
+        local_files_only: true,
+        session_options: {
+          executionProviders: [
+            'cpu'
+          ],
+          logSeverityLevel: 0,
+          extra: {
+            session: {
+              set_denormal_as_zero: "1",
+              disable_prepacking: "1"
+            },
+            optimization: {enable_gelu_approximation: "1"},
+          },
+        },
+        device: "wasm",
+      },
+  );
+  // const commandTranslator = await pipeline('text2text-generation','Xenova/LaMini-Flan-T5-783M');
+    console.log("Created command translator");
+    const result = await commandTranslator('create blue cube at 3 3 3');
 
+    console.log("Result:", result);
+//     const options = {
+//       executionProviders: ['wasm'],
+//       wasmPaths: '/rpg_game/assets/onnxruntimes/'  // Local path to ort-wasm-simd-threaded.wasm
+//     };
+//     // Load the ONNX T5 model (encoder, decoder, or decoder_with_past)
+//     const session = await ort.InferenceSession.create('/rpg_game/assets/models/onnx-v1/encoder_model.onnx', options);
+//     console.log("Model loaded");
+//
+//     let tokenizer = Tokenizer.fromFile("/rpg_game/assets/models/onnx-v1/tokenizer.json");
+// // Convert text to input_ids using the tokenizer
+//     const text = "create blue cube at 5 5 5";
+//     const tokenized: any = tokenizer.encode(text);
+//
+//     const input_ids = new ort.Tensor('int64', BigInt64Array.from(tokenized.ids.map(BigInt)), [1, tokenized.ids.length]);
+//
+//     // // Run the encoder with the input
+//     const encoderOutput = await session.run({ input_ids });
+//
+//     console.log("Encoder output:", encoderOutput);
+//
+//     // Load the decoder model and pass encoder hidden states
+//     // const decoderSession = await ort.InferenceSession.create('/rpg_game/src/assets/t5_onnx/decoder_model.onnx');
+//     // const decoderInput = new ort.Tensor('int64', new BigInt64Array([0]), [1, 1]);  // Start token
+//     // const decoderOutput = await decoderSession.run({
+//     //   input_ids: decoderInput,  // Start token for decoder
+//     //   encoder_hidden_states: encoderOutput.last_hidden_state  // Output from encoder
+//     // });
+//
+//     // console.log("Decoder output:", decoderOutput);  // You'd convert this output back to text
+//     //
+//     // // Optionally: Decode the output token IDs to text (implement or use an API)
+//     // const decodedText = decodeTokenIds(decoderOutput.logits);
+//     // console.log("Generated text:", decodedText);
 }
 
 </script>

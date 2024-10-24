@@ -156,3 +156,23 @@ I need to talk as I would input commands.
 As in: create blue cube at 20 30 40
 
 Game will parse it as command create and params color=blue, type=cube, coordinates x=20, y=30, z=40
+
+## Trying again
+
+Tried again just redoing steps and changed normal model
+to be first imported as ORT model with ORTModelForSeq2SeqLM
+and export it. Previously I was using AutoModelForSeq2SeqLM
+which for some magical reason is not supported the same way
+as ORTModelForSeq2SeqLM.
+
+Got it to load in the browser, yey!
+
+Then I had been using onnx.runtime, which
+is the package that supports this wonderful thing.
+Now I discovered that hugging face offers a
+cool package, which makes everything a lot 
+simpler
+
+https://huggingface.co/docs/transformers.js/main/en/installation
+
+Here is a cool page with a lot more info on it: https://huggingface.co/docs/transformers.js/main/en/tutorials/vanilla-js
