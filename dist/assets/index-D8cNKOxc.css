@@ -24,7 +24,7 @@ header[data-v-9488e888] {
 }
 
 
-.game-screen[data-v-fd35aa55], .game-screen-fallback[data-v-fd35aa55] {
+.game-screen[data-v-388befe5], .game-screen-fallback[data-v-388befe5] {
     display: block;
     width: 100vw;
     height: 100vh;
@@ -34,21 +34,21 @@ header[data-v-9488e888] {
     align-content: center;
     justify-content: center;
 }
-.game-screen-fallback[data-v-fd35aa55] {
+.game-screen-fallback[data-v-388befe5] {
     position: fixed;
 }
-.game-screen .backup-text[data-v-fd35aa55], .game-screen-fallback .backup-text[data-v-fd35aa55] {
+.game-screen .backup-text[data-v-388befe5], .game-screen-fallback .backup-text[data-v-388befe5] {
     align-content: center;
     text-align: center;
 }
-.game-menu[data-v-fd35aa55] {
+.game-menu[data-v-388befe5] {
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.5);
     border: none;
 }
-.instructions[data-v-fd35aa55] {
+.instructions[data-v-388befe5] {
     width: 100%;
     height: 100%;
 
@@ -62,7 +62,7 @@ header[data-v-9488e888] {
     color: white;
     cursor: pointer;
 }
-.instructions .quit-link[data-v-fd35aa55] {
+.instructions .quit-link[data-v-388befe5] {
     color: red;
     font-size: 24px;
     text-decoration: none;
