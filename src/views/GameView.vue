@@ -156,36 +156,45 @@ async function loadModel() {
   env.localModelPath = '/rpg_game/assets/models/';
 
 // Disable the loading of remote models from the Hugging Face Hub:
-  env.allowRemoteModels = false;
-  env.allowLocalModels = true;
+  env.allowRemoteModels = true;
+  env.allowLocalModels = false;
 
     console.log("Creating command translator");
 
   const commandTranslator = await pipeline(
       'text2text-generation',
-      'onnx-v2',
+      't5-base',
       {
-        cache_dir: '/',
-        local_files_only: true,
-        session_options: {
-          executionProviders: [
-            'cpu'
-          ],
-          logSeverityLevel: 0,
-          extra: {
-            session: {
-              set_denormal_as_zero: "1",
-              disable_prepacking: "1"
-            },
-            optimization: {enable_gelu_approximation: "1"},
-          },
-        },
-        device: "wasm",
+        // cache_dir: '/',
+        // local_files_only: true,
+        // session_options: {
+        //   executionProviders: [
+        //     'cpu'
+        //   ],
+        //   logSeverityLevel: 0,
+        //   extra: {
+        //     session: {
+        //       set_denormal_as_zero: "1",
+        //       disable_prepacking: "1"
+        //     },
+        //     optimization: {enable_gelu_approximation: "1"},
+        //   },
+        // },
+        // device: "wasm",
       },
   );
   // const commandTranslator = await pipeline('text2text-generation','Xenova/LaMini-Flan-T5-783M');
     console.log("Created command translator");
-    const result = await commandTranslator('create blue cube at 3 3 3');
+    const result = await commandTranslator(
+        // 'Please translate natural language to a set of given commands if applicable and there is some resemblence.' +
+        // 'Here is a available cli commands: ' +
+        // '1. create <color> <type> at <X> <Y> <Z> . ' +
+        // 'Color can be one of X11 colors. ' +
+        // 'Type supports values: [cube, sphere].' +
+        // 'X, Y, Z each are a number representing coordinates.' +
+        // 'Here is natural language text to be translated to command:' +
+        'create a blue cube at 3 3 3');
+
 
     console.log("Result:", result);
 //     const options = {

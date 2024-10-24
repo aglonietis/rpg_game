@@ -17,6 +17,7 @@ fontLoader.load( 'https://unpkg.com/three@0.77.0/examples/fonts/helvetiker_bold.
 let textHeightCounter = 0;
 
 export class Game {
+    lastEntity = null
     width = null
     height = null
     htmlElement = null
@@ -96,37 +97,70 @@ export class Game {
             return
         }
 
-        console.log(
-            "Data",
-            params[0],
-            params[0] === 'create',
-            params[1],
-            this.isColor(params[1]),
-            params[2],
-            this.isSupportedType(params[2]),
-            params[3],
-            params[3] === 'at',
-            params[4],
-            !isNaN(Number(params[4])),
-        )
-
         if(
             params[0] === 'create'
-            && this.isColor(params[1])
-            && this.isSupportedType(params[2])
-            && params[3] === 'at'
-            && !isNaN(Number(params[4]))
+            && this.isColor(params[2])
+            && this.isSupportedType(params[3])
+            && params[4] === 'at'
+            && !isNaN(Number(params[5]))
         ) {
             this.createObject(
-                params[1],
                 params[2],
-                params[4],
-                params[5] ?? params[4],
-                params[6] ?? params[5] ?? params[4]
+                params[3],
+                Number(params[5]),
+                Number(params[7] ?? params[5]),
+                Number(params[9] ?? params[7] ?? params[5])
             )
             console.log("Object created")
             return;
         }
+
+        console.log(
+            params[0] === 'move',
+            params[1] === 'the',
+            params[2] === 'object',
+            this.isAnAxisDirection(params[3]),
+            params[4] === 'by',
+            this.isNumber(params[5])
+        )
+
+        if(
+            params[0] === 'move' &&
+            params[1] === 'the' &&
+            params[2] === 'object' &&
+            this.isAnAxisDirection(params[3]) &&
+            params[4] === 'by' &&
+            this.isNumber(params[5])
+        ) {
+            console.log("Moving the object if exists")
+            if(this.lastEntity !== null) {
+                let axisToChange = params[3]
+                let changeValueOnAxis = this.parseNumber(params[5])
+                if(["down","right","backward"].includes(axisToChange)) {
+                    changeValueOnAxis = changeValueOnAxis * -1
+                }
+
+                console.log("New coordinates:", this.lastEntity.object.position.x,
+                this.lastEntity.object.position.y + changeValueOnAxis,
+                    this.lastEntity.object.position.z)
+
+                this.lastEntity.object.position.set(
+                    this.lastEntity.object.position.x + changeValueOnAxis * ["left","right"].includes(axisToChange),
+                    this.lastEntity.object.position.y + changeValueOnAxis * ["up","down"].includes(axisToChange),
+                    this.lastEntity.object.position.z + changeValueOnAxis * ["forward","backward"].includes(axisToChange)
+                )
+
+                this.lastEntity.outline.position.set(
+                    this.lastEntity.outline.position.x + changeValueOnAxis * ["left","right"].includes(axisToChange),
+                    this.lastEntity.outline.position.y + changeValueOnAxis * ["up","down"].includes(axisToChange),
+                    this.lastEntity.outline.position.z + changeValueOnAxis * ["forward","backward"].includes(axisToChange)
+                )
+
+                console.log("Object moved")
+            }
+            return;
+        }
+
 
         const geometry = new TextGeometry(text, {
             font: geometryFont,
@@ -179,7 +213,8 @@ export class Game {
 
     createObject(color, type, x, y, z) {
         if (type === 'cube') {
-            this.environment.addCube(x,y,z, 5,color)
+            console.log("Creating " + color + " " + type + " at " + x + ";" + y + ";" + z);
+            this.lastEntity = this.environment.addCube(x,y,z, 5,color)
         }
     }
 
@@ -193,5 +228,51 @@ export class Game {
 
     isSupportedType(param) {
         return ["cube"].includes(param);
+    }
+
+    isAnAxisDirection(param) {
+        return ["up","down","forward","backward","left","right"].includes(param)
+    }
+
+    isAnAxis(param) {
+        return ["X", "Y", "Z"].includes(param)
+    }
+
+    isNumber(param) {
+        const numbersMap = {
+            "one": 1,
+            "two": 2,
+            "three": 3,
+            "four": 4,
+            "five": 5,
+            "six": 6,
+            "seven": 7,
+            "eight": 8,
+            "nine": 9,
+            "ten": 10
+        };
+
+        return !isNaN(Number(param)) || Object.keys(numbersMap).includes(param)
+    }
+
+    parseNumber(param) {
+        const numbersMap = {
+            "one": 1,
+            "two": 2,
+            "three": 3,
+            "four": 4,
+            "five": 5,
+            "six": 6,
+            "seven": 7,
+            "eight": 8,
+            "nine": 9,
+            "ten": 10
+        };
+
+        if (Object.keys(numbersMap).includes(param)) {
+            return numbersMap[param]
+        }
+
+        return Number(param)
     }
 }
